@@ -844,8 +844,9 @@ window.HAIR_DATA = {
           "memberId": "kim-minje"
         },
         {
-          "name": "Hyungjun Gerald Yoo",
-          "isMember": false
+          "name": "Hogyun Yoo",
+          "isMember": true,
+          "memberId": "yoo-hogyun"
         }
       ],
       "citations": null,
@@ -1395,8 +1396,9 @@ window.HAIR_DATA = {
       "venueType": "Workshop",
       "authors": [
         {
-          "name": "H Yoo",
-          "isMember": false
+          "name": "Hogyun Yoo",
+          "isMember": true,
+          "memberId": "yoo-hogyun"
         },
         {
           "name": "K Lee",
