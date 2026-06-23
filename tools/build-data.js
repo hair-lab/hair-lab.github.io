@@ -286,6 +286,36 @@ const publications = allRaw.map((r, i) => {
   return { id: 'pub-' + (i + 1), year, title, venue: cv, venueType: vtype || venueType(venue), authors: toAuthors(authors), citations, links: toLinks(url) };
 });
 
+// Authoritative paper links from DBLP (.bib) — fills missing & corrects earlier wrong DOIs.
+const LINK_OVERRIDES = {
+  'pub-1':  'https://doi.org/10.1145/3772363.3798817',
+  'pub-2':  'https://doi.org/10.1145/3772363.3798860',
+  'pub-6':  'https://doi.org/10.1145/3706598.3713764',
+  'pub-7':  'https://doi.org/10.1080/0144929X.2023.2271997',
+  'pub-8':  'https://hdl.handle.net/10125/107212',
+  'pub-10': 'https://doi.org/10.1080/00207543.2022.2081629',
+  'pub-12': 'https://doi.org/10.1109/IRI54793.2022.00041',
+  'pub-20': 'https://doi.org/10.1007/978-3-030-23522-2_45',
+  'pub-21': 'https://doi.org/10.1007/978-3-030-23570-3_17',
+  'pub-22': 'https://doi.org/10.1080/01605682.2018.1447250',
+  'pub-24': 'https://doi.org/10.1007/s11192-016-2135-7',
+  'pub-65': 'https://doi.org/10.1007/978-3-030-22646-6_23',
+  'pub-66': 'https://doi.org/10.1007/978-3-030-30712-7_38',
+  'pub-67': 'https://doi.org/10.1007/978-3-030-30712-7_45',
+  'pub-68': 'https://doi.org/10.1007/978-3-030-30712-7_7',
+  'pub-69': 'https://hdl.handle.net/10125/60206',
+  'pub-70': 'https://doi.org/10.1002/asi.23840',
+  'pub-71': 'https://doi.org/10.1002/asi.23752',
+  'pub-72': 'https://doi.org/10.3389/frma.2016.00006',
+  'pub-75': 'https://doi.org/10.1007/978-3-319-27974-9_14',
+  'pub-76': 'https://doi.org/10.1145/2811163.2811181',
+  'pub-77': 'https://doi.org/10.1145/2665970.2665984',
+  'pub-78': 'https://doi.org/10.18564/jasss.2326',
+  'pub-80': 'https://doi.org/10.18564/jasss.2080',
+  'pub-81': 'https://doi.org/10.1016/j.eswa.2010.12.024'
+};
+publications.forEach(p => { if (LINK_OVERRIDES[p.id]) p.links = toLinks(LINK_OVERRIDES[p.id]); });
+
 /* ---------------- Projects (REAL — all 2017+ records from NTIS export + lab list) ----------------
    Division/type uses common Korean research-funding classifications.
    leadPI = actual principal investigator; leadPIId links to a profile only for lab members. */

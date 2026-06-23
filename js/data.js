@@ -777,7 +777,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": null,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.1145/3772363.3798817"
+      }
     },
     {
       "id": "pub-2",
@@ -798,7 +800,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": null,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.1145/3772363.3798860"
+      }
     },
     {
       "id": "pub-3",
@@ -916,7 +920,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 2,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.1145/3706598.3713764"
+      }
     },
     {
       "id": "pub-7",
@@ -953,7 +959,7 @@ window.HAIR_DATA = {
       ],
       "citations": null,
       "links": {
-        "doi": "https://doi.org/10.1080/0144929X.2023.2256770"
+        "doi": "https://doi.org/10.1080/0144929X.2023.2271997"
       }
     },
     {
@@ -976,7 +982,7 @@ window.HAIR_DATA = {
       ],
       "citations": 11,
       "links": {
-        "pdf": "https://hdl.handle.net/10125/107216"
+        "pdf": "https://hdl.handle.net/10125/107212"
       }
     },
     {
@@ -1020,7 +1026,7 @@ window.HAIR_DATA = {
       ],
       "citations": 59,
       "links": {
-        "doi": "https://doi.org/10.1080/00207543.2022.2057256"
+        "doi": "https://doi.org/10.1080/00207543.2022.2081629"
       }
     },
     {
@@ -1071,7 +1077,7 @@ window.HAIR_DATA = {
       ],
       "citations": null,
       "links": {
-        "doi": "https://doi.org/10.1109/IRI54793.2022.00040"
+        "doi": "https://doi.org/10.1109/IRI54793.2022.00041"
       }
     },
     {
@@ -1281,7 +1287,7 @@ window.HAIR_DATA = {
       ],
       "citations": 71,
       "links": {
-        "doi": "https://doi.org/10.1007/978-3-030-23528-4_46"
+        "doi": "https://doi.org/10.1007/978-3-030-23522-2_45"
       }
     },
     {
@@ -1307,7 +1313,7 @@ window.HAIR_DATA = {
       ],
       "citations": 36,
       "links": {
-        "doi": "https://doi.org/10.1007/978-3-030-22577-3_16"
+        "doi": "https://doi.org/10.1007/978-3-030-23570-3_17"
       }
     },
     {
@@ -1337,7 +1343,7 @@ window.HAIR_DATA = {
       ],
       "citations": 10,
       "links": {
-        "doi": "https://doi.org/10.1080/01605682.2018.1447249"
+        "doi": "https://doi.org/10.1080/01605682.2018.1447250"
       }
     },
     {
@@ -1385,7 +1391,7 @@ window.HAIR_DATA = {
       ],
       "citations": 49,
       "links": {
-        "doi": "https://doi.org/10.1007/s11192-016-2100-5"
+        "doi": "https://doi.org/10.1007/s11192-016-2135-7"
       }
     },
     {
@@ -2391,7 +2397,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 2,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.1007/978-3-030-22646-6_23"
+      }
     },
     {
       "id": "pub-66",
@@ -2411,7 +2419,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 6,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.1007/978-3-030-30712-7_38"
+      }
     },
     {
       "id": "pub-67",
@@ -2435,7 +2445,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": null,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.1007/978-3-030-30712-7_45"
+      }
     },
     {
       "id": "pub-68",
@@ -2455,7 +2467,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": null,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.1007/978-3-030-30712-7_7"
+      }
     },
     {
       "id": "pub-69",
@@ -2476,7 +2490,7 @@ window.HAIR_DATA = {
       ],
       "citations": 4,
       "links": {
-        "link": "https://scholarspace.manoa.hawaii.edu/items/00b41fe5-0c4f-4518-a863-ed6b6d5af65a"
+        "pdf": "https://hdl.handle.net/10125/60206"
       }
     },
     {
@@ -2501,7 +2515,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 11,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.1002/asi.23840"
+      }
     },
     {
       "id": "pub-71",
@@ -2529,7 +2545,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 10,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.1002/asi.23752"
+      }
     },
     {
       "id": "pub-72",
@@ -2553,7 +2571,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 18,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.3389/frma.2016.00006"
+      }
     },
     {
       "id": "pub-73",
@@ -2613,7 +2633,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 2,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.1007/978-3-319-27974-9_14"
+      }
     },
     {
       "id": "pub-76",
@@ -2641,7 +2663,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 2,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.1145/2811163.2811181"
+      }
     },
     {
       "id": "pub-77",
@@ -2665,7 +2689,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 8,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.1145/2665970.2665984"
+      }
     },
     {
       "id": "pub-78",
@@ -2689,7 +2715,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 26,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.18564/jasss.2326"
+      }
     },
     {
       "id": "pub-79",
@@ -2737,7 +2765,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 28,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.18564/jasss.2080"
+      }
     },
     {
       "id": "pub-81",
@@ -2765,7 +2795,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 119,
-      "links": {}
+      "links": {
+        "doi": "https://doi.org/10.1016/j.eswa.2010.12.024"
+      }
     },
     {
       "id": "pub-82",
