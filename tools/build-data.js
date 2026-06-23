@@ -226,10 +226,13 @@ function cleanVenue(v) {
 }
 function toLinks(url) {
   if (!url) return {};
-  if (url.includes('arxiv.org')) return { arxiv: url };
-  if (url.includes('dblp')) return {};                 // profile page, not paper-specific
-  if (url.includes('doi.org') || url.includes('/10.')) return { doi: url };
-  if (url.includes('hdl.handle.net')) return { pdf: url };
+  const u = url.toLowerCase();
+  if (u.includes('arxiv.org')) return { arxiv: url };
+  if (u.includes('openreview')) return { paper: url };
+  if (u.includes('ieeexplore')) return { IEEE: url };
+  if (u.includes('dblp')) return {};                 // profile page, not paper-specific
+  if (u.includes('doi.org') || /\/10\.\d/.test(url)) return { doi: url };  // incl. medRxiv content/10...
+  if (u.endsWith('.pdf') || u.includes('hdl.handle.net')) return { pdf: url };
   return { link: url };
 }
 // Map author tokens (full name / initial+surname / Korean) → member id, so a
@@ -312,7 +315,19 @@ const LINK_OVERRIDES = {
   'pub-77': 'https://doi.org/10.1145/2665970.2665984',
   'pub-78': 'https://doi.org/10.18564/jasss.2326',
   'pub-80': 'https://doi.org/10.18564/jasss.2080',
-  'pub-81': 'https://doi.org/10.1016/j.eswa.2010.12.024'
+  'pub-81': 'https://doi.org/10.1016/j.eswa.2010.12.024',
+  // Found via web search (OpenReview / IEEE / medRxiv / ISPRS / KCI / DBpia / KoreaScience / journal sites)
+  'pub-3':  'https://openreview.net/forum?id=81XyW0druM',
+  'pub-11': 'https://ieeexplore.ieee.org/document/9882893/',
+  'pub-19': 'https://ieeexplore.ieee.org/document/9311054/',
+  'pub-27': 'https://www.medrxiv.org/content/10.64898/2026.03.03.26347497v1',
+  'pub-28': 'https://www.medrxiv.org/content/10.64898/2026.01.14.26344149v1',
+  'pub-41': 'https://e-igee.org/journal/view.php?doi=10.69841/igee.2024.002',
+  'pub-42': 'https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/155/2023/',
+  'pub-63': 'https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002601608',
+  'pub-73': 'https://koreascience.kr/article/JAKO201526650061882.pdf',
+  'pub-74': 'https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE06649962',
+  'pub-82': 'https://www.jksem.org/upload/pdf/18402046.pdf'
 };
 publications.forEach(p => { if (LINK_OVERRIDES[p.id]) p.links = toLinks(LINK_OVERRIDES[p.id]); });
 

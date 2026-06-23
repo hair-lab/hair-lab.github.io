@@ -823,7 +823,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": null,
-      "links": {}
+      "links": {
+        "paper": "https://openreview.net/forum?id=81XyW0druM"
+      }
     },
     {
       "id": "pub-4",
@@ -1047,7 +1049,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 4,
-      "links": {}
+      "links": {
+        "IEEE": "https://ieeexplore.ieee.org/document/9882893/"
+      }
     },
     {
       "id": "pub-12",
@@ -1258,7 +1262,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 4,
-      "links": {}
+      "links": {
+        "IEEE": "https://ieeexplore.ieee.org/document/9311054/"
+      }
     },
     {
       "id": "pub-20",
@@ -1482,7 +1488,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": null,
-      "links": {}
+      "links": {
+        "doi": "https://www.medrxiv.org/content/10.64898/2026.03.03.26347497v1"
+      }
     },
     {
       "id": "pub-28",
@@ -1514,7 +1522,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": null,
-      "links": {}
+      "links": {
+        "doi": "https://www.medrxiv.org/content/10.64898/2026.01.14.26344149v1"
+      }
     },
     {
       "id": "pub-29",
@@ -1834,7 +1844,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 1,
-      "links": {}
+      "links": {
+        "link": "https://e-igee.org/journal/view.php?doi=10.69841/igee.2024.002"
+      }
     },
     {
       "id": "pub-42",
@@ -1878,7 +1890,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 2,
-      "links": {}
+      "links": {
+        "link": "https://isprs-archives.copernicus.org/articles/XLVIII-4-W7-2023/155/2023/"
+      }
     },
     {
       "id": "pub-43",
@@ -2353,7 +2367,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 2,
-      "links": {}
+      "links": {
+        "link": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002601608"
+      }
     },
     {
       "id": "pub-64",
@@ -2597,7 +2613,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 20,
-      "links": {}
+      "links": {
+        "pdf": "https://koreascience.kr/article/JAKO201526650061882.pdf"
+      }
     },
     {
       "id": "pub-74",
@@ -2617,7 +2635,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 1,
-      "links": {}
+      "links": {
+        "link": "https://www.dbpia.co.kr/journal/articleDetail?nodeId=NODE06649962"
+      }
     },
     {
       "id": "pub-75",
@@ -2841,7 +2861,9 @@ window.HAIR_DATA = {
         }
       ],
       "citations": 1,
-      "links": {}
+      "links": {
+        "pdf": "https://www.jksem.org/upload/pdf/18402046.pdf"
+      }
     }
   ],
   "alumni": [
