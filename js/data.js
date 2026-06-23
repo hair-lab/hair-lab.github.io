@@ -380,14 +380,28 @@ window.HAIR_DATA = {
   ],
   "news": [
     {
-      "id": "news-1",
+      "id": "news-dean",
+      "slug": "keeheon-lee-associate-dean",
+      "title": "Prof. Keeheon Lee appointed Associate Dean of Planning",
+      "date": "2026-03-02",
+      "author": "HAIR Lab",
+      "authorId": "prof-kim",
+      "summary": "Our PI, Prof. Keeheon Lee, has been appointed Associate Dean of Planning at University College, Yonsei University.",
+      "content": "We are proud to share that our Principal Investigator, Prof. Keeheon Lee, has been appointed Associate Dean of Planning at University College, Yonsei University (from March 2026). He continues to serve as Program Chair of the Department of Innovation and as Principal Investigator of the Institute for AI and Social Innovation.",
+      "image": "images/default_news.svg",
+      "relatedMembers": [
+        "prof-kim"
+      ]
+    },
+    {
+      "id": "news-chi-2026",
       "slug": "chi-2026-accepted",
       "title": "Two HAIR Lab papers accepted at CHI 2026",
-      "date": "2026-01-20",
-      "author": "Keeheon Lee",
+      "date": "2026-02-15",
+      "author": "HAIR Lab",
       "authorId": "prof-kim",
       "summary": "Work on reframing clinician trust in AI and on second-hand privacy harms in LLM agents will appear at CHI 2026.",
-      "content": "We are delighted to share that two papers from HAIR Lab have been accepted to the ACM CHI Conference on Human Factors in Computing Systems (CHI 2026). “Can Transparency Help Clinicians Trust AI? Reframing Trust as an Information Foraging and Sensemaking Loop” reconsiders how transparency shapes trust, while “Your Permission Leaks My Data: Second-Hand Privacy Harms in LLM Agents” examines emerging privacy risks in agentic systems. Congratulations to everyone involved!",
+      "content": "Two papers from HAIR Lab have been accepted to the ACM CHI Conference on Human Factors in Computing Systems (CHI 2026). “Can Transparency Help Clinicians Trust AI? Reframing Trust as an Information Foraging and Sensemaking Loop” reconsiders how transparency shapes trust, and “Your Permission Leaks My Data: Second-Hand Privacy Harms in LLM Agents” examines emerging privacy risks in agentic systems. Congratulations to everyone involved!",
       "image": "images/default_news.svg",
       "relatedMembers": [
         "prof-kim",
@@ -399,14 +413,34 @@ window.HAIR_DATA = {
       ]
     },
     {
-      "id": "news-2",
+      "id": "news-polisim-2026",
+      "slug": "polisim-workshop-chi-2026",
+      "title": "Two papers at the CHI 2026 PoliSim Workshop",
+      "date": "2026-02-10",
+      "author": "HAIR Lab",
+      "authorId": "prof-kim",
+      "summary": "Our multi-agent norm-dynamics and policy-simulation work will be presented at the CHI 2026 Workshop on PoliSim.",
+      "content": "“Manners Maketh MAN: Multi-Agent Norm Dynamics under Cultural Moral Values” and “From Higher-Likelihood to Broader Coverage: Exploratory Policy Simulations with LLM Agents” will be presented at the ACM CHI 2026 Workshop on Policy Simulation (PoliSim) — extending the lab’s work on LLM multi-agent systems and the Governance Digital Twin.",
+      "image": "images/default_news.svg",
+      "relatedMembers": [
+        "prof-kim",
+        "ryu-kunhee",
+        "kim-minje",
+        "yoo-hogyun"
+      ],
+      "relatedProjects": [
+        "governance-digital-twin"
+      ]
+    },
+    {
+      "id": "news-aamas-2026",
       "slug": "autometa-aamas-2026",
       "title": "AutoMETA accepted at AAMAS 2026",
-      "date": "2026-01-10",
-      "author": "Keeheon Lee",
+      "date": "2026-01-20",
+      "author": "HAIR Lab",
       "authorId": "prof-kim",
       "summary": "Our multi-agent LLM system for autonomous meta-analysis will be presented at AAMAS 2026.",
-      "content": "Our paper “AutoMETA: A Multi-Agent LLM System for Autonomous Meta-Analysis” has been accepted at the International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026). AutoMETA coordinates multiple LLM agents to carry out the stages of a meta-analysis with minimal human intervention — part of the lab’s broader work on AI for science and meta-research.",
+      "content": "“AutoMETA: A Multi-Agent LLM System for Autonomous Meta-Analysis” has been accepted at the International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026). AutoMETA coordinates multiple LLM agents to carry out the stages of a meta-analysis with minimal human intervention — part of the lab’s work on AI for science and meta-research.",
       "image": "images/default_news.svg",
       "relatedMembers": [
         "prof-kim",
@@ -417,14 +451,77 @@ window.HAIR_DATA = {
       ]
     },
     {
-      "id": "news-3",
+      "id": "news-phd-2025",
+      "slug": "phd-students-join-2025",
+      "title": "Two Ph.D. students join HAIR Lab",
+      "date": "2025-09-01",
+      "author": "HAIR Lab",
+      "authorId": "prof-kim",
+      "summary": "Sooyoung Lee and Seongwon Park join the lab as Ph.D. students in Science and Technology Policy.",
+      "content": "We are excited to welcome Sooyoung Lee (이수영) and Seongwon Park (박성원) as Ph.D. students in Science and Technology Policy. Their work strengthens the lab’s research at the intersection of AI, policy, and society.",
+      "image": "images/default_news.svg",
+      "relatedMembers": [
+        "lee-sooyoung",
+        "park-seongwon"
+      ]
+    },
+    {
+      "id": "news-giq-2025",
       "slug": "giq-ai-governance-2025",
       "title": "AI-governance paper published in Government Information Quarterly",
       "date": "2025-09-05",
-      "author": "Keeheon Lee",
+      "author": "HAIR Lab",
       "authorId": "prof-kim",
       "summary": "A study on harmonizing AI ethics guidelines with legal frameworks in Korea appears in Government Information Quarterly.",
-      "content": "Our paper “Building a consensus: Harmonizing AI ethical guidelines and legal frameworks in Korea for enhanced governance” has been published in Government Information Quarterly, a leading journal in digital government. The work proposes how AI ethics principles can be reconciled with existing legal systems to enable more effective governance.",
+      "content": "Our paper “Building a consensus: Harmonizing AI ethical guidelines and legal frameworks in Korea for enhanced governance” has been published in Government Information Quarterly, a leading journal in digital government. The work proposes how AI ethics principles can be reconciled with the existing legal system to enable more effective governance.",
+      "image": "images/default_news.svg",
+      "relatedMembers": [
+        "prof-kim"
+      ],
+      "relatedProjects": [
+        "governance-digital-twin"
+      ]
+    },
+    {
+      "id": "news-tryout-2025",
+      "slug": "incheon-tryout-scaleup",
+      "title": "HAIR Lab leads the Global track of Incheon Startup Park TRYOUT",
+      "date": "2025-04-10",
+      "author": "HAIR Lab",
+      "authorId": "prof-kim",
+      "summary": "The lab leads the Global Demonstration track (Scale-up Challenge Lab) of the Incheon Startup Park TRYOUT program.",
+      "content": "HAIR Lab leads the Global Demonstration track (Scale-up Challenge Lab) of the Incheon Startup Park “TRYOUT” university demonstration program, drawing on Yonsei International Campus’ global network to help startups validate their products and expand overseas. The program has run across multiple years (2023–2026).",
+      "image": "images/default_news.svg",
+      "relatedMembers": [
+        "prof-kim"
+      ],
+      "relatedProjects": [
+        "tryout-2026"
+      ]
+    },
+    {
+      "id": "news-chi-2025",
+      "slug": "chi-2025-digital-legacy",
+      "title": "Digital Legacy Systems paper presented at CHI 2025",
+      "date": "2025-04-28",
+      "author": "HAIR Lab",
+      "authorId": "prof-kim",
+      "summary": "Our work on digital legacy systems for young adults was presented at CHI 2025.",
+      "content": "At the ACM CHI Conference on Human Factors in Computing Systems (CHI 2025), we presented “Digital Legacy Systems for Young Adults: Emphasizing Relationship-Oriented Perspectives and Physical Artifacts in Death Preparation,” a human-centered study of how people prepare and pass on what matters to them.",
+      "image": "images/default_news.svg",
+      "relatedMembers": [
+        "prof-kim"
+      ]
+    },
+    {
+      "id": "news-decision-intelligence",
+      "slug": "decision-intelligence-grant",
+      "title": "New national research project: Decision Intelligence",
+      "date": "2024-05-02",
+      "author": "HAIR Lab",
+      "authorId": "prof-kim",
+      "summary": "The lab launches “Decision Intelligence: Computational Linguistic Modeling and Evaluation,” a national basic-research project funded by MSIT.",
+      "content": "HAIR Lab has launched “Decision Intelligence: Computational Linguistic Modeling and Evaluation” (2024–2027), a national basic-research project supported by the Ministry of Science and ICT (NRF). The project develops computational-linguistic models and evaluation methods for how language-based AI can model and support human and collective decision-making.",
       "image": "images/default_news.svg",
       "relatedMembers": [
         "prof-kim"
@@ -434,11 +531,11 @@ window.HAIR_DATA = {
       ]
     },
     {
-      "id": "news-4",
+      "id": "news-hicss-2024",
       "slug": "hate-speech-llm-hicss-2024",
       "title": "LLMs for hate-speech detection presented at HICSS 2024",
       "date": "2024-01-08",
-      "author": "Keeheon Lee",
+      "author": "HAIR Lab",
       "authorId": "prof-kim",
       "summary": "Our study on harnessing large language models for effective and efficient hate-speech detection was presented at HICSS 2024.",
       "content": "At the Hawaii International Conference on System Sciences (HICSS 2024), we presented “Harnessing Large Language Models for Effective and Efficient Hate Speech Detection,” showing how LLMs can improve both the accuracy and the efficiency of detecting hate speech — part of our NLP-for-social-good agenda.",
@@ -449,23 +546,6 @@ window.HAIR_DATA = {
       ],
       "relatedProjects": [
         "decision-intelligence"
-      ]
-    },
-    {
-      "id": "news-5",
-      "slug": "welcome-international-team",
-      "title": "HAIR Lab welcomes a growing international team",
-      "date": "2025-03-02",
-      "author": "Keeheon Lee",
-      "authorId": "prof-kim",
-      "summary": "Researchers from across the world have joined HAIR Lab to work on human–AI collaboration for social good.",
-      "content": "HAIR Lab continues to grow into a truly international team, with members joining from around the world to study human–AI interaction, multi-agent systems, computational social science, and AI ethics. We remain committed to research that creates value beneficial to society.",
-      "image": "images/default_news.svg",
-      "relatedMembers": [
-        "ryu-kunhee",
-        "kim-minje",
-        "svetasheva-arina",
-        "lee-jinho"
       ]
     }
   ],
