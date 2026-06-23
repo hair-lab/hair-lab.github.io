@@ -1400,7 +1400,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1415,11 +1416,13 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "M Kim",
-          "isMember": false
+          "isMember": true,
+          "memberId": "kim-minje"
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "CG Lee",
@@ -1450,7 +1453,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "CS Hyun",
@@ -1485,7 +1489,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "D Chavalarias",
@@ -1516,7 +1521,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1531,11 +1537,13 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "K Ryu",
-          "isMember": false
+          "isMember": true,
+          "memberId": "ryu-kunhee"
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1554,7 +1562,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1573,7 +1582,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1588,11 +1598,13 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "M Kim",
-          "isMember": false
+          "isMember": true,
+          "memberId": "kim-minje"
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1611,7 +1623,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1630,7 +1643,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "M Kim",
-          "isMember": false
+          "isMember": true,
+          "memberId": "kim-minje"
         },
         {
           "name": "C Yoon",
@@ -1638,7 +1652,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1653,11 +1668,13 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "M Kim",
-          "isMember": false
+          "isMember": true,
+          "memberId": "kim-minje"
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": 1,
@@ -1678,7 +1695,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "KH Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "D Kim",
@@ -1713,7 +1731,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1728,7 +1747,8 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "A Gasparini",
-          "isMember": false
+          "isMember": true,
+          "memberId": "gasparini-abebe"
         },
         {
           "name": "CH Lohmander",
@@ -1736,7 +1756,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1755,11 +1776,13 @@ window.HAIR_DATA = {
         },
         {
           "name": "A Svetasheva",
-          "isMember": false
+          "isMember": true,
+          "memberId": "svetasheva-arina"
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "Y Kang",
@@ -1794,7 +1817,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "IH Song",
@@ -1825,7 +1849,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "A Cors",
@@ -1856,11 +1881,13 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "김민제",
-          "isMember": false
+          "isMember": true,
+          "memberId": "kim-minje"
         },
         {
           "name": "이기헌",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": 1,
@@ -1875,11 +1902,13 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "K Ryu",
-          "isMember": false
+          "isMember": true,
+          "memberId": "ryu-kunhee"
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1894,11 +1923,13 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "A Gasparini",
-          "isMember": false
+          "isMember": true,
+          "memberId": "gasparini-abebe"
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1917,7 +1948,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1936,11 +1968,13 @@ window.HAIR_DATA = {
         },
         {
           "name": "A Svetasheva",
-          "isMember": false
+          "isMember": true,
+          "memberId": "svetasheva-arina"
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1959,7 +1993,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -1974,7 +2009,8 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "H Kim",
@@ -2005,7 +2041,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2028,7 +2065,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2043,11 +2081,13 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "A Gasparini",
-          "isMember": false
+          "isMember": true,
+          "memberId": "gasparini-abebe"
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2066,7 +2106,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2081,11 +2122,13 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "A Svetasheva",
-          "isMember": false
+          "isMember": true,
+          "memberId": "svetasheva-arina"
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2100,11 +2143,13 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "K Ryu",
-          "isMember": false
+          "isMember": true,
+          "memberId": "ryu-kunhee"
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2127,7 +2172,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "이기헌",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2146,7 +2192,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "이기헌",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2165,7 +2212,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2184,7 +2232,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2223,7 +2272,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2242,7 +2292,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "H Lee",
@@ -2269,7 +2320,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2288,7 +2340,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "이기헌",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": 2,
@@ -2307,7 +2360,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "이기헌",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "조화순",
@@ -2330,7 +2384,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": 2,
@@ -2349,7 +2404,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": 6,
@@ -2372,7 +2428,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2391,7 +2448,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": null,
@@ -2406,7 +2464,8 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "Y Kang",
@@ -2435,7 +2494,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": 11,
@@ -2450,7 +2510,8 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "SY Kim",
@@ -2481,7 +2542,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "M Song",
@@ -2500,7 +2562,8 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "이기헌",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "정효정",
@@ -2527,7 +2590,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "이기헌",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": 1,
@@ -2542,7 +2606,8 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         }
       ],
       "citations": 2,
@@ -2557,7 +2622,8 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "YH Kim",
@@ -2588,7 +2654,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "M Song",
@@ -2607,7 +2674,8 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "H Lee",
@@ -2630,7 +2698,8 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "CO Kim",
@@ -2649,7 +2718,8 @@ window.HAIR_DATA = {
       "authors": [
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "S Kim",
@@ -2680,7 +2750,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "K Lee",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "JK Cho",
@@ -2715,7 +2786,8 @@ window.HAIR_DATA = {
         },
         {
           "name": "이기헌",
-          "isMember": false
+          "isMember": true,
+          "memberId": "prof-kim"
         },
         {
           "name": "양승환",

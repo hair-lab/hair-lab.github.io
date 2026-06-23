@@ -232,15 +232,32 @@ function toLinks(url) {
   if (url.includes('hdl.handle.net')) return { pdf: url };
   return { link: url };
 }
-const AUTHOR_IDS = {
-  'keeheon lee': 'prof-kim',
-  'kunhee ryu': 'ryu-kunhee',
-  'minje kim': 'kim-minje',
-  'arina svetasheva': 'svetasheva-arina'
+// Map author tokens (full name / initial+surname / Korean) → member id, so a
+// person's profile shows ALL their papers, incl. domestic ones with abbreviated names.
+const MEMBER_ALIASES = {
+  'prof-kim':          ['keeheon lee', 'k lee', 'kh lee', '이기헌'],
+  'ryu-kunhee':        ['kunhee ryu', 'k ryu', '류건희'],
+  'kim-minje':         ['minje kim', 'm kim', '김민제'],
+  'svetasheva-arina':  ['arina svetasheva', 'a svetasheva'],
+  'gasparini-abebe':   ['abebe gasparini', 'a gasparini'],
+  'farias-lucas':      ['lucas farias', 'l farias'],
+  'lee-jinho':         ['jinho lee'],
+  'lee-sooyoung':      ['sooyoung lee'],
+  'park-seongwon':     ['seongwon park'],
+  'koo-joonhui':       ['joonhui koo'],
+  'yoo-hogyun':        ['hogyun yoo'],
+  'hwang-seongjoon':   ['seongjoon hwang'],
+  'tae-gayeong':       ['gayeong tae'],
+  'marry-anne':        ['marry anne'],
+  'aguilar-daniela':   ['daniela rocio aguilar de la torre', 'daniela rocio aguilar', 'daniela aguilar']
 };
+const ALIAS_TO_ID = {};
+Object.entries(MEMBER_ALIASES).forEach(([id, aliases]) => aliases.forEach(a => { ALIAS_TO_ID[a] = id; }));
+const normName = s => s.toLowerCase().replace(/\(corresponding\)/i, '').replace(/\./g, '').replace(/\s+/g, ' ').trim();
+
 function toAuthors(str) {
   return str.split(',').map(s => s.replace(/\(corresponding\)/i, '').trim()).filter(Boolean).map(name => {
-    const id = AUTHOR_IDS[name.toLowerCase()];
+    const id = ALIAS_TO_ID[normName(name)];
     return id ? { name, isMember: true, memberId: id } : { name, isMember: false };
   });
 }

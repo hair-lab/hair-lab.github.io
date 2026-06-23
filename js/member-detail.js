@@ -96,7 +96,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     // Related publications
-    const memberPubs = pubs.filter(p => p.authors.some(a => a.memberId === memberId));
+    const memberPubs = pubs.filter(p => p.authors.some(a => a.memberId === memberId))
+      .sort((a, b) => b.year - a.year);
     const pubEl = document.getElementById('member-publications');
     if (memberPubs.length > 0) {
       pubEl.innerHTML = `
