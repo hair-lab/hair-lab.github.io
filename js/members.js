@@ -10,14 +10,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     const container = document.getElementById('members-container');
     if (!container) return;
 
-    const roleOrder = ['Professor', 'Lab Manager', 'Ph.D. Student', 'Researcher', 'M.S. Student', 'Undergraduate Researcher', 'Intern'];
+    const roleOrder = ['Professor', 'Lab Manager', 'Ph.D. Student', 'Researcher', 'M.S. Student', 'Undergraduate Research Assistant', 'Intern'];
     const heading = {
       'Professor': 'Director',
       'Lab Manager': 'Lab Management',
       'Ph.D. Student': 'Ph.D. Students',
       'Researcher': 'Researchers (M.S.)',
       'M.S. Student': 'M.S. Students',
-      'Undergraduate Researcher': 'Undergraduate Researchers',
+      'Undergraduate Research Assistant': 'Undergraduate Research Assistants',
       'Intern': 'Interns'
     };
 

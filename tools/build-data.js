@@ -147,24 +147,24 @@ const members = [
     bio: 'Joonhui Koo is a research intern at HAIR Lab.'
   },
   {
-    id: 'nemo-chowchuvech', role: 'Undergraduate Researcher', name: 'Wutthipat Chowchuvech', affil: "CTM '24",
+    id: 'nemo-chowchuvech', role: 'Undergraduate Research Assistant', name: 'Wutthipat Chowchuvech', affil: "CTM '24",
     department: 'Underwood International College, Yonsei University', image: 'images/avatars/nemo-chowchuvech.svg',
-    bio: 'Wutthipat Chowchuvech is an undergraduate researcher (Creative Technology Management) at HAIR Lab.'
+    bio: 'Wutthipat Chowchuvech is an undergraduate research assistant (Creative Technology Management) at HAIR Lab.'
   },
   {
-    id: 'yoo-hogyun', role: 'Undergraduate Researcher', name: 'Hogyun Yoo', nameKo: '유호균', affil: "CTM '22",
+    id: 'yoo-hogyun', role: 'Undergraduate Research Assistant', name: 'Hogyun Yoo', nameKo: '유호균', affil: "CTM '22",
     department: 'Underwood International College, Yonsei University', image: 'images/avatars/yoo-hogyun.svg',
-    bio: 'Hogyun Yoo is an undergraduate researcher (Creative Technology Management) at HAIR Lab.'
+    bio: 'Hogyun Yoo is an undergraduate research assistant (Creative Technology Management) at HAIR Lab.'
   },
   {
-    id: 'hwang-seongjoon', role: 'Undergraduate Researcher', name: 'Seongjoon Hwang', nameKo: '황성준', affil: "CTM '24",
+    id: 'hwang-seongjoon', role: 'Undergraduate Research Assistant', name: 'Seongjoon Hwang', nameKo: '황성준', affil: "CTM '24",
     department: 'Underwood International College, Yonsei University', image: 'images/avatars/hwang-seongjoon.svg',
-    bio: 'Seongjoon Hwang is an undergraduate researcher (Creative Technology Management) at HAIR Lab.'
+    bio: 'Seongjoon Hwang is an undergraduate research assistant (Creative Technology Management) at HAIR Lab.'
   },
   {
-    id: 'tae-gayeong', role: 'Undergraduate Researcher', name: 'Gayeong Tae', nameKo: '태가영', affil: "CTM '23",
+    id: 'tae-gayeong', role: 'Undergraduate Research Assistant', name: 'Gayeong Tae', nameKo: '태가영', affil: "CTM '23",
     department: 'Underwood International College, Yonsei University', image: 'images/avatars/tae-gayeong.svg',
-    bio: 'Gayeong Tae is an undergraduate researcher (Creative Technology Management) at HAIR Lab.'
+    bio: 'Gayeong Tae is an undergraduate research assistant (Creative Technology Management) at HAIR Lab.'
   }
 ];
 
