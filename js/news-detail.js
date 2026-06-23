@@ -25,9 +25,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     mainEl.innerHTML = `
       <h1 style="font-size:2rem;margin-bottom:16px;">${item.title}</h1>
       <div class="news-meta">
-        <div class="news-author-avatar">
-          <img src="${author ? author.image : 'images/default_profile.svg'}" alt="${item.author}">
-        </div>
+        <div class="news-author-avatar">${monogram(item.author)}</div>
         <div>
           <div style="font-weight:600;">${author ? `<a href="member-detail.html?id=${author.id}">${item.author}</a>` : item.author}</div>
           <div style="font-size:.85rem;color:var(--text-muted);">${formatDate(item.date)}</div>
@@ -49,7 +47,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       relatedMembers.forEach(m => {
         sidebarHTML += `
           <a href="member-detail.html?id=${m.id}" class="sidebar-member" style="text-decoration:none;">
-            <div class="sidebar-member-avatar"><img src="${m.image}" alt="${m.name}"></div>
+            <div class="sidebar-member-avatar">${monogram(m.name)}</div>
             <div>
               <div style="font-weight:600;font-size:.9rem;color:var(--text-primary);">${m.name}</div>
               <div style="font-size:.78rem;color:var(--text-muted);">${m.role}</div>

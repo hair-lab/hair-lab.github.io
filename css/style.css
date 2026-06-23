@@ -305,6 +305,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-sans); font-weight: 600; line-h
   line-height: 1; -webkit-font-smoothing: antialiased;
 }
 .person-avatar .mono { font-size: 2.7rem; }
+.news-author-avatar .mono { font-size: 1.05rem; }
 .member-avatar-lg .mono { font-size: 4.4rem; }
 .sidebar-member-avatar .mono { font-size: .82rem; }
 .pi-photo .mono { font-size: 5rem; }
