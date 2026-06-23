@@ -1,0 +1,372 @@
+[
+  {
+    "id": "prof-kim",
+    "role": "Professor",
+    "name": "Keeheon Lee",
+    "title": "Full Professor · Principal Investigator",
+    "country": "South Korea",
+    "flag": "🇰🇷",
+    "department": "Underwood International College (UIC), Yonsei University",
+    "image": "images/avatars/prof-kim.svg",
+    "interests": [
+      "Human–AI Interaction & Trust",
+      "Computational Social Science",
+      "AI for Social Good"
+    ],
+    "bio": "Keeheon Lee (이기헌) is a Full Professor at Underwood International College and the Department of Innovation, Yonsei Graduate School, who introduces himself as “a data scientist for (social) good.” He devotes himself to finding ways for data and AI to genuinely help people and society, and he enjoys education and new endeavors as much as research. He personally launched the Design Intelligence program at the Graduate School of Communication — which carried over into today's graduate program of the Department of Innovation — and planned Makerspace i7 himself, starting from the proposal.",
+    "email": "keeheon@yonsei.ac.kr",
+    "website": "https://sites.google.com/yonsei.ac.kr/professor-keeheon/keeheon-lee-yonsei-university",
+    "scholar": "https://scholar.google.com/citations?user=DM09eoQAAAAJ&hl=ko&oi=ao",
+    "cv": {
+      "specializations": [
+        "Professor, Creative Technology Management, Underwood International College (UIC)",
+        "Professor, Department of Innovation, Yonsei Graduate School",
+        "Professor, Digital Analytics Interdisciplinary Program (M.S.), College of Computing",
+        "Adjunct Professor, Graduate School of Information"
+      ],
+      "positions": [
+        {
+          "text": "Director, Humanities, Arts, and Social Sciences Division, UIC"
+        },
+        {
+          "text": "Program Chair, Department of Innovation, Yonsei Graduate School"
+        },
+        {
+          "text": "Associate Dean of Planning, University College",
+          "date": "2026.03–"
+        },
+        {
+          "text": "Principal Investigator, Institute for AI and Social Innovation"
+        },
+        {
+          "text": "Associate Director, Makerspace i7",
+          "date": "2025.09–"
+        }
+      ],
+      "career": [
+        {
+          "text": "Visiting Professor, Mechanical & Industrial Engineering, University of Toronto",
+          "date": "2023.09–2024.08"
+        },
+        {
+          "text": "Director, Yonsei Digital Experience Center",
+          "date": "2022–2023"
+        },
+        {
+          "text": "Associate Director, Veritas Research Institute",
+          "date": "2021–2023"
+        },
+        {
+          "text": "Associate Director, Makerspace i7",
+          "date": "2022.03–2022.08"
+        },
+        {
+          "text": "Steering Committee — Design Factory Korea · Makerspace i7 · Global Engagement & Empowerment Forum"
+        },
+        {
+          "text": "Sustainable Development Fellow, Institute for Global Engagement & Empowerment"
+        }
+      ],
+      "awards": [
+        {
+          "text": "QS Reimagine Education Award — Bronze, Social Science",
+          "date": "2021"
+        },
+        {
+          "text": "Outstanding Faculty Achievement Award, Yonsei University"
+        }
+      ],
+      "teaching": {
+        "graduate": [
+          {
+            "text": "Computational Linguistics and Innovation in Technology",
+            "date": "2024–2026"
+          },
+          {
+            "text": "Understanding Sustainable Development (지속가능발전의이해)",
+            "date": "2022–2026"
+          },
+          {
+            "text": "Business Intelligence",
+            "date": "2022–2025"
+          },
+          {
+            "text": "AI and Credit Scoring Models (인공지능과 신용평가 모델)",
+            "date": "2025"
+          },
+          {
+            "text": "Human-Centered Technology Policy (인간중심 기술정책)",
+            "date": "2024"
+          },
+          {
+            "text": "Advanced Topics in Deep Learning",
+            "date": "2023"
+          },
+          {
+            "text": "Entrepreneurship: Startup & Management (창업과 경영)",
+            "date": "2023"
+          },
+          {
+            "text": "Deep Learning Theory and Practice (딥러닝 이론과 실습)",
+            "date": "2022"
+          },
+          {
+            "text": "Innovation Research 2",
+            "date": "2022"
+          },
+          {
+            "text": "Methods of Innovation Research: Quantitative Methods",
+            "date": "2021–2022"
+          },
+          {
+            "text": "Computer Vision (컴퓨터비전)",
+            "date": "2021"
+          },
+          {
+            "text": "Human–AI Interaction Research Project I–II",
+            "date": "2019–2020"
+          },
+          {
+            "text": "AI for UX Design (UX디자인을 위한 인공지능)",
+            "date": "2019"
+          },
+          {
+            "text": "Introduction to Design Intelligence (디자인인텔리전스개론)",
+            "date": "2019"
+          },
+          {
+            "text": "IoT Foundation I–II (사물인터넷 기초)",
+            "date": "2017–2020"
+          },
+          {
+            "text": "Data Science 1: Analytics (데이터과학: 분석)",
+            "date": "2018"
+          },
+          {
+            "text": "R&D and New Product Development Management",
+            "date": "2015"
+          }
+        ],
+        "undergraduate": [
+          {
+            "text": "Understanding Sustainable Development with Ban Ki-moon (반기문과 함께하는 지속가능발전의 이해)",
+            "date": "2021–2026"
+          },
+          {
+            "text": "Social Network Analysis",
+            "date": "2016–2025"
+          },
+          {
+            "text": "Empirical Methods in NLP for Technology Management",
+            "date": "2025"
+          },
+          {
+            "text": "Network Science for Creative Industry",
+            "date": "2024"
+          },
+          {
+            "text": "Data Science for Business",
+            "date": "2017–2023"
+          },
+          {
+            "text": "Programming for Everybody",
+            "date": "2018–2023"
+          },
+          {
+            "text": "Introduction to Python Programming",
+            "date": "2020–2023"
+          },
+          {
+            "text": "IT Foundation",
+            "date": "2016–2022"
+          },
+          {
+            "text": "Techno-Art Capstone Project",
+            "date": "2018–2026"
+          },
+          {
+            "text": "Sophomore Career Seminar (Creative Technology Management)",
+            "date": "2026"
+          },
+          {
+            "text": "Operations Research and Management Science for CTM",
+            "date": "2022"
+          },
+          {
+            "text": "Creative Technology for Social Innovation",
+            "date": "2022"
+          },
+          {
+            "text": "Social Innovation Capstone Project 2",
+            "date": "2017–2018"
+          },
+          {
+            "text": "Leadership Seminar in Techno-Art Entrepreneurship",
+            "date": "2018–2019"
+          },
+          {
+            "text": "Smart Service Systems",
+            "date": "2017"
+          },
+          {
+            "text": "Everyday Computing and the Internet",
+            "date": "2017"
+          },
+          {
+            "text": "User Experience Design",
+            "date": "2019"
+          },
+          {
+            "text": "Undergraduate Directed Study",
+            "date": "2020–2022"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "id": "ryu-kunhee",
+    "role": "Lab Manager",
+    "title": "Associate Manager & Lab Manager",
+    "name": "Kunhee Ryu",
+    "nameKo": "류건희",
+    "affil": "CTM '19 · M.S. Innovation '23",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/ryu-kunhee.svg",
+    "bio": "Kunhee Ryu is the Lab Manager and Associate Manager of HAIR Lab and a graduate researcher in Innovation. He co-authors the lab's work on multi-agent LLM systems, autonomous meta-analysis (AutoMETA), and human–AI interaction & trust."
+  },
+  {
+    "id": "lee-sooyoung",
+    "role": "Ph.D. Student",
+    "name": "Sooyoung Lee",
+    "nameKo": "이수영",
+    "affil": "Ph.D. · Science & Technology Policy",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/lee-sooyoung.svg",
+    "bio": "Sooyoung Lee is a Ph.D. student in Science and Technology Policy at HAIR Lab."
+  },
+  {
+    "id": "park-seongwon",
+    "role": "Ph.D. Student",
+    "name": "Seongwon Park",
+    "nameKo": "박성원",
+    "affil": "Ph.D. · Science & Technology Policy",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/park-seongwon.svg",
+    "bio": "Seongwon Park is a Ph.D. student in Science and Technology Policy at HAIR Lab."
+  },
+  {
+    "id": "kim-minje",
+    "role": "Researcher",
+    "name": "Minje Kim",
+    "nameKo": "김민제",
+    "affil": "Econ & CTM '19 · M.S. Innovation '23",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/kim-minje.svg",
+    "bio": "Minje Kim completed an M.S. in Innovation and is a researcher at HAIR Lab, working on privacy in LLM agents and multi-agent norm dynamics."
+  },
+  {
+    "id": "svetasheva-arina",
+    "role": "Researcher",
+    "name": "Arina Svetasheva",
+    "affil": "M.S. Innovation '23",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/svetasheva-arina.svg",
+    "bio": "Arina Svetasheva completed an M.S. in Innovation and is a researcher at HAIR Lab, working on large language models for effective and efficient hate-speech detection."
+  },
+  {
+    "id": "gasparini-abebe",
+    "role": "Researcher",
+    "name": "Abebe Gasparini",
+    "affil": "M.S. Innovation '23",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/gasparini-abebe.svg",
+    "bio": "Abebe Gasparini completed an M.S. in Innovation and is a researcher at HAIR Lab."
+  },
+  {
+    "id": "farias-lucas",
+    "role": "M.S. Student",
+    "name": "Lucas Farias",
+    "affil": "M.S. Innovation",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/farias-lucas.svg",
+    "bio": "Lucas Farias is an M.S. student in Innovation at HAIR Lab."
+  },
+  {
+    "id": "marry-anne",
+    "role": "M.S. Student",
+    "name": "Marry Anne",
+    "affil": "M.S. Innovation",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/marry-anne.svg",
+    "bio": "Marry Anne is an M.S. student in Innovation at HAIR Lab."
+  },
+  {
+    "id": "aguilar-daniela",
+    "role": "M.S. Student",
+    "name": "Daniela Rocio Aguilar de La Torre",
+    "affil": "M.S. Innovation",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/aguilar-daniela.svg",
+    "bio": "Daniela Rocio Aguilar de La Torre is an M.S. student in Innovation at HAIR Lab."
+  },
+  {
+    "id": "lee-jinho",
+    "role": "M.S. Student",
+    "name": "Jinho Lee",
+    "nameKo": "이진호",
+    "affil": "M.S. Digital Analytics",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/lee-jinho.svg",
+    "bio": "Jinho Lee is an M.S. student in Digital Analytics at HAIR Lab."
+  },
+  {
+    "id": "koo-joonhui",
+    "role": "Intern",
+    "name": "Joonhui Koo",
+    "nameKo": "구준회",
+    "affil": "Research Intern",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/koo-joonhui.svg",
+    "bio": "Joonhui Koo is a research intern at HAIR Lab."
+  },
+  {
+    "id": "nemo-chowchuvech",
+    "role": "Undergraduate Researcher",
+    "name": "Wutthipat Chowchuvech",
+    "affil": "CTM '24",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/nemo-chowchuvech.svg",
+    "bio": "Wutthipat Chowchuvech is an undergraduate researcher (Creative Technology Management) at HAIR Lab."
+  },
+  {
+    "id": "yoo-hogyun",
+    "role": "Undergraduate Researcher",
+    "name": "Hogyun Yoo",
+    "nameKo": "유호균",
+    "affil": "CTM '22",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/yoo-hogyun.svg",
+    "bio": "Hogyun Yoo is an undergraduate researcher (Creative Technology Management) at HAIR Lab."
+  },
+  {
+    "id": "hwang-seongjoon",
+    "role": "Undergraduate Researcher",
+    "name": "Seongjoon Hwang",
+    "nameKo": "황성준",
+    "affil": "CTM '24",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/hwang-seongjoon.svg",
+    "bio": "Seongjoon Hwang is an undergraduate researcher (Creative Technology Management) at HAIR Lab."
+  },
+  {
+    "id": "tae-gayeong",
+    "role": "Undergraduate Researcher",
+    "name": "Gayeong Tae",
+    "nameKo": "태가영",
+    "affil": "CTM '23",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/tae-gayeong.svg",
+    "bio": "Gayeong Tae is an undergraduate researcher (Creative Technology Management) at HAIR Lab."
+  }
+]

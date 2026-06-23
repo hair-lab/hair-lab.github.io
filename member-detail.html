@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Member profile at HAIR Lab, Yonsei University.">
+  <title>Member | HAIR Lab</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="page-header">
+    <div class="container">
+      <a href="members.html" style="color:rgba(255,255,255,.7);font-size:.9rem;">← Back to People</a>
+    </div>
+  </div>
+
+  <section class="section" id="member-detail">
+    <div class="container">
+      <div style="display:flex;gap:48px;">
+        <div style="flex:1;min-width:0;">
+          <div id="member-profile"><div class="loading">Loading profile…</div></div>
+          <div id="member-cv" style="margin-top:48px;"></div>
+          <div id="member-projects" style="margin-top:48px;"></div>
+          <div id="member-publications" style="margin-top:48px;"></div>
+        </div>
+        <div class="news-detail-sidebar" id="member-news"></div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/data.js"></script>
+
+  <script src="js/common.js"></script>
+  <script src="js/member-detail.js"></script>
+</body>
+</html>

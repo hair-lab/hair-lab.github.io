@@ -1,0 +1,276 @@
+[
+  {
+    "id": "decision-intelligence",
+    "title": "Decision Intelligence: Computational Linguistic Modeling and Evaluation",
+    "titleKo": "의사결정 지능: 전산언어적 모델링과 평가",
+    "status": "active",
+    "type": "National R&D",
+    "funder": "Ministry of Science and ICT (MSIT) · NRF Individual Basic Research",
+    "leadPI": "Keeheon Lee",
+    "leadPIId": "prof-kim",
+    "startYear": 2024,
+    "endYear": 2027,
+    "categories": [
+      "National R&D"
+    ],
+    "description": "A national basic-research program (MSIT/NRF) developing computational-linguistic models and evaluation methods for decision intelligence — how language-based AI can model, support, and assess human and collective decision-making.",
+    "members": [
+      "prof-kim"
+    ],
+    "image": "images/default_project.svg",
+    "website": "#",
+    "publications": [
+      "pub-1",
+      "pub-8",
+      "pub-9"
+    ]
+  },
+  {
+    "id": "visual-understanding-smart-work",
+    "title": "Human–Object Interaction-based Visual Understanding for Smart Work",
+    "titleKo": "스마트 업무수행을 위한 인간-사물 상호작용 기반 시각 정보 이해",
+    "status": "completed",
+    "type": "National R&D",
+    "funder": "Ministry of Science and ICT (MSIT) · NRF Individual Basic Research",
+    "leadPI": "Keeheon Lee",
+    "leadPIId": "prof-kim",
+    "startYear": 2021,
+    "endYear": 2024,
+    "categories": [
+      "National R&D"
+    ],
+    "description": "A national basic-research program (MSIT/NRF) on visual information understanding grounded in human–object interaction, toward AI that supports smart work and everyday tasks.",
+    "members": [
+      "prof-kim"
+    ],
+    "image": "images/default_project.svg",
+    "website": "#",
+    "publications": [
+      "pub-12"
+    ]
+  },
+  {
+    "id": "tech-society-data-science",
+    "title": "Technology–Society Interaction Data Science: A Generative Adversarial Scenario Model for Strategic Learning",
+    "titleKo": "기술-사회 상호작용 데이터 사이언스: 전략적 학습을 위한 제너레이티브 대립 시나리오 모형",
+    "status": "completed",
+    "type": "National R&D",
+    "funder": "Ministry of Science and ICT (MSIT) · NRF Young Researcher",
+    "leadPI": "Keeheon Lee",
+    "leadPIId": "prof-kim",
+    "startYear": 2017,
+    "endYear": 2020,
+    "categories": [
+      "National R&D"
+    ],
+    "description": "An early-career national research program (MSIT/NRF) modeling technology–society interaction with generative adversarial scenario models for strategic learning.",
+    "members": [
+      "prof-kim"
+    ],
+    "image": "images/default_project.svg",
+    "website": "#",
+    "publications": []
+  },
+  {
+    "id": "bio-knowledge-hypothesis",
+    "title": "Big-Knowledge-Driven Automatic Hypothesis Inference for New Bio-Knowledge Discovery",
+    "titleKo": "거대 지식 그래프 기반 생의학 지식 발견을 위한 자동 가설 추론",
+    "status": "completed",
+    "type": "National R&D",
+    "funder": "Ministry of Science and ICT (MSIT) · NRF Mid-career Research",
+    "leadPI": "Min Song",
+    "leadPIId": null,
+    "startYear": 2019,
+    "endYear": 2022,
+    "categories": [
+      "National R&D"
+    ],
+    "description": "A national mid-career research program (MSIT/NRF) on automatic hypothesis inference over large knowledge graphs to discover new biomedical knowledge.",
+    "members": [
+      "prof-kim"
+    ],
+    "image": "images/default_project.svg",
+    "website": "#",
+    "publications": []
+  },
+  {
+    "id": "urban-disaster-evacuation",
+    "title": "Urban Disaster Evacuation Management and Simulation Program Development",
+    "titleKo": "도시 재난 대피 관리 시뮬레이션 프로그램 개발",
+    "status": "completed",
+    "type": "National R&D",
+    "funder": "Ministry of Science and ICT (MSIT) · STEAM Research (EDISON)",
+    "leadPI": "Sangwon Lee",
+    "leadPIId": null,
+    "startYear": 2017,
+    "endYear": 2022,
+    "categories": [
+      "National R&D"
+    ],
+    "description": "A national STEAM/EDISON research program developing a simulation program for managing urban disaster evacuation.",
+    "members": [
+      "prof-kim"
+    ],
+    "image": "images/default_project.svg",
+    "website": "#",
+    "publications": []
+  },
+  {
+    "id": "medical-doc-extraction",
+    "title": "Algorithms and Software for Raw-Data Extraction and Sensitivity Analysis from Medical Documents",
+    "titleKo": "의학 관련 문서로부터 원자료 추출 및 민감도 분석 알고리즘과 소프트웨어 개발",
+    "status": "completed",
+    "type": "SME R&D",
+    "funder": "Ministry of SMEs and Startups · Startup Growth Technology Development (Didimdol)",
+    "leadPI": "Seongmin Oh",
+    "leadPIId": null,
+    "startYear": 2021,
+    "endYear": 2022,
+    "categories": [
+      "SME R&D"
+    ],
+    "description": "An SME technology-development program (Ministry of SMEs and Startups, Didimdol) building algorithms and software to extract raw data and run sensitivity analysis from medical documents.",
+    "members": [
+      "prof-kim"
+    ],
+    "image": "images/default_project.svg",
+    "website": "#",
+    "publications": []
+  },
+  {
+    "id": "kosits-2022-conference",
+    "title": "2022 Spring Conference of the Korea Society of IT Services",
+    "titleKo": "한국IT서비스학회 2022년 춘계학술대회",
+    "status": "completed",
+    "type": "Academic Event",
+    "funder": "Ministry of Science and ICT (MSIT) · ICT Advancement",
+    "leadPI": "Heonyoung Kwon",
+    "leadPIId": null,
+    "startYear": 2022,
+    "endYear": 2022,
+    "categories": [
+      "Academic Event"
+    ],
+    "description": "Hosting of the 2022 Spring Conference of the Korea Society of IT Services, supported under an MSIT ICT-advancement program.",
+    "members": [
+      "prof-kim"
+    ],
+    "image": "images/default_project.svg",
+    "website": "#",
+    "publications": []
+  },
+  {
+    "id": "governance-digital-twin",
+    "title": "Governance Digital Twin: Agentic Communication Model and Simulation for Democratic Governance",
+    "titleKo": "거버넌스 디지털 트윈: 민주적 거버넌스 실험과 평가를 위한 에이전틱 커뮤니케이션 모델 및 시뮬레이션",
+    "status": "active",
+    "type": "Institutional Research",
+    "funder": "Yonsei Institute for AI Innovation (연세AI혁신연구원)",
+    "leadPI": "Keeheon Lee",
+    "leadPIId": "prof-kim",
+    "startYear": null,
+    "endYear": null,
+    "categories": [
+      "Institutional Research"
+    ],
+    "description": "An institute project at the Yonsei Institute for AI Innovation building an agentic communication model and simulation — a “digital twin” for experimenting with, and evaluating, democratic governance.",
+    "members": [
+      "prof-kim"
+    ],
+    "image": "images/default_project.svg",
+    "website": "#",
+    "publications": [
+      "pub-3",
+      "pub-4",
+      "pub-5"
+    ]
+  },
+  {
+    "id": "tryout-2026",
+    "title": "Incheon Startup Park TRYOUT — Global Demonstration (Scale-up Challenge Lab), 2026",
+    "titleKo": "2026 인천스타트업파크 TRYOUT 대학 실증사업 — 글로벌 실증(스케일업 챌린지랩)",
+    "status": "active",
+    "type": "Public Demonstration",
+    "funder": "Incheon Economic Free Zone (IFEZ) · Incheon Technopark",
+    "leadPI": "Keeheon Lee",
+    "leadPIId": "prof-kim",
+    "startYear": 2026,
+    "endYear": 2026,
+    "categories": [
+      "Public Demonstration"
+    ],
+    "description": "A public proof-of-concept and scale-up support program (Incheon Startup Park “TRYOUT” — Scale-up Challenge Lab). The lab leads the Global track, drawing on Yonsei International Campus’ global network to help startups validate their products and expand overseas.",
+    "members": [
+      "prof-kim"
+    ],
+    "image": "images/default_project.svg",
+    "website": "#",
+    "publications": []
+  },
+  {
+    "id": "tryout-2025",
+    "title": "Incheon Startup Park TRYOUT — Global Demonstration (Scale-up Challenge Lab), 2025",
+    "titleKo": "2025 인천스타트업파크 TRYOUT 대학 실증사업 — 글로벌 실증(스케일업 챌린지랩)",
+    "status": "completed",
+    "type": "Public Demonstration",
+    "funder": "Incheon Economic Free Zone (IFEZ) · Incheon Technopark",
+    "leadPI": "Keeheon Lee",
+    "leadPIId": "prof-kim",
+    "startYear": 2025,
+    "endYear": 2025,
+    "categories": [
+      "Public Demonstration"
+    ],
+    "description": "A public proof-of-concept and scale-up support program (Incheon Startup Park “TRYOUT” — Scale-up Challenge Lab). The lab leads the Global track, drawing on Yonsei International Campus’ global network to help startups validate their products and expand overseas.",
+    "members": [
+      "prof-kim"
+    ],
+    "image": "images/default_project.svg",
+    "website": "#",
+    "publications": []
+  },
+  {
+    "id": "tryout-2024",
+    "title": "Incheon Startup Park TRYOUT — Global Demonstration (Scale-up Challenge Lab), 2024",
+    "titleKo": "2024 인천스타트업파크 TRYOUT 대학 실증사업 — 글로벌 실증(스케일업 챌린지랩)",
+    "status": "completed",
+    "type": "Public Demonstration",
+    "funder": "Incheon Economic Free Zone (IFEZ) · Incheon Technopark",
+    "leadPI": "Keeheon Lee",
+    "leadPIId": "prof-kim",
+    "startYear": 2024,
+    "endYear": 2024,
+    "categories": [
+      "Public Demonstration"
+    ],
+    "description": "A public proof-of-concept and scale-up support program (Incheon Startup Park “TRYOUT” — Scale-up Challenge Lab). The lab leads the Global track, drawing on Yonsei International Campus’ global network to help startups validate their products and expand overseas.",
+    "members": [
+      "prof-kim"
+    ],
+    "image": "images/default_project.svg",
+    "website": "#",
+    "publications": []
+  },
+  {
+    "id": "tryout-2023",
+    "title": "Incheon Startup Park TRYOUT — Global Demonstration (Scale-up Challenge Lab), 2023",
+    "titleKo": "2023 인천스타트업파크 TRYOUT 대학 실증사업 — 글로벌 실증(스케일업 챌린지랩)",
+    "status": "completed",
+    "type": "Public Demonstration",
+    "funder": "Incheon Economic Free Zone (IFEZ) · Incheon Technopark",
+    "leadPI": "Keeheon Lee",
+    "leadPIId": "prof-kim",
+    "startYear": 2023,
+    "endYear": 2023,
+    "categories": [
+      "Public Demonstration"
+    ],
+    "description": "A public proof-of-concept and scale-up support program (Incheon Startup Park “TRYOUT” — Scale-up Challenge Lab). The lab leads the Global track, drawing on Yonsei International Campus’ global network to help startups validate their products and expand overseas.",
+    "members": [
+      "prof-kim"
+    ],
+    "image": "images/default_project.svg",
+    "website": "#",
+    "publications": []
+  }
+]

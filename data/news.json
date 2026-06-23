@@ -1,0 +1,91 @@
+[
+  {
+    "id": "news-1",
+    "slug": "chi-2026-accepted",
+    "title": "Two HAIR Lab papers accepted at CHI 2026",
+    "date": "2026-01-20",
+    "author": "Keeheon Lee",
+    "authorId": "prof-kim",
+    "summary": "Work on reframing clinician trust in AI and on second-hand privacy harms in LLM agents will appear at CHI 2026.",
+    "content": "We are delighted to share that two papers from HAIR Lab have been accepted to the ACM CHI Conference on Human Factors in Computing Systems (CHI 2026). “Can Transparency Help Clinicians Trust AI? Reframing Trust as an Information Foraging and Sensemaking Loop” reconsiders how transparency shapes trust, while “Your Permission Leaks My Data: Second-Hand Privacy Harms in LLM Agents” examines emerging privacy risks in agentic systems. Congratulations to everyone involved!",
+    "image": "images/default_news.svg",
+    "relatedMembers": [
+      "prof-kim",
+      "ryu-kunhee",
+      "kim-minje"
+    ],
+    "relatedProjects": [
+      "decision-intelligence"
+    ]
+  },
+  {
+    "id": "news-2",
+    "slug": "autometa-aamas-2026",
+    "title": "AutoMETA accepted at AAMAS 2026",
+    "date": "2026-01-10",
+    "author": "Keeheon Lee",
+    "authorId": "prof-kim",
+    "summary": "Our multi-agent LLM system for autonomous meta-analysis will be presented at AAMAS 2026.",
+    "content": "Our paper “AutoMETA: A Multi-Agent LLM System for Autonomous Meta-Analysis” has been accepted at the International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026). AutoMETA coordinates multiple LLM agents to carry out the stages of a meta-analysis with minimal human intervention — part of the lab’s broader work on AI for science and meta-research.",
+    "image": "images/default_news.svg",
+    "relatedMembers": [
+      "prof-kim",
+      "ryu-kunhee"
+    ],
+    "relatedProjects": [
+      "governance-digital-twin"
+    ]
+  },
+  {
+    "id": "news-3",
+    "slug": "giq-ai-governance-2025",
+    "title": "AI-governance paper published in Government Information Quarterly",
+    "date": "2025-09-05",
+    "author": "Keeheon Lee",
+    "authorId": "prof-kim",
+    "summary": "A study on harmonizing AI ethics guidelines with legal frameworks in Korea appears in Government Information Quarterly.",
+    "content": "Our paper “Building a consensus: Harmonizing AI ethical guidelines and legal frameworks in Korea for enhanced governance” has been published in Government Information Quarterly, a leading journal in digital government. The work proposes how AI ethics principles can be reconciled with existing legal systems to enable more effective governance.",
+    "image": "images/default_news.svg",
+    "relatedMembers": [
+      "prof-kim"
+    ],
+    "relatedProjects": [
+      "decision-intelligence"
+    ]
+  },
+  {
+    "id": "news-4",
+    "slug": "hate-speech-llm-hicss-2024",
+    "title": "LLMs for hate-speech detection presented at HICSS 2024",
+    "date": "2024-01-08",
+    "author": "Keeheon Lee",
+    "authorId": "prof-kim",
+    "summary": "Our study on harnessing large language models for effective and efficient hate-speech detection was presented at HICSS 2024.",
+    "content": "At the Hawaii International Conference on System Sciences (HICSS 2024), we presented “Harnessing Large Language Models for Effective and Efficient Hate Speech Detection,” showing how LLMs can improve both the accuracy and the efficiency of detecting hate speech — part of our NLP-for-social-good agenda.",
+    "image": "images/default_news.svg",
+    "relatedMembers": [
+      "prof-kim",
+      "svetasheva-arina"
+    ],
+    "relatedProjects": [
+      "decision-intelligence"
+    ]
+  },
+  {
+    "id": "news-5",
+    "slug": "welcome-international-team",
+    "title": "HAIR Lab welcomes a growing international team",
+    "date": "2025-03-02",
+    "author": "Keeheon Lee",
+    "authorId": "prof-kim",
+    "summary": "Researchers from across the world have joined HAIR Lab to work on human–AI collaboration for social good.",
+    "content": "HAIR Lab continues to grow into a truly international team, with members joining from around the world to study human–AI interaction, multi-agent systems, computational social science, and AI ethics. We remain committed to research that creates value beneficial to society.",
+    "image": "images/default_news.svg",
+    "relatedMembers": [
+      "ryu-kunhee",
+      "kim-minje",
+      "svetasheva-arina",
+      "lee-jinho"
+    ]
+  }
+]

@@ -1,0 +1,1993 @@
+[
+  {
+    "id": "pub-1",
+    "year": 2026,
+    "title": "Can Transparency Help Clinicians Trust AI? Reframing Trust as an Information Foraging and Sensemaking Loop",
+    "venue": "CHI 2026 Extended Abstracts",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Kunhee Ryu",
+        "isMember": true,
+        "memberId": "ryu-kunhee"
+      },
+      {
+        "name": "Heeyoung Ghang",
+        "isMember": false
+      },
+      {
+        "name": "Sechang Chon",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Younah Kang",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-2",
+    "year": 2026,
+    "title": "Your Permission Leaks My Data: Second-Hand Privacy Harms in LLM Agents",
+    "venue": "CHI 2026 Extended Abstracts",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Minje Kim",
+        "isMember": true,
+        "memberId": "kim-minje"
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-3",
+    "year": 2026,
+    "title": "AutoMETA: A Multi-Agent LLM System for Autonomous Meta-Analysis",
+    "venue": "AAMAS 2026",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Kunhee Ryu",
+        "isMember": true,
+        "memberId": "ryu-kunhee"
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-4",
+    "year": 2026,
+    "title": "Manners Maketh MAN: Multi-Agent Norm Dynamics under Cultural Moral Values",
+    "venue": "ACM CHI 2026 Workshop on PoliSim",
+    "venueType": "Workshop",
+    "authors": [
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Kunhee Ryu",
+        "isMember": true,
+        "memberId": "ryu-kunhee"
+      },
+      {
+        "name": "Minje Kim",
+        "isMember": true,
+        "memberId": "kim-minje"
+      },
+      {
+        "name": "Hyungjun Gerald Yoo",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-5",
+    "year": 2025,
+    "title": "Building a consensus: Harmonizing AI ethical guidelines and legal frameworks in Korea for enhanced governance",
+    "venue": "Government Information Quarterly",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "Jae Woo Lee",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "citations": 9,
+    "links": {
+      "doi": "https://doi.org/10.1016/j.giq.2025.102060"
+    }
+  },
+  {
+    "id": "pub-6",
+    "year": 2025,
+    "title": "Digital Legacy Systems for Young Adults: Emphasizing Relationship-Oriented Perspectives and Physical Artifacts in Death Preparation",
+    "venue": "CHI 2025",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Soonho Kwon",
+        "isMember": false
+      },
+      {
+        "name": "Hyunah Jo",
+        "isMember": false
+      },
+      {
+        "name": "Sohee Ryu",
+        "isMember": false
+      },
+      {
+        "name": "Jihwan Ryan Do",
+        "isMember": false
+      },
+      {
+        "name": "HwaJung Lee",
+        "isMember": false
+      },
+      {
+        "name": "JooHyun Lee",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Younah Kang",
+        "isMember": false
+      }
+    ],
+    "citations": 2,
+    "links": {}
+  },
+  {
+    "id": "pub-7",
+    "year": 2024,
+    "title": "“Um, so like, is this how I speak?”: design implications for automated visual feedback systems on speech",
+    "venue": "Behaviour & Information Technology",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "Soonho Kwon",
+        "isMember": false
+      },
+      {
+        "name": "Hyojin Lee",
+        "isMember": false
+      },
+      {
+        "name": "Soojeong Park",
+        "isMember": false
+      },
+      {
+        "name": "Yerin Heo",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Younah Kang",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {
+      "doi": "https://doi.org/10.1080/0144929X.2023.2256770"
+    }
+  },
+  {
+    "id": "pub-8",
+    "year": 2024,
+    "title": "Harnessing Large Language Models for Effective and Efficient Hate Speech Detection",
+    "venue": "HICSS 2024",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Arina Svetasheva",
+        "isMember": true,
+        "memberId": "svetasheva-arina"
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "citations": 11,
+    "links": {
+      "pdf": "https://hdl.handle.net/10125/107216"
+    }
+  },
+  {
+    "id": "pub-9",
+    "year": 2024,
+    "title": "Measuring Falseness in News Articles based on Concealment and Overstatement",
+    "venue": "arXiv preprint (arXiv:2408.00156)",
+    "venueType": "Preprint",
+    "authors": [
+      {
+        "name": "Jiyoung Lee",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "citations": 4,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2408.00156"
+    }
+  },
+  {
+    "id": "pub-10",
+    "year": 2023,
+    "title": "The paradigm shift of mass customisation research",
+    "venue": "International Journal of Production Research",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "Songi Kim",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "citations": 59,
+    "links": {
+      "doi": "https://doi.org/10.1080/00207543.2022.2057256"
+    }
+  },
+  {
+    "id": "pub-11",
+    "year": 2022,
+    "title": "Customization of Roadmap: Human-in-the-Loop Topic Modelling Approach",
+    "venue": "PICMET 2022",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Jae Young Ho",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "citations": 4,
+    "links": {}
+  },
+  {
+    "id": "pub-12",
+    "year": 2022,
+    "title": "Counting Pixels for an Effective Axis Detection",
+    "venue": "IEEE IRI 2022",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Eury Sohn",
+        "isMember": false
+      },
+      {
+        "name": "Kunhee Ryu",
+        "isMember": true,
+        "memberId": "ryu-kunhee"
+      },
+      {
+        "name": "Seongmin Oh",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {
+      "doi": "https://doi.org/10.1109/IRI54793.2022.00040"
+    }
+  },
+  {
+    "id": "pub-13",
+    "year": 2021,
+    "title": "A Systematic Review on Social Sustainability of Artificial Intelligence in Product Design",
+    "venue": "Sustainability",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "citations": 61,
+    "links": {
+      "doi": "https://doi.org/10.3390/su13052668"
+    }
+  },
+  {
+    "id": "pub-14",
+    "year": 2021,
+    "title": "Deep Learning's Diminishing Returns: The Cost of Improvement is Becoming Unsustainable",
+    "venue": "IEEE Spectrum",
+    "venueType": "Magazine",
+    "authors": [
+      {
+        "name": "Neil C. Thompson",
+        "isMember": false
+      },
+      {
+        "name": "Kristjan Greenewald",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Gabriel F. Manso",
+        "isMember": false
+      }
+    ],
+    "citations": 256,
+    "links": {
+      "doi": "https://doi.org/10.1109/MSPEC.2021.9563954"
+    }
+  },
+  {
+    "id": "pub-15",
+    "year": 2020,
+    "title": "The Computational Limits of Deep Learning",
+    "venue": "arXiv preprint (arXiv:2007.05558)",
+    "venueType": "Preprint",
+    "authors": [
+      {
+        "name": "Neil C. Thompson",
+        "isMember": false
+      },
+      {
+        "name": "Kristjan Greenewald",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Gabriel F. Manso",
+        "isMember": false
+      }
+    ],
+    "citations": 1249,
+    "links": {
+      "arxiv": "https://arxiv.org/abs/2007.05558"
+    }
+  },
+  {
+    "id": "pub-16",
+    "year": 2020,
+    "title": "Simple and Steady Interactions Win the Healthy Mentality: Designing a Chatbot Service for the Elderly",
+    "venue": "Proceedings of the ACM on Human-Computer Interaction (CSCW2)",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "Hyeyoung Ryu",
+        "isMember": false
+      },
+      {
+        "name": "Soyeon Kim",
+        "isMember": false
+      },
+      {
+        "name": "Dain Kim",
+        "isMember": false
+      },
+      {
+        "name": "Sooan Han",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Younah Kang",
+        "isMember": false
+      }
+    ],
+    "citations": 98,
+    "links": {
+      "doi": "https://doi.org/10.1145/3415223"
+    }
+  },
+  {
+    "id": "pub-17",
+    "year": 2020,
+    "title": "Dynamic semantic network analysis for identifying the concept and scope of social sustainability",
+    "venue": "Journal of Cleaner Production",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Heejun Jung",
+        "isMember": false
+      }
+    ],
+    "citations": 97,
+    "links": {
+      "doi": "https://doi.org/10.1016/j.jclepro.2019.07.060"
+    }
+  },
+  {
+    "id": "pub-18",
+    "year": 2020,
+    "title": "Designing technology entrepreneurship education using computational thinking",
+    "venue": "Education and Information Technologies",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "Younah Kang",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "citations": 48,
+    "links": {
+      "doi": "https://doi.org/10.1007/s10639-020-10231-2"
+    }
+  },
+  {
+    "id": "pub-19",
+    "year": 2020,
+    "title": "Building Ethical AI from News Articles",
+    "venue": "IEEE/ITU AI for Good (AI4G) 2020",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Wonjun Kim",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "citations": 4,
+    "links": {}
+  },
+  {
+    "id": "pub-20",
+    "year": 2019,
+    "title": "Can Chatbots Help Reduce the Workload of Administrative Officers? Implementing and Deploying FAQ Chatbot Service in a University",
+    "venue": "HCI International 2019",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Jeongmin Jo",
+        "isMember": false
+      },
+      {
+        "name": "Jinwoo Kim",
+        "isMember": false
+      },
+      {
+        "name": "Younah Kang",
+        "isMember": false
+      }
+    ],
+    "citations": 71,
+    "links": {
+      "doi": "https://doi.org/10.1007/978-3-030-23528-4_46"
+    }
+  },
+  {
+    "id": "pub-21",
+    "year": 2019,
+    "title": "A Data-Driven Design Framework for Customer Service Chatbot",
+    "venue": "HCI International 2019",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Shinhee Hwang",
+        "isMember": false
+      },
+      {
+        "name": "Beomjun Kim",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "citations": 36,
+    "links": {
+      "doi": "https://doi.org/10.1007/978-3-030-22577-3_16"
+    }
+  },
+  {
+    "id": "pub-22",
+    "year": 2019,
+    "title": "Agent simulation-based ordinal optimisation for new product design",
+    "venue": "Journal of the Operational Research Society",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "Hoyeop Lee",
+        "isMember": false
+      },
+      {
+        "name": "Jongsu Lim",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Chang Ouk Kim",
+        "isMember": false
+      }
+    ],
+    "citations": 10,
+    "links": {
+      "doi": "https://doi.org/10.1080/01605682.2018.1447249"
+    }
+  },
+  {
+    "id": "pub-23",
+    "year": 2018,
+    "title": "Factors that influence an individual's intention to adopt a wearable healthcare device: The case of a wearable fitness tracker",
+    "venue": "Technological Forecasting and Social Change",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "Sang Yup Lee",
+        "isMember": false
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "citations": 244,
+    "links": {
+      "doi": "https://doi.org/10.1016/j.techfore.2018.01.022"
+    }
+  },
+  {
+    "id": "pub-24",
+    "year": 2016,
+    "title": "Subject–method topic network analysis in communication studies",
+    "venue": "Scientometrics",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Heejun Jung",
+        "isMember": false
+      },
+      {
+        "name": "Min Song",
+        "isMember": false
+      }
+    ],
+    "citations": 49,
+    "links": {
+      "doi": "https://doi.org/10.1007/s11192-016-2100-5"
+    }
+  },
+  {
+    "id": "pub-25",
+    "year": 2026,
+    "title": "From Higher-Likelihood to Broader Coverage: Exploratory Policy Simulations with LLM agents",
+    "venue": "ACM CHI 2026 Workshop on PoliSim",
+    "venueType": "Workshop",
+    "authors": [
+      {
+        "name": "H Yoo",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-26",
+    "year": 2026,
+    "title": "TIRA: Technical Indicator-based Retrieval Augmentation for Large Language Model-driven Stock Trading",
+    "venue": "2nd Workshop on Advances in Financial AI",
+    "venueType": "Workshop",
+    "authors": [
+      {
+        "name": "M Kim",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "CG Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-27",
+    "year": 2026,
+    "title": "Student Scholarly Research Programs in US Medical Schools: Cross-sectional Web Audit",
+    "venue": "medRxiv",
+    "venueType": "Preprint",
+    "authors": [
+      {
+        "name": "D Lee",
+        "isMember": false
+      },
+      {
+        "name": "C Lee",
+        "isMember": false
+      },
+      {
+        "name": "SS Oh",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "CS Hyun",
+        "isMember": false
+      },
+      {
+        "name": "JI Shin",
+        "isMember": false
+      },
+      {
+        "name": "S An",
+        "isMember": false
+      },
+      {
+        "name": "J Ioannidis",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-28",
+    "year": 2026,
+    "title": "Evolution of Reporting P-values Across the Biomedical Literature, 1990–2025",
+    "venue": "medRxiv",
+    "venueType": "Preprint",
+    "authors": [
+      {
+        "name": "J Choi",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "D Chavalarias",
+        "isMember": false
+      },
+      {
+        "name": "JI Shin",
+        "isMember": false
+      },
+      {
+        "name": "J Ioannidis",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-29",
+    "year": 2025,
+    "title": "대학 웹사이트에 인공지능 기능을 도입한 사용자 중심 디자인 개선 방안 연구",
+    "venue": "대한산업공학회 추계학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "H Ghang",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-30",
+    "year": 2025,
+    "title": "From Bullwhip to Hallucination: Quantifying and Mitigating Error Amplification in Large Language Models",
+    "venue": "대한산업공학회 춘계학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "K Ryu",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-31",
+    "year": 2025,
+    "title": "전략 시뮬레이션게임에서의 의사결정 네트워크 분석",
+    "venue": "대한산업공학회 춘계학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "H Kim",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-32",
+    "year": 2025,
+    "title": "컨텍스트 한계를 넘어: 에이전트 역할 분리를 통한 Self-Refine 파이프라인 개선",
+    "venue": "대한산업공학회 춘계학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "H Kim",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-33",
+    "year": 2025,
+    "title": "Analysis of Decision-Support Modules for LLM-Based Online Sequential Decision Making",
+    "venue": "대한산업공학회 춘계학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "M Kim",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-34",
+    "year": 2025,
+    "title": "이탈리안 브레인롯의 진화",
+    "venue": "한국IT서비스학회 학술대회",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "H Kim",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-35",
+    "year": 2025,
+    "title": "자율주행차 디지털 포렌식 기술의 혁신 분석",
+    "venue": "경찰학연구 25(1)",
+    "venueType": "Domestic Journal",
+    "authors": [
+      {
+        "name": "S Ra",
+        "isMember": false
+      },
+      {
+        "name": "M Kim",
+        "isMember": false
+      },
+      {
+        "name": "C Yoon",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-36",
+    "year": 2025,
+    "title": "Analysis of Technological Innovations in Stock Trading Using a Language Model",
+    "venue": "SSRN 5105531",
+    "venueType": "Preprint",
+    "authors": [
+      {
+        "name": "M Kim",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": 1,
+    "links": {
+      "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5105531"
+    }
+  },
+  {
+    "id": "pub-37",
+    "year": 2024,
+    "title": "From Uncanny to Unison: Entertainment Professionals' Perceptions of Singing Voice Synthesis",
+    "venue": "한국HCI학회 학술대회",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "GM Arumsari",
+        "isMember": false
+      },
+      {
+        "name": "KH Lee",
+        "isMember": false
+      },
+      {
+        "name": "D Kim",
+        "isMember": false
+      },
+      {
+        "name": "FM Lim",
+        "isMember": false
+      },
+      {
+        "name": "S Almatari",
+        "isMember": false
+      },
+      {
+        "name": "TP Vu",
+        "isMember": false
+      }
+    ],
+    "citations": 2,
+    "links": {}
+  },
+  {
+    "id": "pub-38",
+    "year": 2024,
+    "title": "The Network Position of AI Venture Companies in Investment Network",
+    "venue": "2024 Portland International Conference on Management of Engineering and Technology (PICMET)",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "B Kim",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-39",
+    "year": 2024,
+    "title": "Waning Breakthroughs? Investigating the State of Innovation in the Field of NLP",
+    "venue": "2024 Portland International Conference on Management of Engineering and Technology (PICMET)",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "A Gasparini",
+        "isMember": false
+      },
+      {
+        "name": "CH Lohmander",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-40",
+    "year": 2024,
+    "title": "Measuring Diversity and Fairness in Content Exposure: Case of Instagram Recommender System",
+    "venue": "한국HCI학회 학술대회",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "S Kim",
+        "isMember": false
+      },
+      {
+        "name": "A Svetasheva",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "Y Kang",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-41",
+    "year": 2024,
+    "title": "Establishing the ESD and GCEd system in higher education",
+    "venue": "IGEE Proceedings 1(1)",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "JE Shin",
+        "isMember": false
+      },
+      {
+        "name": "EK Rhee",
+        "isMember": false
+      },
+      {
+        "name": "S An",
+        "isMember": false
+      },
+      {
+        "name": "Y Kang",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "IH Song",
+        "isMember": false
+      }
+    ],
+    "citations": 1,
+    "links": {}
+  },
+  {
+    "id": "pub-42",
+    "year": 2023,
+    "title": "Methods and Evaluation in the Historical Mapping of Cities",
+    "venue": "International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "M Page",
+        "isMember": false
+      },
+      {
+        "name": "Y Kang",
+        "isMember": false
+      },
+      {
+        "name": "S Varner",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "A Cors",
+        "isMember": false
+      },
+      {
+        "name": "A Basu",
+        "isMember": false
+      },
+      {
+        "name": "K Durante",
+        "isMember": false
+      },
+      {
+        "name": "I Burr",
+        "isMember": false
+      }
+    ],
+    "citations": 2,
+    "links": {}
+  },
+  {
+    "id": "pub-43",
+    "year": 2023,
+    "title": "프롬프트 엔지니어링을 활용한 기업 재무제표 평가 및 성능 비교",
+    "venue": "대한산업공학회 춘계공동학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "김민제",
+        "isMember": false
+      },
+      {
+        "name": "이기헌",
+        "isMember": false
+      }
+    ],
+    "citations": 1,
+    "links": {}
+  },
+  {
+    "id": "pub-44",
+    "year": 2023,
+    "title": "Query Optimization Information Retrieval Framework Using a Wikipedia-Based Vector Database",
+    "venue": "대한산업공학회 추계학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "K Ryu",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-45",
+    "year": 2023,
+    "title": "Comparative Sentiment Analysis of World-renowned Landmarks",
+    "venue": "대한산업공학회 추계학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "A Gasparini",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-46",
+    "year": 2023,
+    "title": "Mimicking Experts: Evaluating Response Qualities of ChatGPT in Technology Forecasting and UI/UX fields",
+    "venue": "대한산업공학회 추계학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "JW Lee",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-47",
+    "year": 2023,
+    "title": "Automating Academic Tasks with ChatGPT: A Usability Study",
+    "venue": "대한산업공학회 추계학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "JW Lee",
+        "isMember": false
+      },
+      {
+        "name": "A Svetasheva",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-48",
+    "year": 2023,
+    "title": "Large Language Model and Discrete Event Simulation for Health Care: Severity Classification in Triage",
+    "venue": "대한산업공학회 추계학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "Z Daniar",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-49",
+    "year": 2023,
+    "title": "A Systematic Review on Predict-then-Optimize",
+    "venue": "대한산업공학회 추계학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "H Kim",
+        "isMember": false
+      },
+      {
+        "name": "S Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-50",
+    "year": 2023,
+    "title": "Sarcasm Classification: Cost/Benefit Analysis of Few-shot Prompting GPT-3",
+    "venue": "대한산업공학회 춘계공동학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "J Kim",
+        "isMember": false
+      },
+      {
+        "name": "J Jang",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-51",
+    "year": 2023,
+    "title": "Exploring the Characteristics of Large-Scale Text to Image Prompt Datasets",
+    "venue": "대한산업공학회 춘계공동학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "S Song",
+        "isMember": false
+      },
+      {
+        "name": "Y Kang",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-52",
+    "year": 2023,
+    "title": "On the Use of Prompt Engineering for Research Purposes",
+    "venue": "대한산업공학회 춘계공동학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "A Gasparini",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-53",
+    "year": 2023,
+    "title": "Large Language Model for Healthcare: Severity Classification in Triage",
+    "venue": "대한산업공학회 춘계공동학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "Z Daniar",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-54",
+    "year": 2023,
+    "title": "LLMs Improve Automatic Hate Speech Detection Efficiently and Effectively",
+    "venue": "대한산업공학회 춘계공동학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "A Svetasheva",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-55",
+    "year": 2023,
+    "title": "생성형 검색 엔진에서의 프롬프트 최적화를 통한 정보 검색",
+    "venue": "대한산업공학회 춘계공동학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "K Ryu",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-56",
+    "year": 2023,
+    "title": "연구 동향 분석을 위한 대형 언어 모델의 프롬프트 디자인 제안",
+    "venue": "대한산업공학회 춘계공동학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "안재연",
+        "isMember": false
+      },
+      {
+        "name": "강연아",
+        "isMember": false
+      },
+      {
+        "name": "이기헌",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-57",
+    "year": 2023,
+    "title": "디지털 정부 정책 텍스트 분석을 통한 기술 트렌드의 동향 파악 및 전망",
+    "venue": "대한산업공학회 춘계공동학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "김혜강",
+        "isMember": false
+      },
+      {
+        "name": "이기헌",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-58",
+    "year": 2023,
+    "title": "Large Language Models as Potential Interviewees: Focused on ChatGPT",
+    "venue": "대한산업공학회 춘계공동학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "J Lee",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-59",
+    "year": 2023,
+    "title": "Evaluation of Korean Industrial Engineering Research based on Sustainable Development",
+    "venue": "대한산업공학회 춘계공동학술대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "H Lohmander",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-60",
+    "year": 2021,
+    "title": "Pillip and MyPillip: For Simple and Personalized Pill Consumption Process",
+    "venue": "한국디자인학회 학술발표대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "D Kim",
+        "isMember": false
+      },
+      {
+        "name": "E Sohn",
+        "isMember": false
+      },
+      {
+        "name": "J Wong",
+        "isMember": false
+      },
+      {
+        "name": "J Han",
+        "isMember": false
+      },
+      {
+        "name": "Y Lin",
+        "isMember": false
+      },
+      {
+        "name": "Y Kang",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-61",
+    "year": 2021,
+    "title": "UIUX Optimization for Senior",
+    "venue": "한국디자인학회 학술발표대회 논문집",
+    "venueType": "Domestic Conference",
+    "authors": [
+      {
+        "name": "J Oh",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "H Lee",
+        "isMember": false
+      },
+      {
+        "name": "S Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-62",
+    "year": 2021,
+    "title": "Display Ad Classifier: Quantifying Annoying Ad Practices and Its Effect on Website Popularity",
+    "venue": "2021 AMA Winter Academic Conference",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "S Hong",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-63",
+    "year": 2020,
+    "title": "역사 학습효과 증진을 위한 웹 가상박물관 디자인 가이드라인에 대한 연구",
+    "venue": "박물관학보",
+    "venueType": "Domestic Journal",
+    "authors": [
+      {
+        "name": "이다빈",
+        "isMember": false
+      },
+      {
+        "name": "이기헌",
+        "isMember": false
+      }
+    ],
+    "citations": 2,
+    "links": {}
+  },
+  {
+    "id": "pub-64",
+    "year": 2020,
+    "title": "한국 언론기사를 대규모 역사데이터로 활용한 동북아 해양영토분쟁 분석",
+    "venue": "국제지역연구 24(2)",
+    "venueType": "Domestic Journal",
+    "authors": [
+      {
+        "name": "양준석",
+        "isMember": false
+      },
+      {
+        "name": "이기헌",
+        "isMember": false
+      },
+      {
+        "name": "조화순",
+        "isMember": false
+      }
+    ],
+    "citations": 1,
+    "links": {}
+  },
+  {
+    "id": "pub-65",
+    "year": 2019,
+    "title": "A Data-Driven Strategic Model of Common Sense in Machine Ethics of Cares",
+    "venue": "HCI International 2019",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "W Kim",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": 2,
+    "links": {}
+  },
+  {
+    "id": "pub-66",
+    "year": 2019,
+    "title": "Transforming a Specialized Q&A System to a Chatbot System: A Case of a Simplified Process",
+    "venue": "HCI International 2019 – Late Breaking Posters",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "J Jang",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": 6,
+    "links": {}
+  },
+  {
+    "id": "pub-67",
+    "year": 2019,
+    "title": "An Online Comment Assistant for a Better Comment Experience",
+    "venue": "HCI International 2019 – Late Breaking Posters",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "JY Choi",
+        "isMember": false
+      },
+      {
+        "name": "Y Kang",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-68",
+    "year": 2019,
+    "title": "Guidelines for Evaluating the Completeness of the Portfolio",
+    "venue": "HCI International 2019",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "JM Ryu",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-69",
+    "year": 2019,
+    "title": "Bringing Computational Thinking to Nonengineering Students through a Capstone Course",
+    "venue": "52nd Hawaii International Conference on System Sciences (HICSS)",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "Y Kang",
+        "isMember": false
+      }
+    ],
+    "citations": 4,
+    "links": {
+      "link": "https://scholarspace.manoa.hawaii.edu/items/00b41fe5-0c4f-4518-a863-ed6b6d5af65a"
+    }
+  },
+  {
+    "id": "pub-70",
+    "year": 2017,
+    "title": "Ensemble analysis of topical journal ranking in bioinformatics",
+    "venue": "Journal of the Association for Information Science and Technology 68(6)",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "M Song",
+        "isMember": false
+      },
+      {
+        "name": "SY Kim",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": 11,
+    "links": {}
+  },
+  {
+    "id": "pub-71",
+    "year": 2017,
+    "title": "Comparative evaluation of bibliometric content networks by tomographic content analysis",
+    "venue": "Journal of the Association for Information Science and Technology 68(5)",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "SY Kim",
+        "isMember": false
+      },
+      {
+        "name": "EHJ Kim",
+        "isMember": false
+      },
+      {
+        "name": "M Song",
+        "isMember": false
+      }
+    ],
+    "citations": 10,
+    "links": {}
+  },
+  {
+    "id": "pub-72",
+    "year": 2016,
+    "title": "Examining Characteristics of Traditional and Twitter Citation",
+    "venue": "Frontiers in Research Metrics and Analytics 1",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "H Jung",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "M Song",
+        "isMember": false
+      }
+    ],
+    "citations": 18,
+    "links": {}
+  },
+  {
+    "id": "pub-73",
+    "year": 2015,
+    "title": "문헌정보학 분야 핵심 학술지들의 가중 주제-방법 네트워크 분석",
+    "venue": "한국문헌정보학회지",
+    "venueType": "Domestic Journal",
+    "authors": [
+      {
+        "name": "이기헌",
+        "isMember": false
+      },
+      {
+        "name": "정효정",
+        "isMember": false
+      },
+      {
+        "name": "송민",
+        "isMember": false
+      }
+    ],
+    "citations": 20,
+    "links": {}
+  },
+  {
+    "id": "pub-74",
+    "year": 2015,
+    "title": "행위자기반모형을 이용한 신기술과 지식 확산 연구",
+    "venue": "조사연구",
+    "venueType": "Domestic Journal",
+    "authors": [
+      {
+        "name": "이상엽",
+        "isMember": false
+      },
+      {
+        "name": "이기헌",
+        "isMember": false
+      }
+    ],
+    "citations": 1,
+    "links": {}
+  },
+  {
+    "id": "pub-75",
+    "year": 2015,
+    "title": "Comparing Network Structures of Different Versions of a Book",
+    "venue": "International Conference on Asian Digital Libraries (ICADL)",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "K Lee",
+        "isMember": false
+      }
+    ],
+    "citations": 2,
+    "links": {}
+  },
+  {
+    "id": "pub-76",
+    "year": 2015,
+    "title": "Analyzing Subject-Method Network of Bioinformatics and Biology",
+    "venue": "ACM 9th International Workshop on Data and Text Mining in Biomedical Informatics (DTMBIO)",
+    "venueType": "Workshop",
+    "authors": [
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "YH Kim",
+        "isMember": false
+      },
+      {
+        "name": "SH Baek",
+        "isMember": false
+      },
+      {
+        "name": "M Song",
+        "isMember": false
+      }
+    ],
+    "citations": 2,
+    "links": {}
+  },
+  {
+    "id": "pub-77",
+    "year": 2014,
+    "title": "Inferring Undiscovered Public Knowledge by Using Text Mining-driven Graph Model",
+    "venue": "ACM 8th International Workshop on Data and Text Mining in Biomedical Informatics (DTMBIO)",
+    "venueType": "Workshop",
+    "authors": [
+      {
+        "name": "GE Heo",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "M Song",
+        "isMember": false
+      }
+    ],
+    "citations": 8,
+    "links": {}
+  },
+  {
+    "id": "pub-78",
+    "year": 2014,
+    "title": "Pricing and Timing Strategies for New Product Using Agent-Based Simulation",
+    "venue": "Journal of Artificial Societies and Social Simulation 17(2)",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "H Lee",
+        "isMember": false
+      },
+      {
+        "name": "CO Kim",
+        "isMember": false
+      }
+    ],
+    "citations": 26,
+    "links": {}
+  },
+  {
+    "id": "pub-79",
+    "year": 2014,
+    "title": "Topic Recipe-based Social Simulation for Research Dynamics Analysis",
+    "venue": "Social Simulation Conference (SSC)",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "CO Kim",
+        "isMember": false
+      }
+    ],
+    "citations": 1,
+    "links": {}
+  },
+  {
+    "id": "pub-80",
+    "year": 2013,
+    "title": "An Agent-Based Competitive Product Diffusion Model for the Estimation and Sensitivity Analysis",
+    "venue": "Journal of Artificial Societies and Social Simulation 16(1)",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "S Kim",
+        "isMember": false
+      },
+      {
+        "name": "CO Kim",
+        "isMember": false
+      },
+      {
+        "name": "T Park",
+        "isMember": false
+      }
+    ],
+    "citations": 28,
+    "links": {}
+  },
+  {
+    "id": "pub-81",
+    "year": 2011,
+    "title": "Agent-based diffusion model for an automobile market with fuzzy TOPSIS-based product adoption process",
+    "venue": "Expert Systems with Applications 38(6)",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "S Kim",
+        "isMember": false
+      },
+      {
+        "name": "K Lee",
+        "isMember": false
+      },
+      {
+        "name": "JK Cho",
+        "isMember": false
+      },
+      {
+        "name": "CO Kim",
+        "isMember": false
+      }
+    ],
+    "citations": 119,
+    "links": {}
+  },
+  {
+    "id": "pub-82",
+    "year": 2009,
+    "title": "원저: 종합병원 응급실 대상의 맞춤형 과밀도 지표 개발",
+    "venue": "대한응급의학회지 20(4)",
+    "venueType": "Domestic Journal",
+    "authors": [
+      {
+        "name": "고종명",
+        "isMember": false
+      },
+      {
+        "name": "손지훈",
+        "isMember": false
+      },
+      {
+        "name": "안용덕",
+        "isMember": false
+      },
+      {
+        "name": "이기헌",
+        "isMember": false
+      },
+      {
+        "name": "양승환",
+        "isMember": false
+      },
+      {
+        "name": "김승호",
+        "isMember": false
+      },
+      {
+        "name": "박유석",
+        "isMember": false
+      },
+      {
+        "name": "이영훈",
+        "isMember": false
+      }
+    ],
+    "citations": 1,
+    "links": {}
+  }
+]
