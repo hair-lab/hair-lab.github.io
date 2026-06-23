@@ -448,14 +448,6 @@ const projects = [
 /* ---------------- News (rewritten around real publications) ---------------- */
 const news = [
   {
-    id: 'news-dean', slug: 'keeheon-lee-associate-dean',
-    title: 'Prof. Keeheon Lee appointed Associate Dean of Planning',
-    date: '2026-03-02', author: 'HAIR Lab', authorId: 'prof-kim',
-    summary: 'Our PI, Prof. Keeheon Lee, has been appointed Associate Dean of Planning at University College, Yonsei University.',
-    content: 'We are proud to share that our Principal Investigator, Prof. Keeheon Lee, has been appointed Associate Dean of Planning at University College, Yonsei University (from March 2026). He continues to serve as Program Chair of the Department of Innovation and as Principal Investigator of the Institute for AI and Social Innovation.',
-    image: 'images/default_news.svg', relatedMembers: ['prof-kim']
-  },
-  {
     id: 'news-chi-2026', slug: 'chi-2026-accepted',
     title: 'Two HAIR Lab papers accepted at CHI 2026',
     date: '2026-02-15', author: 'HAIR Lab', authorId: 'prof-kim',
@@ -478,14 +470,6 @@ const news = [
     summary: 'Our multi-agent LLM system for autonomous meta-analysis will be presented at AAMAS 2026.',
     content: '“AutoMETA: A Multi-Agent LLM System for Autonomous Meta-Analysis” has been accepted at the International Conference on Autonomous Agents and Multiagent Systems (AAMAS 2026). AutoMETA coordinates multiple LLM agents to carry out the stages of a meta-analysis with minimal human intervention — part of the lab’s work on AI for science and meta-research.',
     image: 'images/default_news.svg', relatedMembers: ['prof-kim', 'ryu-kunhee'], relatedProjects: ['governance-digital-twin']
-  },
-  {
-    id: 'news-phd-2025', slug: 'phd-students-join-2025',
-    title: 'Two Ph.D. students join HAIR Lab',
-    date: '2025-09-01', author: 'HAIR Lab', authorId: 'prof-kim',
-    summary: 'Sooyoung Lee and Seongwon Park join the lab as Ph.D. students in Science and Technology Policy.',
-    content: 'We are excited to welcome Sooyoung Lee (이수영) and Seongwon Park (박성원) as Ph.D. students in Science and Technology Policy. Their work strengthens the lab’s research at the intersection of AI, policy, and society.',
-    image: 'images/default_news.svg', relatedMembers: ['lee-sooyoung', 'park-seongwon']
   },
   {
     id: 'news-giq-2025', slug: 'giq-ai-governance-2025',
