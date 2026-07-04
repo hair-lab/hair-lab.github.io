@@ -3044,5 +3044,321 @@ window.HAIR_DATA = {
       "cohort": "CTM '21",
       "now": "Graduate School of Law, Yonsei University"
     }
+  ],
+  "deadlines": [
+    {
+      "id": "aaai2027",
+      "name": "AAAI",
+      "fullName": "AAAI Conference on Artificial Intelligence",
+      "categories": [
+        "AI"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-02",
+      "link": "https://aaai.org/conference/aaai/",
+      "deadlines": [
+        {
+          "label": "Abstract",
+          "date": "2026-08-08T23:59:00-12:00"
+        },
+        {
+          "label": "Full Paper",
+          "date": "2026-08-15T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "wsdm2027",
+      "name": "WSDM",
+      "fullName": "ACM Web Search and Data Mining",
+      "categories": [
+        "Data",
+        "Web"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-02",
+      "link": "https://www.wsdm-conference.org/",
+      "deadlines": [
+        {
+          "label": "Full Paper",
+          "date": "2026-08-14T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "chi2027",
+      "name": "CHI",
+      "fullName": "ACM CHI Conference on Human Factors in Computing Systems",
+      "categories": [
+        "HCI"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-05",
+      "link": "https://chi2027.acm.org/",
+      "deadlines": [
+        {
+          "label": "Abstract",
+          "date": "2026-09-10T23:59:00-12:00"
+        },
+        {
+          "label": "Full Paper",
+          "date": "2026-09-17T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "iclr2027",
+      "name": "ICLR",
+      "fullName": "International Conference on Learning Representations",
+      "categories": [
+        "ML"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-04",
+      "link": "https://iclr.cc/",
+      "deadlines": [
+        {
+          "label": "Abstract",
+          "date": "2026-09-19T23:59:00-12:00"
+        },
+        {
+          "label": "Full Paper",
+          "date": "2026-09-24T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "iui2027",
+      "name": "IUI",
+      "fullName": "ACM Conference on Intelligent User Interfaces",
+      "categories": [
+        "HCI",
+        "AI"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-03",
+      "link": "https://iui.acm.org/",
+      "deadlines": [
+        {
+          "label": "Full Paper",
+          "date": "2026-10-09T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "www2027",
+      "name": "TheWebConf",
+      "fullName": "The ACM Web Conference (WWW)",
+      "categories": [
+        "Web",
+        "Data"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-04",
+      "link": "https://www2027.thewebconf.org/",
+      "deadlines": [
+        {
+          "label": "Abstract",
+          "date": "2026-10-07T23:59:00-12:00"
+        },
+        {
+          "label": "Full Paper",
+          "date": "2026-10-14T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "naacl2027",
+      "name": "NAACL",
+      "fullName": "North American Chapter of the ACL",
+      "categories": [
+        "NLP"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-06",
+      "link": "https://aclweb.org/",
+      "deadlines": [
+        {
+          "label": "ARR Commitment",
+          "date": "2026-10-15T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "cscw2027",
+      "name": "CSCW",
+      "fullName": "ACM Conf. on Computer-Supported Cooperative Work",
+      "categories": [
+        "HCI",
+        "CSS"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-11",
+      "link": "https://cscw.acm.org/",
+      "deadlines": [
+        {
+          "label": "Full Paper (Cycle 1)",
+          "date": "2027-01-15T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "icwsm2027",
+      "name": "ICWSM",
+      "fullName": "AAAI Conf. on Web and Social Media",
+      "categories": [
+        "CSS",
+        "Web"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-06",
+      "link": "https://www.icwsm.org/",
+      "deadlines": [
+        {
+          "label": "Full Paper",
+          "date": "2027-01-15T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "acl2027",
+      "name": "ACL",
+      "fullName": "Annual Meeting of the ACL",
+      "categories": [
+        "NLP"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-07",
+      "link": "https://aclweb.org/",
+      "deadlines": [
+        {
+          "label": "ARR Commitment",
+          "date": "2027-01-20T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "icml2027",
+      "name": "ICML",
+      "fullName": "International Conference on Machine Learning",
+      "categories": [
+        "ML"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-07",
+      "link": "https://icml.cc/",
+      "deadlines": [
+        {
+          "label": "Abstract",
+          "date": "2027-01-23T23:59:00-12:00"
+        },
+        {
+          "label": "Full Paper",
+          "date": "2027-01-28T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "kdd2027",
+      "name": "KDD",
+      "fullName": "ACM SIGKDD Conf. on Knowledge Discovery & Data Mining",
+      "categories": [
+        "Data"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-08",
+      "link": "https://www.kdd.org/",
+      "deadlines": [
+        {
+          "label": "Full Paper (Cycle 2)",
+          "date": "2027-02-10T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "uist2027",
+      "name": "UIST",
+      "fullName": "ACM Symp. on User Interface Software and Technology",
+      "categories": [
+        "HCI"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-10",
+      "link": "https://uist.acm.org/",
+      "deadlines": [
+        {
+          "label": "Full Paper",
+          "date": "2027-04-02T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "neurips2027",
+      "name": "NeurIPS",
+      "fullName": "Conf. on Neural Information Processing Systems",
+      "categories": [
+        "ML"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-12",
+      "link": "https://neurips.cc/",
+      "deadlines": [
+        {
+          "label": "Abstract",
+          "date": "2027-05-11T23:59:00-12:00"
+        },
+        {
+          "label": "Full Paper",
+          "date": "2027-05-15T23:59:00-12:00"
+        }
+      ]
+    },
+    {
+      "id": "emnlp2027",
+      "name": "EMNLP",
+      "fullName": "Conf. on Empirical Methods in Natural Language Processing",
+      "categories": [
+        "NLP"
+      ],
+      "status": "estimated",
+      "location": "TBD",
+      "flag": "",
+      "confDate": "2027-11",
+      "link": "https://aclweb.org/",
+      "deadlines": [
+        {
+          "label": "ARR Commitment",
+          "date": "2027-06-15T23:59:00-12:00"
+        }
+      ]
+    }
   ]
 };

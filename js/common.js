@@ -60,6 +60,7 @@ function renderNav() {
     { href: 'members.html', label: 'People' },
     { href: 'projects.html', label: 'Projects' },
     { href: 'publications.html', label: 'Publications' },
+    { href: 'deadlines.html', label: 'Deadlines' },
     { href: 'contact.html', label: 'Contact' },
   ];
 
@@ -119,6 +120,7 @@ function renderFooter() {
             <li><a href="members.html">›  People</a></li>
             <li><a href="projects.html">›  Projects</a></li>
             <li><a href="publications.html">›  Publications</a></li>
+            <li><a href="deadlines.html">›  Deadlines</a></li>
             <li><a href="contact.html">›  Contact</a></li>
           </ul>
         </div>
