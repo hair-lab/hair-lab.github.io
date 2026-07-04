@@ -77,8 +77,8 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
-  /* ---- card ---- */
-  function card(conf, now) {
+  /* ---- row ---- */
+  function row(conf, now) {
     const next = nextDeadline(conf, now);
     const tags = conf.categories.map(c => `<span class="dl-tag">${c}</span>`).join('');
     const lines = conf.deadlines.map(d => ({ ...d, ts: ts(d) }))
@@ -95,18 +95,17 @@ document.addEventListener('DOMContentLoaded', async () => {
       }).join('');
     const est = conf.status === 'estimated' ? ' <span class="dl-est">est.</span>' : '';
     return `
-      <a href="${conf.link}" target="_blank" rel="noopener" class="card dl-card${next ? '' : ' is-past'}">
-        <div class="card-body">
-          <div class="dl-tags">${tags}</div>
-          <h3>${conf.name}</h3>
-          <div class="dl-fullname">${conf.fullName}</div>
-          <div class="dl-dates">${lines}</div>
-          <div class="card-meta">
-            <span>${conf.location || 'TBD'}</span>
-            <span>·</span>
-            <span>${conf.confDate}${est}</span>
+      <a href="${conf.link}" target="_blank" rel="noopener" class="dl-row${next ? '' : ' is-past'}">
+        <div class="dl-row-info">
+          <div class="dl-row-head">
+            <span class="dl-name">${conf.name}</span>
+            ${tags}
           </div>
+          <div class="dl-fullname">${conf.fullName}</div>
+          <div class="dl-when">${conf.location || 'TBD'} · ${conf.confDate}${est}</div>
         </div>
+        <div class="dl-dates">${lines}</div>
+        <span class="dl-row-site">Site ↗</span>
       </a>`;
   }
 
@@ -124,11 +123,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     let html = '';
     if (upcoming.length) {
       html += `<h2 class="project-status-heading">Upcoming Deadlines</h2>`;
-      html += `<div class="card-grid">${upcoming.map(c => card(c, now)).join('')}</div>`;
+      html += `<div class="dl-list">${upcoming.map(c => row(c, now)).join('')}</div>`;
     }
     if (passed.length) {
       html += `<h2 class="project-status-heading" style="margin-top:48px;">Passed</h2>`;
-      html += `<div class="card-grid">${passed.map(c => card(c, now)).join('')}</div>`;
+      html += `<div class="dl-list">${passed.map(c => row(c, now)).join('')}</div>`;
     }
     if (!shown.length) {
       html = '<p class="loading">No conferences match the selected area.</p>';

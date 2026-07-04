@@ -798,51 +798,70 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-sans); font-weight: 600; line-h
 }
 
 /* ======================================================
-   Deadlines page — card grid matching Projects
+   Deadlines page — list rows
    ====================================================== */
-.dl-note {
-  font-size: .82rem; color: var(--text-muted); font-style: italic;
-  margin: 14px 0 0; line-height: 1.5;
+.dl-list {
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  background: #fff;
+  box-shadow: var(--shadow-sm);
 }
-.dl-legend { display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 26px; font-size: .8rem; color: var(--text-muted); }
-.dl-legend-item { display: inline-flex; align-items: center; gap: 6px; }
-.dl-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
-.dl-dot-urgent { background: #C4292E; }
-.dl-dot-open   { background: var(--accent); }
-.dl-dot-past   { background: var(--border-color); border: 1px solid var(--text-muted); }
+.dl-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr) auto;
+  gap: 28px; align-items: center;
+  padding: 22px 26px;
+  border-bottom: 1px solid var(--border-color);
+  color: inherit;
+  transition: background var(--transition);
+}
+.dl-row:last-child { border-bottom: none; }
+.dl-row:hover { background: var(--bg-secondary); }
+.dl-row.is-past { opacity: .6; }
 
-/* Conference card (extends .card) */
-.dl-card { cursor: pointer; }
-.dl-card.is-past { opacity: .6; }
-.dl-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
+/* Left: conference info */
+.dl-row-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.dl-name { font-size: 1.18rem; font-weight: 800; letter-spacing: -.01em; color: var(--text-primary); }
+.dl-row:hover .dl-name { color: var(--ai-indigo); }
 .dl-tag {
-  display: inline-block; font-size: .68rem; font-weight: 700; letter-spacing: .04em;
-  padding: 3px 10px; border-radius: 999px;
+  display: inline-block; font-size: .66rem; font-weight: 700; letter-spacing: .04em;
+  padding: 3px 9px; border-radius: 999px;
   background: var(--accent-soft); color: var(--accent); border: 1px solid rgba(10,102,216,.16);
 }
-.dl-card h3 { font-size: 1.2rem; letter-spacing: -.01em; }
-.dl-fullname { font-size: .84rem; color: var(--text-muted); margin-top: 5px; line-height: 1.45; }
+.dl-fullname { font-size: .85rem; color: var(--text-secondary); margin-top: 6px; line-height: 1.45; }
+.dl-when { font-size: .78rem; color: var(--text-muted); margin-top: 8px; }
+.dl-est { font-style: italic; opacity: .85; }
 
-/* Deadline lines inside the card */
-.dl-dates {
-  margin-top: 16px; padding-top: 16px; border-top: 1px solid var(--border-color);
-  display: flex; flex-direction: column; gap: 10px;
-}
-.dl-line { display: flex; align-items: baseline; gap: 8px; padding-left: 11px; border-left: 2px solid var(--border-color); }
+/* Middle: deadline lines */
+.dl-dates { display: flex; flex-direction: column; gap: 9px; }
+.dl-line { display: flex; align-items: baseline; gap: 10px; padding-left: 12px; border-left: 2px solid var(--border-color); }
 .dl-line.is-next { border-left-color: var(--accent); }
 .dl-line.is-past { opacity: .55; }
-.dl-line-label { font-size: .8rem; font-weight: 600; color: var(--text-secondary); }
-.dl-line-date { font-size: .82rem; color: var(--text-primary); font-variant-numeric: tabular-nums; }
+.dl-line-label { font-size: .8rem; font-weight: 600; color: var(--text-secondary); min-width: 128px; }
+.dl-line-date { font-size: .84rem; color: var(--text-primary); font-variant-numeric: tabular-nums; }
 .dl-count {
   margin-left: auto; font-size: .72rem; font-weight: 700; white-space: nowrap;
-  padding: 2px 9px; border-radius: 999px;
+  padding: 2px 10px; border-radius: 999px;
 }
 .dl-count-urgent { background: #FDECEC; color: #C4292E; }
 .dl-count-soon   { background: #FDF3E7; color: #B26B00; }
 .dl-count-open   { background: var(--accent-soft); color: var(--accent); }
 .dl-count-past   { background: var(--bg-tertiary); color: var(--text-muted); }
 
-.dl-card .card-meta { align-items: center; }
-.dl-est { font-style: italic; opacity: .85; }
+/* Right: site link */
+.dl-row-site {
+  font-size: .82rem; font-weight: 600; white-space: nowrap;
+  padding: 7px 14px; border-radius: var(--radius-sm);
+  border: 1px solid var(--border-color); color: var(--text-secondary);
+  transition: all var(--transition);
+}
+.dl-row:hover .dl-row-site { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
 
-.dl-empty { padding: 40px 0; color: var(--text-muted); }
+.dl-note { font-size: .82rem; color: var(--text-muted); font-style: italic; margin: 18px 0 0; line-height: 1.5; }
+
+@media (max-width: 720px) {
+  .dl-row { grid-template-columns: 1fr; gap: 16px; padding: 20px; }
+  .dl-line-label { min-width: 0; }
+  .dl-row-site { justify-self: start; }
+}
