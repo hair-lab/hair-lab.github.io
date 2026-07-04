@@ -58,6 +58,7 @@
   --nav-height: 68px;
 
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, 'SF Mono', 'JetBrains Mono', 'Menlo', 'Consolas', monospace;
 }
 
 /* ---------- Reset & Base ---------- */
@@ -798,70 +799,110 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-sans); font-weight: 600; line-h
 }
 
 /* ======================================================
-   Deadlines page — list rows
+   Deadlines page — open 3-column table
    ====================================================== */
-.dl-list {
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius-md);
-  overflow: hidden;
-  background: #fff;
-  box-shadow: var(--shadow-sm);
+.dl-bar {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+  gap: 14px 24px; margin-bottom: 18px;
 }
+.dl-meta { font-size: .92rem; color: var(--text-secondary); }
+.dl-meta strong { color: var(--text-primary); font-weight: 700; }
+.dl-legend { display: flex; flex-wrap: wrap; align-items: center; gap: 16px; font-size: .78rem; color: var(--text-muted); }
+.dl-legend-item { display: inline-flex; align-items: center; gap: 6px; }
+.dl-legend-note { font-style: italic; }
+.dl-dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; }
+.dl-dot-urgent { background: #C4292E; }
+.dl-dot-open   { background: var(--accent); }
+.dl-dot-past   { background: var(--border-color); border: 1px solid var(--text-muted); }
+
+/* Horizontal filter bar */
+.dl-filter {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px;
+  padding: 14px 0 18px; margin-bottom: 6px;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+}
+.dl-filter-label { font-size: .72rem; font-weight: 700; text-transform: uppercase; letter-spacing: .1em; color: var(--text-muted); margin-right: 6px; }
+.dl-chip {
+  font: inherit; font-size: .84rem; font-weight: 600; cursor: pointer;
+  padding: 6px 15px; border-radius: 8px; background: #fff; color: var(--text-secondary);
+  border: 1px solid var(--border-color); transition: all var(--transition);
+}
+.dl-chip:hover { border-color: var(--accent); color: var(--accent); }
+.dl-chip.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+/* Table rows (no card boxes — thin separators, airy) */
+.dl-table { margin-top: 4px; }
 .dl-row {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr) auto;
-  gap: 28px; align-items: center;
-  padding: 22px 26px;
+  grid-template-columns: minmax(180px, 0.85fr) minmax(320px, 1.5fr) minmax(220px, 1fr);
+  gap: 28px; align-items: start;
+  padding: 22px 8px;
   border-bottom: 1px solid var(--border-color);
-  color: inherit;
-  transition: background var(--transition);
 }
-.dl-row:last-child { border-bottom: none; }
-.dl-row:hover { background: var(--bg-secondary); }
-.dl-row.is-past { opacity: .6; }
+.dl-row:hover:not(.dl-thead) { background: var(--bg-secondary); }
+.dl-row.is-past { opacity: .55; }
+.dl-thead {
+  padding: 10px 8px; border-bottom: 2px solid var(--border-color);
+  font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--text-muted);
+}
 
-/* Left: conference info */
-.dl-row-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
-.dl-name { font-size: 1.18rem; font-weight: 800; letter-spacing: -.01em; color: var(--text-primary); }
-.dl-row:hover .dl-name { color: var(--ai-indigo); }
+/* Col 1 — conference */
+.dl-conf-head { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.dl-name { font-size: 1.15rem; font-weight: 800; letter-spacing: -.01em; color: var(--text-primary); }
 .dl-tag {
-  display: inline-block; font-size: .66rem; font-weight: 700; letter-spacing: .04em;
-  padding: 3px 9px; border-radius: 999px;
+  display: inline-block; font-size: .64rem; font-weight: 700; letter-spacing: .05em;
+  padding: 2px 8px; border-radius: 999px;
   background: var(--accent-soft); color: var(--accent); border: 1px solid rgba(10,102,216,.16);
 }
-.dl-fullname { font-size: .85rem; color: var(--text-secondary); margin-top: 6px; line-height: 1.45; }
-.dl-when { font-size: .78rem; color: var(--text-muted); margin-top: 8px; }
-.dl-est { font-style: italic; opacity: .85; }
+.dl-fullname { font-size: .82rem; color: var(--text-muted); margin-top: 6px; line-height: 1.45; }
 
-/* Middle: deadline lines */
-.dl-dates { display: flex; flex-direction: column; gap: 9px; }
-.dl-line { display: flex; align-items: baseline; gap: 10px; padding-left: 12px; border-left: 2px solid var(--border-color); }
-.dl-line.is-next { border-left-color: var(--accent); }
-.dl-line.is-past { opacity: .55; }
-.dl-line-label { font-size: .8rem; font-weight: 600; color: var(--text-secondary); min-width: 128px; }
-.dl-line-date { font-size: .84rem; color: var(--text-primary); font-variant-numeric: tabular-nums; }
-.dl-count {
-  margin-left: auto; font-size: .72rem; font-weight: 700; white-space: nowrap;
-  padding: 2px 10px; border-radius: 999px;
+/* Col 2 — next deadline */
+.dl-next-top { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 10px; }
+.dl-edition { font-family: var(--font-mono); font-size: .82rem; font-weight: 700; letter-spacing: .02em; color: var(--text-secondary); text-transform: uppercase; }
+.dl-venue { font-size: .85rem; color: var(--text-primary); }
+.dl-tbd { color: var(--text-muted); font-style: italic; }
+.dl-site {
+  font-size: .76rem; font-weight: 600; padding: 3px 10px; border-radius: 6px;
+  border: 1px solid var(--border-color); color: var(--accent); transition: all var(--transition);
 }
+.dl-site:hover { border-color: var(--accent); background: var(--accent-soft); }
+
+.dl-primary { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; }
+.dl-label-lead { display: none; }
+.dl-date {
+  font-family: var(--font-mono); font-size: 1.32rem; font-weight: 700; letter-spacing: -.01em;
+  color: var(--text-primary);
+}
+.dl-sub {
+  display: flex; flex-wrap: wrap; align-items: baseline; gap: 10px;
+  margin-top: 9px; padding-left: 13px; border-left: 2px solid var(--border-color);
+}
+.dl-sub-label { font-size: .72rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--text-muted); }
+.dl-date-sm { font-family: var(--font-mono); font-size: .92rem; font-weight: 600; color: var(--text-secondary); }
+
+/* Countdown pill */
+.dl-count {
+  display: inline-flex; align-items: center; gap: 5px;
+  font-size: .78rem; font-weight: 700; white-space: nowrap;
+  padding: 3px 11px; border-radius: 999px;
+}
+.dl-clock { width: 13px; height: 13px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
 .dl-count-urgent { background: #FDECEC; color: #C4292E; }
 .dl-count-soon   { background: #FDF3E7; color: #B26B00; }
 .dl-count-open   { background: var(--accent-soft); color: var(--accent); }
 .dl-count-past   { background: var(--bg-tertiary); color: var(--text-muted); }
 
-/* Right: site link */
-.dl-row-site {
-  font-size: .82rem; font-weight: 600; white-space: nowrap;
-  padding: 7px 14px; border-radius: var(--radius-sm);
-  border: 1px solid var(--border-color); color: var(--text-secondary);
-  transition: all var(--transition);
+/* Col 3 — recent history */
+.dl-col-hist { display: flex; flex-direction: column; gap: 8px; align-items: flex-start; }
+.dl-hist {
+  font-size: .8rem; color: var(--text-secondary);
+  background: var(--bg-secondary); border: 1px solid var(--border-color);
+  padding: 5px 11px; border-radius: 8px; white-space: nowrap;
 }
-.dl-row:hover .dl-row-site { border-color: var(--accent); color: var(--accent); background: var(--accent-soft); }
 
-.dl-note { font-size: .82rem; color: var(--text-muted); font-style: italic; margin: 18px 0 0; line-height: 1.5; }
-
-@media (max-width: 720px) {
-  .dl-row { grid-template-columns: 1fr; gap: 16px; padding: 20px; }
-  .dl-line-label { min-width: 0; }
-  .dl-row-site { justify-self: start; }
+@media (max-width: 860px) {
+  .dl-thead { display: none; }
+  .dl-row { grid-template-columns: 1fr; gap: 14px; }
+  .dl-col-hist { flex-direction: row; flex-wrap: wrap; }
 }

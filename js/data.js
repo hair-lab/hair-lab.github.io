@@ -3054,9 +3054,9 @@ window.HAIR_DATA = {
         "AI"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-02",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://aaai.org/conference/aaai/",
       "deadlines": [
         {
@@ -3066,6 +3066,18 @@ window.HAIR_DATA = {
         {
           "label": "Full Paper",
           "date": "2026-08-15T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "26",
+          "flag": "🇸🇬",
+          "city": "Singapore"
+        },
+        {
+          "year": "25",
+          "flag": "🇺🇸",
+          "city": "Philadelphia, USA"
         }
       ]
     },
@@ -3078,14 +3090,26 @@ window.HAIR_DATA = {
         "Web"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-02",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://www.wsdm-conference.org/",
       "deadlines": [
         {
           "label": "Full Paper",
           "date": "2026-08-14T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "25",
+          "flag": "🇩🇪",
+          "city": "Hannover, Germany"
+        },
+        {
+          "year": "24",
+          "flag": "🇲🇽",
+          "city": "Mérida, Mexico"
         }
       ]
     },
@@ -3097,9 +3121,9 @@ window.HAIR_DATA = {
         "HCI"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-05",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://chi2027.acm.org/",
       "deadlines": [
         {
@@ -3109,6 +3133,18 @@ window.HAIR_DATA = {
         {
           "label": "Full Paper",
           "date": "2026-09-17T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "26",
+          "flag": "🇪🇸",
+          "city": "Barcelona, Spain"
+        },
+        {
+          "year": "25",
+          "flag": "🇯🇵",
+          "city": "Yokohama, Japan"
         }
       ]
     },
@@ -3120,9 +3156,9 @@ window.HAIR_DATA = {
         "ML"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-04",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://iclr.cc/",
       "deadlines": [
         {
@@ -3132,6 +3168,18 @@ window.HAIR_DATA = {
         {
           "label": "Full Paper",
           "date": "2026-09-24T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "26",
+          "flag": "🇧🇷",
+          "city": "Rio de Janeiro, Brazil"
+        },
+        {
+          "year": "25",
+          "flag": "🇸🇬",
+          "city": "Singapore"
         }
       ]
     },
@@ -3144,14 +3192,26 @@ window.HAIR_DATA = {
         "AI"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-03",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://iui.acm.org/",
       "deadlines": [
         {
           "label": "Full Paper",
           "date": "2026-10-09T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "25",
+          "flag": "🇮🇹",
+          "city": "Cagliari, Italy"
+        },
+        {
+          "year": "24",
+          "flag": "🇺🇸",
+          "city": "Greenville, USA"
         }
       ]
     },
@@ -3164,9 +3224,9 @@ window.HAIR_DATA = {
         "Data"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-04",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://www2027.thewebconf.org/",
       "deadlines": [
         {
@@ -3176,6 +3236,18 @@ window.HAIR_DATA = {
         {
           "label": "Full Paper",
           "date": "2026-10-14T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "25",
+          "flag": "🇦🇺",
+          "city": "Sydney, Australia"
+        },
+        {
+          "year": "24",
+          "flag": "🇸🇬",
+          "city": "Singapore"
         }
       ]
     },
@@ -3187,14 +3259,26 @@ window.HAIR_DATA = {
         "NLP"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-06",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://aclweb.org/",
       "deadlines": [
         {
           "label": "ARR Commitment",
           "date": "2026-10-15T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "25",
+          "flag": "🇺🇸",
+          "city": "Albuquerque, USA"
+        },
+        {
+          "year": "24",
+          "flag": "🇲🇽",
+          "city": "Mexico City, Mexico"
         }
       ]
     },
@@ -3207,14 +3291,26 @@ window.HAIR_DATA = {
         "CSS"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-11",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://cscw.acm.org/",
       "deadlines": [
         {
           "label": "Full Paper (Cycle 1)",
           "date": "2027-01-15T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "24",
+          "flag": "🇨🇷",
+          "city": "San José, Costa Rica"
+        },
+        {
+          "year": "23",
+          "flag": "🇺🇸",
+          "city": "Minneapolis, USA"
         }
       ]
     },
@@ -3227,14 +3323,26 @@ window.HAIR_DATA = {
         "Web"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-06",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://www.icwsm.org/",
       "deadlines": [
         {
           "label": "Full Paper",
           "date": "2027-01-15T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "25",
+          "flag": "🇩🇰",
+          "city": "Copenhagen, Denmark"
+        },
+        {
+          "year": "24",
+          "flag": "🇺🇸",
+          "city": "Buffalo, USA"
         }
       ]
     },
@@ -3246,14 +3354,26 @@ window.HAIR_DATA = {
         "NLP"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-07",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://aclweb.org/",
       "deadlines": [
         {
           "label": "ARR Commitment",
           "date": "2027-01-20T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "25",
+          "flag": "🇦🇹",
+          "city": "Vienna, Austria"
+        },
+        {
+          "year": "24",
+          "flag": "🇹🇭",
+          "city": "Bangkok, Thailand"
         }
       ]
     },
@@ -3265,9 +3385,9 @@ window.HAIR_DATA = {
         "ML"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-07",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://icml.cc/",
       "deadlines": [
         {
@@ -3277,6 +3397,18 @@ window.HAIR_DATA = {
         {
           "label": "Full Paper",
           "date": "2027-01-28T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "25",
+          "flag": "🇨🇦",
+          "city": "Vancouver, Canada"
+        },
+        {
+          "year": "24",
+          "flag": "🇦🇹",
+          "city": "Vienna, Austria"
         }
       ]
     },
@@ -3288,14 +3420,26 @@ window.HAIR_DATA = {
         "Data"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-08",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://www.kdd.org/",
       "deadlines": [
         {
           "label": "Full Paper (Cycle 2)",
           "date": "2027-02-10T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "26",
+          "flag": "🇰🇷",
+          "city": "Jeju, South Korea"
+        },
+        {
+          "year": "25",
+          "flag": "🇨🇦",
+          "city": "Toronto, Canada"
         }
       ]
     },
@@ -3307,14 +3451,26 @@ window.HAIR_DATA = {
         "HCI"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-10",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://uist.acm.org/",
       "deadlines": [
         {
           "label": "Full Paper",
           "date": "2027-04-02T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "24",
+          "flag": "🇺🇸",
+          "city": "Pittsburgh, USA"
+        },
+        {
+          "year": "23",
+          "flag": "🇺🇸",
+          "city": "San Francisco, USA"
         }
       ]
     },
@@ -3326,9 +3482,9 @@ window.HAIR_DATA = {
         "ML"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-12",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://neurips.cc/",
       "deadlines": [
         {
@@ -3338,6 +3494,18 @@ window.HAIR_DATA = {
         {
           "label": "Full Paper",
           "date": "2027-05-15T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "25",
+          "flag": "🇺🇸",
+          "city": "San Diego, USA"
+        },
+        {
+          "year": "24",
+          "flag": "🇨🇦",
+          "city": "Vancouver, Canada"
         }
       ]
     },
@@ -3349,14 +3517,26 @@ window.HAIR_DATA = {
         "NLP"
       ],
       "status": "estimated",
-      "location": "TBD",
-      "flag": "",
       "confDate": "2027-11",
+      "venue": "TBD",
+      "flag": "",
       "link": "https://aclweb.org/",
       "deadlines": [
         {
           "label": "ARR Commitment",
           "date": "2027-06-15T23:59:00-12:00"
+        }
+      ],
+      "history": [
+        {
+          "year": "25",
+          "flag": "🇨🇳",
+          "city": "Suzhou, China"
+        },
+        {
+          "year": "24",
+          "flag": "🇺🇸",
+          "city": "Miami, USA"
         }
       ]
     }

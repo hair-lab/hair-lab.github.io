@@ -17,13 +17,22 @@
 
   <section class="section">
     <div class="container">
-      <div class="projects-layout">
-        <aside class="projects-sidebar" id="dl-filters">
-          <div class="loading">Loading…</div>
-        </aside>
-        <div class="projects-main" id="dl-main">
-          <div class="loading">Loading deadlines…</div>
+      <div class="dl-bar">
+        <div class="dl-meta" id="dl-meta"></div>
+        <div class="dl-legend">
+          <span class="dl-legend-item"><span class="dl-dot dl-dot-urgent"></span>Due ≤ 14 days</span>
+          <span class="dl-legend-item"><span class="dl-dot dl-dot-open"></span>Open</span>
+          <span class="dl-legend-item"><span class="dl-dot dl-dot-past"></span>Passed</span>
+          <span class="dl-legend-item dl-legend-note">Estimates for planning — verify on the official site.</span>
         </div>
+      </div>
+
+      <div class="dl-filter" id="dl-filter">
+        <span class="dl-filter-label">Filter</span>
+      </div>
+
+      <div class="dl-table" id="dl-table">
+        <div class="loading">Loading deadlines…</div>
       </div>
     </div>
   </section>
