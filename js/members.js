@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     const container = document.getElementById('members-container');
     if (!container) return;
 
-    const roleOrder = ['Professor', 'Lab Manager', 'Ph.D. Student', 'Researcher', 'M.S. Student', 'Undergraduate Research Assistant', 'Intern'];
+    const roleOrder = ['Professor', 'Lab Manager', 'Researcher', 'Ph.D. Student', 'M.S. Student', 'Undergraduate Research Assistant', 'Intern'];
     const heading = {
       'Professor': 'Director',
       'Lab Manager': 'Lab Management',

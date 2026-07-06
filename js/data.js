@@ -329,6 +329,26 @@ window.HAIR_DATA = {
       "bio": "Jinho Lee is an M.S. student in Digital Analytics at HAIR Lab."
     },
     {
+      "id": "yun-youngin",
+      "role": "M.S. Student",
+      "name": "Youngin Yun",
+      "nameKo": "윤영인",
+      "affil": "M.S. Digital Analytics",
+      "department": "Underwood International College, Yonsei University",
+      "image": "images/avatars/yun-youngin.svg",
+      "bio": "Youngin Yun is an M.S. student in Digital Analytics at HAIR Lab."
+    },
+    {
+      "id": "kim-hayeon",
+      "role": "M.S. Student",
+      "name": "Hayeon Kim",
+      "nameKo": "김하연",
+      "affil": "M.S. Digital Analytics",
+      "department": "Underwood International College, Yonsei University",
+      "image": "images/avatars/kim-hayeon.svg",
+      "bio": "Hayeon Kim is an M.S. student in Digital Analytics at HAIR Lab."
+    },
+    {
       "id": "koo-joonhui",
       "role": "Intern",
       "name": "Joonhui Koo",
@@ -2922,7 +2942,7 @@ window.HAIR_DATA = {
       "name": "Dongkyu Lee",
       "nameKo": "이동규",
       "cohort": "CTM '12",
-      "now": "LG AI Research — Ph.D. in Computer Science, HKUST; previously interned at Amazon"
+      "now": "Amazon — Applied Scientist; Ph.D. in Computer Science & Engineering, HKUST; previously LG AI Research"
     },
     {
       "name": "Haksong Lim",
@@ -2940,13 +2960,13 @@ window.HAIR_DATA = {
       "name": "Hayoung Cho",
       "nameKo": "조하영",
       "cohort": "CTM '14",
-      "now": "Freddie Mac — M.S. in Applied Analytics, Columbia University"
+      "now": "TikTok (New York) — M.S. in Applied Analytics, Columbia University"
     },
     {
       "name": "Jeongwon Jo",
       "nameKo": "조정원",
       "cohort": "CTM '15",
-      "now": "Ph.D. candidate, Information Science & Technology, Penn State University (adv. John Carroll)"
+      "now": "Postdoctoral Researcher (HCI), University of Notre Dame — Ph.D. in Informatics, Penn State University (adv. John Carroll)"
     },
     {
       "name": "Seokhyun Hong",
@@ -2976,7 +2996,7 @@ window.HAIR_DATA = {
       "name": "Kylie Trinh",
       "nameKo": "",
       "cohort": "CTM '15",
-      "now": "Business Intelligence, Shopee"
+      "now": "Shopee — Assistant Manager, BI Financial Planning & Analysis (Kuala Lumpur)"
     },
     {
       "name": "Sooan Han",
@@ -2988,13 +3008,13 @@ window.HAIR_DATA = {
       "name": "Hyeyoung Ryu",
       "nameKo": "류혜영",
       "cohort": "CTM '16",
-      "now": "Ph.D. student, Information Science (Biomedical & Health Informatics), University of Washington (adv. Wanda Pratt)"
+      "now": "Postdoctoral Research Fellow, Vanderbilt University Medical Center — Ph.D. in Information Science, University of Washington (adv. Wanda Pratt)"
     },
     {
       "name": "Hannes Lohmander",
       "nameKo": "",
       "cohort": "CTM '17",
-      "now": "Entrepreneur, Andas.ai — M.S. in Innovation, Yonsei University"
+      "now": "Co-Founder & Technical Director, AL Downtown (Gothenburg) — M.S. in Innovation, Yonsei University"
     },
     {
       "name": "Seungjin Lee",

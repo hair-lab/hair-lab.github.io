@@ -321,6 +321,26 @@
     "bio": "Jinho Lee is an M.S. student in Digital Analytics at HAIR Lab."
   },
   {
+    "id": "yun-youngin",
+    "role": "M.S. Student",
+    "name": "Youngin Yun",
+    "nameKo": "윤영인",
+    "affil": "M.S. Digital Analytics",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/yun-youngin.svg",
+    "bio": "Youngin Yun is an M.S. student in Digital Analytics at HAIR Lab."
+  },
+  {
+    "id": "kim-hayeon",
+    "role": "M.S. Student",
+    "name": "Hayeon Kim",
+    "nameKo": "김하연",
+    "affil": "M.S. Digital Analytics",
+    "department": "Underwood International College, Yonsei University",
+    "image": "images/avatars/kim-hayeon.svg",
+    "bio": "Hayeon Kim is an M.S. student in Digital Analytics at HAIR Lab."
+  },
+  {
     "id": "koo-joonhui",
     "role": "Intern",
     "name": "Joonhui Koo",
