@@ -859,7 +859,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-sans); font-weight: 600; line-h
 
 /* Col 2 — next deadline */
 .dl-next-top { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; margin-bottom: 10px; }
-.dl-edition { font-family: var(--font-mono); font-size: .82rem; font-weight: 700; letter-spacing: .02em; color: var(--text-secondary); text-transform: uppercase; }
+.dl-edition { font-family: var(--font-sans); font-size: .82rem; font-weight: 700; letter-spacing: .02em; color: var(--text-secondary); text-transform: uppercase; }
 .dl-venue { font-size: .85rem; color: var(--text-primary); }
 .dl-tbd { color: var(--text-muted); font-style: italic; }
 .dl-site {
@@ -871,7 +871,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-sans); font-weight: 600; line-h
 .dl-primary { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; }
 .dl-label-lead { display: none; }
 .dl-date {
-  font-family: var(--font-mono); font-size: 1.32rem; font-weight: 700; letter-spacing: -.01em;
+  font-family: var(--font-sans); font-variant-numeric: tabular-nums; font-size: 1.32rem; font-weight: 700; letter-spacing: -.01em;
   color: var(--text-primary);
 }
 .dl-sub {
@@ -879,7 +879,7 @@ h1, h2, h3, h4, h5, h6 { font-family: var(--font-sans); font-weight: 600; line-h
   margin-top: 9px; padding-left: 13px; border-left: 2px solid var(--border-color);
 }
 .dl-sub-label { font-size: .72rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; color: var(--text-muted); }
-.dl-date-sm { font-family: var(--font-mono); font-size: .92rem; font-weight: 600; color: var(--text-secondary); }
+.dl-date-sm { font-family: var(--font-sans); font-variant-numeric: tabular-nums; font-size: .92rem; font-weight: 600; color: var(--text-secondary); }
 
 /* Countdown pill */
 .dl-count {
