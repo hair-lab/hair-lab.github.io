@@ -1,278 +1,2547 @@
 [
   {
+    "id": "popl2027",
+    "name": "POPL",
+    "fullName": "ACM-SIGACT Symposium on Principles of Programming Languages",
+    "categories": [
+      "PL"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-01",
+    "venue": "Mexico City, Mexico",
+    "flag": "🇲🇽",
+    "link": "https://popl27.sigplan.org/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2026-07-09T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇫🇷",
+        "city": "Rennes, France"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Denver, USA"
+      }
+    ]
+  },
+  {
+    "id": "soda2027",
+    "name": "SODA",
+    "fullName": "ACM-SIAM Symposium on Discrete Algorithms",
+    "categories": [
+      "Theory"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-01",
+    "venue": "Philadelphia, USA",
+    "flag": "🇺🇸",
+    "link": "https://www.siam.org/conferences-events/siam-conferences/soda27/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2026-07-09T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇨🇦",
+        "city": "Vancouver, Canada"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "New Orleans, USA"
+      }
+    ]
+  },
+  {
+    "id": "sigmod2027",
+    "name": "SIGMOD",
+    "fullName": "ACM SIGMOD Conference",
+    "categories": [
+      "DB"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-06",
+    "venue": "Huntington Beach, USA",
+    "flag": "🇺🇸",
+    "link": "https://2027.sigmod.org/",
+    "deadlines": [
+      {
+        "label": "Round 3 Abstract",
+        "date": "2026-07-10T23:59:00-12:00"
+      },
+      {
+        "label": "Round 3 Full Paper",
+        "date": "2026-07-17T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇮🇳",
+        "city": "Bengaluru, India"
+      },
+      {
+        "year": "25",
+        "flag": "🇩🇪",
+        "city": "Berlin, Germany"
+      }
+    ]
+  },
+  {
+    "id": "sigmetrics2027",
+    "name": "SIGMETRICS",
+    "fullName": "International Conference on Measurement and Modeling of Computer Systems",
+    "categories": [
+      "Systems"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-06",
+    "venue": "Atlanta, USA",
+    "flag": "🇺🇸",
+    "link": "https://www.sigmetrics.org/sigmetrics2027/",
+    "deadlines": [
+      {
+        "label": "Summer Round Full Paper",
+        "date": "2026-07-10T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Ann Arbor, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Stony Brook, USA"
+      }
+    ]
+  },
+  {
+    "id": "kdd2027",
+    "name": "KDD",
+    "fullName": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+    "categories": [
+      "Data"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-08",
+    "venue": "San Jose, USA",
+    "flag": "🇺🇸",
+    "link": "https://kdd2027.kdd.org/",
+    "deadlines": [
+      {
+        "label": "Abstract (Cycle 1)",
+        "date": "2026-07-19T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper (Cycle 1)",
+        "date": "2026-07-26T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇰🇷",
+        "city": "Jeju, South Korea"
+      },
+      {
+        "year": "25",
+        "flag": "🇨🇦",
+        "city": "Toronto, Canada"
+      }
+    ]
+  },
+  {
     "id": "aaai2027",
     "name": "AAAI",
     "fullName": "AAAI Conference on Artificial Intelligence",
-    "categories": ["AI"],
-    "status": "estimated",
+    "categories": [
+      "AI"
+    ],
+    "status": "confirmed",
     "confDate": "2027-02",
-    "venue": "TBD",
-    "flag": "",
-    "link": "https://aaai.org/conference/aaai/",
+    "venue": "Montréal, Canada",
+    "flag": "🇨🇦",
+    "link": "https://aaai.org/conference/aaai/aaai-27/",
     "deadlines": [
-      { "label": "Abstract", "date": "2026-08-08T23:59:00-12:00" },
-      { "label": "Full Paper", "date": "2026-08-15T23:59:00-12:00" }
+      {
+        "label": "Abstract",
+        "date": "2026-07-21T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2026-07-28T23:59:00-12:00"
+      }
     ],
     "history": [
-      { "year": "26", "flag": "🇸🇬", "city": "Singapore" },
-      { "year": "25", "flag": "🇺🇸", "city": "Philadelphia, USA" }
+      {
+        "year": "26",
+        "flag": "🇸🇬",
+        "city": "Singapore"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Philadelphia, USA"
+      }
+    ]
+  },
+  {
+    "id": "hpca2027",
+    "name": "HPCA",
+    "fullName": "International Symposium on High-Performance Computer Architecture",
+    "categories": [
+      "Arch"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-01",
+    "venue": "Salt Lake City, USA",
+    "flag": "🇺🇸",
+    "link": "https://2027.hpca-conf.org/call-for-papers/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2026-07-24T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇦🇺",
+        "city": "Sydney, Australia"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Las Vegas, USA"
+      }
+    ]
+  },
+  {
+    "id": "infocom2027",
+    "name": "INFOCOM",
+    "fullName": "IEEE Conference on Computer Communications",
+    "categories": [
+      "Network"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-05",
+    "venue": "Honolulu, USA",
+    "flag": "🇺🇸",
+    "link": "https://infocom2027.ieee-infocom.org/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2026-07-24T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2026-07-31T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇯🇵",
+        "city": "Tokyo, Japan"
+      },
+      {
+        "year": "25",
+        "flag": "🇬🇧",
+        "city": "London, UK"
+      }
+    ]
+  },
+  {
+    "id": "vldb2027",
+    "name": "VLDB",
+    "fullName": "Very Large Data Bases Conference",
+    "categories": [
+      "DB"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-08",
+    "venue": "Athens, Greece",
+    "flag": "🇬🇷",
+    "link": "https://vldb.org/2027/",
+    "deadlines": [
+      {
+        "label": "Vol 20 Abstract (Aug)",
+        "date": "2026-07-25T17:00:00-07:00"
+      },
+      {
+        "label": "Vol 20 Full Paper (Aug)",
+        "date": "2026-08-01T17:00:00-07:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Boston, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇬🇧",
+        "city": "London, UK"
+      }
+    ]
+  },
+  {
+    "id": "ppopp2027",
+    "name": "PPoPP",
+    "fullName": "ACM SIGPLAN Symposium on Principles & Practice of Parallel Programming",
+    "categories": [
+      "Systems"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-03",
+    "venue": "Salt Lake City, USA",
+    "flag": "🇺🇸",
+    "link": "https://ppopp27.sigplan.org/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2026-07-31T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇦🇺",
+        "city": "Sydney, Australia"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Las Vegas, USA"
+      }
+    ]
+  },
+  {
+    "id": "acl2027",
+    "name": "ACL",
+    "fullName": "Annual Meeting of the Association for Computational Linguistics",
+    "categories": [
+      "NLP"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-07",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://aclrollingreview.org/dates",
+    "deadlines": [
+      {
+        "label": "ARR Submission (Aug cycle)",
+        "date": "2026-08-03T23:59:00-12:00"
+      },
+      {
+        "label": "ARR Submission (Oct cycle)",
+        "date": "2026-10-12T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "San Diego, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇦🇹",
+        "city": "Vienna, Austria"
+      }
+    ]
+  },
+  {
+    "id": "emnlp2027",
+    "name": "EMNLP",
+    "fullName": "Conference on Empirical Methods in Natural Language Processing",
+    "categories": [
+      "NLP"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-11",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://aclrollingreview.org/dates",
+    "deadlines": [
+      {
+        "label": "ARR Submission (Aug cycle)",
+        "date": "2026-08-03T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇭🇺",
+        "city": "Budapest, Hungary"
+      },
+      {
+        "year": "25",
+        "flag": "🇨🇳",
+        "city": "Suzhou, China"
+      }
     ]
   },
   {
     "id": "wsdm2027",
     "name": "WSDM",
-    "fullName": "ACM Web Search and Data Mining",
-    "categories": ["Data", "Web"],
-    "status": "estimated",
+    "fullName": "Web Search and Data Mining",
+    "categories": [
+      "Web",
+      "Data"
+    ],
+    "status": "confirmed",
     "confDate": "2027-02",
-    "venue": "TBD",
-    "flag": "",
-    "link": "https://www.wsdm-conference.org/",
+    "venue": "Hong Kong",
+    "flag": "🇭🇰",
+    "link": "https://wsdm-conference.org/2027/",
     "deadlines": [
-      { "label": "Full Paper", "date": "2026-08-14T23:59:00-12:00" }
+      {
+        "label": "Abstract",
+        "date": "2026-08-17T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2026-08-24T23:59:00-12:00"
+      }
     ],
     "history": [
-      { "year": "25", "flag": "🇩🇪", "city": "Hannover, Germany" },
-      { "year": "24", "flag": "🇲🇽", "city": "Mérida, Mexico" }
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Boise, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇩🇪",
+        "city": "Hannover, Germany"
+      }
+    ]
+  },
+  {
+    "id": "ndss2027",
+    "name": "NDSS",
+    "fullName": "Network and Distributed System Security Symposium",
+    "categories": [
+      "Security"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-03",
+    "venue": "Seoul, South Korea",
+    "flag": "🇰🇷",
+    "link": "https://www.ndss-symposium.org/ndss2027/submissions/call-for-papers/",
+    "deadlines": [
+      {
+        "label": "Fall Cycle Full Paper",
+        "date": "2026-08-19T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "San Diego, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "San Diego, USA"
+      }
+    ]
+  },
+  {
+    "id": "vr2027",
+    "name": "VR",
+    "fullName": "IEEE Conference on Virtual Reality and 3D User Interfaces",
+    "categories": [
+      "HCI"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-02",
+    "venue": "Melbourne, Australia",
+    "flag": "🇦🇺",
+    "link": "http://ieeevr.org/2027/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2026-08-24T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2026-08-31T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇰🇷",
+        "city": "Daegu, South Korea"
+      },
+      {
+        "year": "25",
+        "flag": "🇫🇷",
+        "city": "Saint-Malo, France"
+      }
+    ]
+  },
+  {
+    "id": "usenixsec2027",
+    "name": "USENIX Sec",
+    "fullName": "USENIX Security Symposium",
+    "categories": [
+      "Security"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-08",
+    "venue": "Denver, USA",
+    "flag": "🇺🇸",
+    "link": "https://www.usenix.org/conference/usenixsecurity27",
+    "deadlines": [
+      {
+        "label": "Cycle 1 Paper",
+        "date": "2026-08-25T23:59:00-12:00"
+      },
+      {
+        "label": "Cycle 2 Paper",
+        "date": "2027-01-26T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Baltimore, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Seattle, USA"
+      }
+    ]
+  },
+  {
+    "id": "mobicom2027",
+    "name": "MobiCom",
+    "fullName": "Annual International Conference on Mobile Computing and Networking",
+    "categories": [
+      "Network"
+    ],
+    "status": "estimated",
+    "confDate": "2027-10",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://www.sigmobile.org/mobicom/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2026-09-03T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Austin, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇭🇰",
+        "city": "Hong Kong"
+      }
+    ]
+  },
+  {
+    "id": "asplos2027",
+    "name": "ASPLOS",
+    "fullName": "International Conference on Architectural Support for Programming Languages and Operating Systems",
+    "categories": [
+      "Arch",
+      "Systems"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-04",
+    "venue": "Heraklion, Greece",
+    "flag": "🇬🇷",
+    "link": "https://www.asplos-conference.org/asplos2027/cfp/",
+    "deadlines": [
+      {
+        "label": "Fall Full Paper",
+        "date": "2026-09-09T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Pittsburgh, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇳🇱",
+        "city": "Rotterdam, Netherlands"
+      }
     ]
   },
   {
     "id": "chi2027",
     "name": "CHI",
-    "fullName": "ACM CHI Conference on Human Factors in Computing Systems",
-    "categories": ["HCI"],
-    "status": "estimated",
+    "fullName": "ACM Conference on Human Factors in Computing Systems",
+    "categories": [
+      "HCI"
+    ],
+    "status": "confirmed",
     "confDate": "2027-05",
-    "venue": "TBD",
-    "flag": "",
+    "venue": "Pittsburgh, USA",
+    "flag": "🇺🇸",
     "link": "https://chi2027.acm.org/",
     "deadlines": [
-      { "label": "Abstract", "date": "2026-09-10T23:59:00-12:00" },
-      { "label": "Full Paper", "date": "2026-09-17T23:59:00-12:00" }
+      {
+        "label": "Full Paper",
+        "date": "2026-09-10T23:59:00-12:00"
+      }
     ],
     "history": [
-      { "year": "26", "flag": "🇪🇸", "city": "Barcelona, Spain" },
-      { "year": "25", "flag": "🇯🇵", "city": "Yokohama, Japan" }
+      {
+        "year": "26",
+        "flag": "🇪🇸",
+        "city": "Barcelona, Spain"
+      },
+      {
+        "year": "25",
+        "flag": "🇯🇵",
+        "city": "Yokohama, Japan"
+      }
+    ]
+  },
+  {
+    "id": "nsdi2027",
+    "name": "NSDI",
+    "fullName": "Symposium on Networked Systems Design and Implementation",
+    "categories": [
+      "Network",
+      "Systems"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-05",
+    "venue": "Providence, USA",
+    "flag": "🇺🇸",
+    "link": "https://www.usenix.org/conference/nsdi27/call-for-papers",
+    "deadlines": [
+      {
+        "label": "Fall Abstract",
+        "date": "2026-09-10T23:59:59-04:00"
+      },
+      {
+        "label": "Fall Full Paper",
+        "date": "2026-09-17T23:59:59-04:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Philadelphia, USA"
+      },
+      {
+        "year": "24",
+        "flag": "🇺🇸",
+        "city": "Santa Clara, USA"
+      }
+    ]
+  },
+  {
+    "id": "fast2027",
+    "name": "FAST",
+    "fullName": "USENIX Conference on File and Storage Technologies",
+    "categories": [
+      "Systems"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-02",
+    "venue": "Renton, USA",
+    "flag": "🇺🇸",
+    "link": "https://www.usenix.org/conference/fast27/call-for-papers",
+    "deadlines": [
+      {
+        "label": "Full Paper (Fall)",
+        "date": "2026-09-15T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Santa Clara, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Santa Clara, USA"
+      }
+    ]
+  },
+  {
+    "id": "eurocrypt2027",
+    "name": "EUROCRYPT",
+    "fullName": "International Conference on the Theory and Application of Cryptographic Techniques",
+    "categories": [
+      "Security",
+      "Theory"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-04",
+    "venue": "Eindhoven, Netherlands",
+    "flag": "🇳🇱",
+    "link": "https://eurocrypt.iacr.org/2027/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2026-09-17T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇮🇹",
+        "city": "Rome, Italy"
+      },
+      {
+        "year": "25",
+        "flag": "🇪🇸",
+        "city": "Madrid, Spain"
+      }
+    ]
+  },
+  {
+    "id": "eurosys2027",
+    "name": "EuroSys",
+    "fullName": "European Conference on Computer Systems",
+    "categories": [
+      "Systems"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-04",
+    "venue": "Rabat, Morocco",
+    "flag": "🇲🇦",
+    "link": "https://2027.eurosys.org/cfp.html",
+    "deadlines": [
+      {
+        "label": "Abstract (Fall)",
+        "date": "2026-09-17T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper (Fall)",
+        "date": "2026-09-24T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇬🇧",
+        "city": "Edinburgh, UK"
+      },
+      {
+        "year": "25",
+        "flag": "🇳🇱",
+        "city": "Rotterdam, Netherlands"
+      }
     ]
   },
   {
     "id": "iclr2027",
     "name": "ICLR",
     "fullName": "International Conference on Learning Representations",
-    "categories": ["ML"],
+    "categories": [
+      "ML"
+    ],
     "status": "estimated",
     "confDate": "2027-04",
     "venue": "TBD",
     "flag": "",
     "link": "https://iclr.cc/",
     "deadlines": [
-      { "label": "Abstract", "date": "2026-09-19T23:59:00-12:00" },
-      { "label": "Full Paper", "date": "2026-09-24T23:59:00-12:00" }
+      {
+        "label": "Abstract",
+        "date": "2026-09-19T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2026-09-24T23:59:00-12:00"
+      }
     ],
     "history": [
-      { "year": "26", "flag": "🇧🇷", "city": "Rio de Janeiro, Brazil" },
-      { "year": "25", "flag": "🇸🇬", "city": "Singapore" }
-    ]
-  },
-  {
-    "id": "iui2027",
-    "name": "IUI",
-    "fullName": "ACM Conference on Intelligent User Interfaces",
-    "categories": ["HCI", "AI"],
-    "status": "estimated",
-    "confDate": "2027-03",
-    "venue": "TBD",
-    "flag": "",
-    "link": "https://iui.acm.org/",
-    "deadlines": [
-      { "label": "Full Paper", "date": "2026-10-09T23:59:00-12:00" }
-    ],
-    "history": [
-      { "year": "25", "flag": "🇮🇹", "city": "Cagliari, Italy" },
-      { "year": "24", "flag": "🇺🇸", "city": "Greenville, USA" }
+      {
+        "year": "26",
+        "flag": "🇧🇷",
+        "city": "Rio de Janeiro, Brazil"
+      },
+      {
+        "year": "25",
+        "flag": "🇸🇬",
+        "city": "Singapore"
+      }
     ]
   },
   {
     "id": "www2027",
-    "name": "TheWebConf",
-    "fullName": "The ACM Web Conference (WWW)",
-    "categories": ["Web", "Data"],
+    "name": "WWW",
+    "fullName": "The Web Conference",
+    "categories": [
+      "Web"
+    ],
     "status": "estimated",
     "confDate": "2027-04",
-    "venue": "TBD",
-    "flag": "",
+    "venue": "Dublin, Ireland",
+    "flag": "🇮🇪",
     "link": "https://www2027.thewebconf.org/",
     "deadlines": [
-      { "label": "Abstract", "date": "2026-10-07T23:59:00-12:00" },
-      { "label": "Full Paper", "date": "2026-10-14T23:59:00-12:00" }
+      {
+        "label": "Abstract",
+        "date": "2026-09-30T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2026-10-07T23:59:00-12:00"
+      }
     ],
     "history": [
-      { "year": "25", "flag": "🇦🇺", "city": "Sydney, Australia" },
-      { "year": "24", "flag": "🇸🇬", "city": "Singapore" }
+      {
+        "year": "26",
+        "flag": "🇦🇪",
+        "city": "Dubai, UAE"
+      },
+      {
+        "year": "25",
+        "flag": "🇦🇺",
+        "city": "Sydney, Australia"
+      }
+    ]
+  },
+  {
+    "id": "fse2027",
+    "name": "FSE",
+    "fullName": "ACM SIGSOFT Conference on the Foundations of Software Engineering",
+    "categories": [
+      "SE"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-07",
+    "venue": "Shenzhen, China",
+    "flag": "🇨🇳",
+    "link": "https://conf.researchr.org/home/fse-2027",
+    "deadlines": [
+      {
+        "label": "Full Paper (Cycle 1)",
+        "date": "2026-10-02T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇨🇦",
+        "city": "Montreal, Canada"
+      },
+      {
+        "year": "25",
+        "flag": "🇳🇴",
+        "city": "Trondheim, Norway"
+      }
+    ]
+  },
+  {
+    "id": "oopsla2027",
+    "name": "OOPSLA",
+    "fullName": "ACM SIGPLAN International Conference on Object-Oriented Programming Systems, Languages, and Applications",
+    "categories": [
+      "PL"
+    ],
+    "status": "estimated",
+    "confDate": "2027-10",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://www.sigplan.org/Conferences/OOPSLA/",
+    "deadlines": [
+      {
+        "label": "Round 1",
+        "date": "2026-10-09T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Oakland, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇸🇬",
+        "city": "Singapore"
+      }
     ]
   },
   {
     "id": "naacl2027",
     "name": "NAACL",
-    "fullName": "North American Chapter of the ACL",
-    "categories": ["NLP"],
+    "fullName": "North American Chapter of the Association for Computational Linguistics",
+    "categories": [
+      "NLP"
+    ],
     "status": "estimated",
     "confDate": "2027-06",
     "venue": "TBD",
     "flag": "",
-    "link": "https://aclweb.org/",
+    "link": "https://aclrollingreview.org/dates",
     "deadlines": [
-      { "label": "ARR Commitment", "date": "2026-10-15T23:59:00-12:00" }
+      {
+        "label": "ARR Submission (Oct cycle)",
+        "date": "2026-10-12T23:59:00-12:00"
+      }
     ],
     "history": [
-      { "year": "25", "flag": "🇺🇸", "city": "Albuquerque, USA" },
-      { "year": "24", "flag": "🇲🇽", "city": "Mexico City, Mexico" }
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Albuquerque, USA"
+      },
+      {
+        "year": "24",
+        "flag": "🇲🇽",
+        "city": "Mexico City, Mexico"
+      }
     ]
   },
   {
-    "id": "cscw2027",
-    "name": "CSCW",
-    "fullName": "ACM Conf. on Computer-Supported Cooperative Work",
-    "categories": ["HCI", "CSS"],
-    "status": "estimated",
-    "confDate": "2027-11",
+    "id": "tacas2027",
+    "name": "TACAS",
+    "fullName": "International Conference on Tools and Algorithms for Construction and Analysis of Systems",
+    "categories": [
+      "PL",
+      "Theory"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-04",
+    "venue": "Copenhagen, Denmark",
+    "flag": "🇩🇰",
+    "link": "https://etaps.org/2027/conferences/tacas/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2026-10-15T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇮🇹",
+        "city": "Turin, Italy"
+      },
+      {
+        "year": "25",
+        "flag": "🇨🇦",
+        "city": "Hamilton, Canada"
+      }
+    ]
+  },
+  {
+    "id": "ubicomp2027",
+    "name": "UbiComp",
+    "fullName": "ACM International Joint Conference on Pervasive and Ubiquitous Computing",
+    "categories": [
+      "HCI"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-10",
     "venue": "TBD",
     "flag": "",
-    "link": "https://cscw.acm.org/",
+    "link": "https://dl.acm.org/journal/imwut/how-to-submit",
     "deadlines": [
-      { "label": "Full Paper (Cycle 1)", "date": "2027-01-15T23:59:00-12:00" }
+      {
+        "label": "IMWUT Vol 11 Iss 1",
+        "date": "2026-11-01T23:59:00-12:00"
+      }
     ],
     "history": [
-      { "year": "24", "flag": "🇨🇷", "city": "San José, Costa Rica" },
-      { "year": "23", "flag": "🇺🇸", "city": "Minneapolis, USA" }
+      {
+        "year": "26",
+        "flag": "🇨🇳",
+        "city": "Shanghai, China"
+      },
+      {
+        "year": "25",
+        "flag": "🇫🇮",
+        "city": "Espoo, Finland"
+      }
     ]
   },
   {
-    "id": "icwsm2027",
-    "name": "ICWSM",
-    "fullName": "AAAI Conf. on Web and Social Media",
-    "categories": ["CSS", "Web"],
+    "id": "stoc2027",
+    "name": "STOC",
+    "fullName": "Symposium on the Theory of Computing",
+    "categories": [
+      "Theory"
+    ],
     "status": "estimated",
     "confDate": "2027-06",
     "venue": "TBD",
     "flag": "",
-    "link": "https://www.icwsm.org/",
+    "link": "https://acm-stoc.org/",
     "deadlines": [
-      { "label": "Full Paper", "date": "2027-01-15T23:59:00-12:00" }
+      {
+        "label": "Full Paper",
+        "date": "2026-11-03T23:59:00-12:00"
+      }
     ],
     "history": [
-      { "year": "25", "flag": "🇩🇰", "city": "Copenhagen, Denmark" },
-      { "year": "24", "flag": "🇺🇸", "city": "Buffalo, USA" }
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Salt Lake City, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇨🇿",
+        "city": "Prague, Czechia"
+      }
     ]
   },
   {
-    "id": "acl2027",
-    "name": "ACL",
-    "fullName": "Annual Meeting of the ACL",
-    "categories": ["NLP"],
+    "id": "sensys2027",
+    "name": "SenSys",
+    "fullName": "ACM International Conference on Embedded Networked Sensor Systems",
+    "categories": [
+      "Network"
+    ],
+    "status": "estimated",
+    "confDate": "2027-05",
+    "venue": "New York, USA",
+    "flag": "🇺🇸",
+    "link": "https://sensys.acm.org/2027/",
+    "deadlines": [
+      {
+        "label": "2nd Cycle Abstract",
+        "date": "2026-11-06T23:59:00-12:00"
+      },
+      {
+        "label": "2nd Cycle Full Paper",
+        "date": "2026-11-13T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Irvine, USA"
+      },
+      {
+        "year": "24",
+        "flag": "🇨🇳",
+        "city": "Hangzhou, China"
+      }
+    ]
+  },
+  {
+    "id": "isca2027",
+    "name": "ISCA",
+    "fullName": "International Symposium on Computer Architecture",
+    "categories": [
+      "Arch"
+    ],
+    "status": "estimated",
+    "confDate": "2027-06",
+    "venue": "Atlanta, USA",
+    "flag": "🇺🇸",
+    "link": "https://iscaconf.org/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2026-11-10T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2026-11-17T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Raleigh, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇯🇵",
+        "city": "Tokyo, Japan"
+      }
+    ]
+  },
+  {
+    "id": "ieeesp2027",
+    "name": "IEEE S&P",
+    "fullName": "IEEE Symposium on Security and Privacy",
+    "categories": [
+      "Security"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-05",
+    "venue": "Montreal, Canada",
+    "flag": "🇨🇦",
+    "link": "https://sp2027.ieee-security.org/cfpapers.html",
+    "deadlines": [
+      {
+        "label": "Abstract (Cycle 2)",
+        "date": "2026-11-10T23:59:59-12:00"
+      },
+      {
+        "label": "Full Paper (Cycle 2)",
+        "date": "2026-11-17T23:59:59-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "San Francisco, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "San Francisco, USA"
+      }
+    ]
+  },
+  {
+    "id": "icde2027",
+    "name": "ICDE",
+    "fullName": "IEEE International Conference on Data Engineering",
+    "categories": [
+      "DB"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-05",
+    "venue": "Copenhagen, Denmark",
+    "flag": "🇩🇰",
+    "link": "https://icde2027.github.io/",
+    "deadlines": [
+      {
+        "label": "Full Paper (Round 2)",
+        "date": "2026-11-11T17:00:00-08:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇨🇦",
+        "city": "Montreal, Canada"
+      },
+      {
+        "year": "25",
+        "flag": "🇭🇰",
+        "city": "Hong Kong"
+      }
+    ]
+  },
+  {
+    "id": "dac2027",
+    "name": "DAC",
+    "fullName": "Design Automation Conference",
+    "categories": [
+      "Arch"
+    ],
+    "status": "estimated",
+    "confDate": "2027-07",
+    "venue": "San Jose, USA",
+    "flag": "🇺🇸",
+    "link": "https://www.dac.com/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2026-11-11T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2026-11-18T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Long Beach, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "San Francisco, USA"
+      }
+    ]
+  },
+  {
+    "id": "pldi2027",
+    "name": "PLDI",
+    "fullName": "ACM-SIGPLAN Symposium on Programming Language Design and Implementation",
+    "categories": [
+      "PL"
+    ],
+    "status": "estimated",
+    "confDate": "2027-06",
+    "venue": "Atlanta, GA, USA",
+    "flag": "🇺🇸",
+    "link": "https://pldi27.sigplan.org/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2026-11-12T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Boulder, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇰🇷",
+        "city": "Seoul, South Korea"
+      }
+    ]
+  },
+  {
+    "id": "rtas2027",
+    "name": "RTAS",
+    "fullName": "IEEE Real Time Technology and Applications Symposium",
+    "categories": [
+      "Systems"
+    ],
+    "status": "estimated",
+    "confDate": "2027-05",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://2026.rtas.org/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2026-11-12T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇫🇷",
+        "city": "Saint-Malo, France"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Irvine, USA"
+      }
+    ]
+  },
+  {
+    "id": "cvpr2027",
+    "name": "CVPR",
+    "fullName": "IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+    "categories": [
+      "Vision"
+    ],
+    "status": "estimated",
+    "confDate": "2027-06",
+    "venue": "Seattle, USA",
+    "flag": "🇺🇸",
+    "link": "https://cvpr.thecvf.com/Conferences/2027",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2026-11-15T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2026-11-22T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Denver, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Nashville, USA"
+      }
+    ]
+  },
+  {
+    "id": "mobisys2027",
+    "name": "MobiSys",
+    "fullName": "ACM SIGMOBILE International Conference on Mobile Systems, Applications, and Services",
+    "categories": [
+      "Network",
+      "Systems"
+    ],
+    "status": "estimated",
+    "confDate": "2027-06",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://www.sigmobile.org/mobisys/2027/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2026-11-28T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2026-12-04T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇬🇧",
+        "city": "Cambridge, UK"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Anaheim, USA"
+      }
+    ]
+  },
+  {
+    "id": "socg2027",
+    "name": "SOCG",
+    "fullName": "International Symposium on Computational Geometry",
+    "categories": [
+      "Theory"
+    ],
+    "status": "estimated",
+    "confDate": "2027-06",
+    "venue": "Bangalore, India",
+    "flag": "🇮🇳",
+    "link": "https://computational-geometry.org/cg-week/socg/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2026-12-01T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "New Brunswick, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇯🇵",
+        "city": "Kanazawa, Japan"
+      }
+    ]
+  },
+  {
+    "id": "pods2027",
+    "name": "PODS",
+    "fullName": "ACM SIGACT-SIGMOD-SIGART Symposium on Principles of Database Systems",
+    "categories": [
+      "DB",
+      "Theory"
+    ],
+    "status": "confirmed",
+    "confDate": "2027-06",
+    "venue": "Huntington Beach, USA",
+    "flag": "🇺🇸",
+    "link": "https://2027.sigmod.org/",
+    "deadlines": [
+      {
+        "label": "Abstract (Cycle 2)",
+        "date": "2026-12-03T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper (Cycle 2)",
+        "date": "2026-12-10T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇮🇳",
+        "city": "Bengaluru, India"
+      },
+      {
+        "year": "25",
+        "flag": "🇩🇪",
+        "city": "Berlin, Germany"
+      }
+    ]
+  },
+  {
+    "id": "osdi2027",
+    "name": "OSDI",
+    "fullName": "USENIX Symposium on Operating Systems Design and Implementation",
+    "categories": [
+      "Systems"
+    ],
     "status": "estimated",
     "confDate": "2027-07",
     "venue": "TBD",
     "flag": "",
-    "link": "https://aclweb.org/",
+    "link": "https://www.usenix.org/conference/osdi27",
     "deadlines": [
-      { "label": "ARR Commitment", "date": "2027-01-20T23:59:00-12:00" }
+      {
+        "label": "Full Paper",
+        "date": "2026-12-10T23:59:00-12:00"
+      }
     ],
     "history": [
-      { "year": "25", "flag": "🇦🇹", "city": "Vienna, Austria" },
-      { "year": "24", "flag": "🇹🇭", "city": "Bangkok, Thailand" }
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Seattle, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Boston, USA"
+      }
+    ]
+  },
+  {
+    "id": "conext2027",
+    "name": "CONEXT",
+    "fullName": "Conference on Emerging Network Experiment and Technology",
+    "categories": [
+      "Network"
+    ],
+    "status": "estimated",
+    "confDate": "2027-12",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://conferences.sigcomm.org/co-next/",
+    "deadlines": [
+      {
+        "label": "Full Paper (Cycle 1)",
+        "date": "2026-12-11T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇳🇱",
+        "city": "Utrecht, Netherlands"
+      },
+      {
+        "year": "25",
+        "flag": "🇭🇰",
+        "city": "Hong Kong"
+      }
+    ]
+  },
+  {
+    "id": "ccs2027",
+    "name": "CCS",
+    "fullName": "Annual ACM Conference on Computer and Communications Security",
+    "categories": [
+      "Security"
+    ],
+    "status": "estimated",
+    "confDate": "2027-10",
+    "venue": "Atlanta, USA",
+    "flag": "🇺🇸",
+    "link": "https://www.sigsac.org/ccs/CCS2027/",
+    "deadlines": [
+      {
+        "label": "Full Paper (Cycle 1)",
+        "date": "2027-01-13T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇳🇱",
+        "city": "The Hague, Netherlands"
+      },
+      {
+        "year": "25",
+        "flag": "🇹🇼",
+        "city": "Taipei, Taiwan"
+      }
+    ]
+  },
+  {
+    "id": "lics2027",
+    "name": "LICS",
+    "fullName": "ACM/IEEE Symposium on Logic in Computer Science",
+    "categories": [
+      "Theory"
+    ],
+    "status": "estimated",
+    "confDate": "2027-07",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://lics.siglog.org/",
+    "deadlines": [
+      {
+        "label": "Titles & Abstracts",
+        "date": "2027-01-14T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-01-21T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇵🇹",
+        "city": "Lisbon, Portugal"
+      },
+      {
+        "year": "25",
+        "flag": "🇸🇬",
+        "city": "Singapore"
+      }
+    ]
+  },
+  {
+    "id": "atc2027",
+    "name": "ATC",
+    "fullName": "USENIX Annual Technical Conference",
+    "categories": [
+      "Systems"
+    ],
+    "status": "estimated",
+    "confDate": "2027-07",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://www.usenix.org/conference/atc27",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2027-01-15T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇭🇰",
+        "city": "Hong Kong"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Boston, USA"
+      }
+    ]
+  },
+  {
+    "id": "ismb2027",
+    "name": "ISMB",
+    "fullName": "Intelligent Systems in Molecular Biology",
+    "categories": [
+      "Bio"
+    ],
+    "status": "estimated",
+    "confDate": "2027-07",
+    "venue": "Copenhagen, Denmark",
+    "flag": "🇩🇰",
+    "link": "https://www.iscb.org/",
+    "deadlines": [
+      {
+        "label": "Proceedings Paper",
+        "date": "2027-01-19T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Washington, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇬🇧",
+        "city": "Liverpool, UK"
+      }
+    ]
+  },
+  {
+    "id": "siggraph2027",
+    "name": "SIGGRAPH",
+    "fullName": "International Conference on Computer Graphics and Interactive Techniques",
+    "categories": [
+      "Graphics"
+    ],
+    "status": "estimated",
+    "confDate": "2027-07",
+    "venue": "Los Angeles, USA",
+    "flag": "🇺🇸",
+    "link": "https://s2027.siggraph.org/",
+    "deadlines": [
+      {
+        "label": "Technical Papers",
+        "date": "2027-01-21T22:00:00+00:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Los Angeles, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇨🇦",
+        "city": "Vancouver, Canada"
+      }
+    ]
+  },
+  {
+    "id": "sigir2027",
+    "name": "SIGIR",
+    "fullName": "Annual International ACM SIGIR Conference on Research and Development in Information Retrieval",
+    "categories": [
+      "Web",
+      "Data"
+    ],
+    "status": "estimated",
+    "confDate": "2027-07",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://sigir.org/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2027-01-21T23:59:59-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇦🇺",
+        "city": "Melbourne, Australia"
+      },
+      {
+        "year": "25",
+        "flag": "🇮🇹",
+        "city": "Padua, Italy"
+      }
     ]
   },
   {
     "id": "icml2027",
     "name": "ICML",
     "fullName": "International Conference on Machine Learning",
-    "categories": ["ML"],
+    "categories": [
+      "ML"
+    ],
     "status": "estimated",
     "confDate": "2027-07",
     "venue": "TBD",
     "flag": "",
-    "link": "https://icml.cc/",
+    "link": "https://icml.cc/Conferences/2027",
     "deadlines": [
-      { "label": "Abstract", "date": "2027-01-23T23:59:00-12:00" },
-      { "label": "Full Paper", "date": "2027-01-28T23:59:00-12:00" }
+      {
+        "label": "Abstract",
+        "date": "2027-01-22T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-01-28T23:59:00-12:00"
+      }
     ],
     "history": [
-      { "year": "25", "flag": "🇨🇦", "city": "Vancouver, Canada" },
-      { "year": "24", "flag": "🇦🇹", "city": "Vienna, Austria" }
+      {
+        "year": "26",
+        "flag": "🇰🇷",
+        "city": "Seoul, South Korea"
+      },
+      {
+        "year": "25",
+        "flag": "🇨🇦",
+        "city": "Vancouver, Canada"
+      }
     ]
   },
   {
-    "id": "kdd2027",
-    "name": "KDD",
-    "fullName": "ACM SIGKDD Conf. on Knowledge Discovery & Data Mining",
-    "categories": ["Data"],
+    "id": "cav2027",
+    "name": "CAV",
+    "fullName": "International Conference on Computer Aided Verification",
+    "categories": [
+      "PL",
+      "Theory"
+    ],
+    "status": "estimated",
+    "confDate": "2027-07",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://i-cav.org/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2027-01-28T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇵🇹",
+        "city": "Lisbon, Portugal"
+      },
+      {
+        "year": "25",
+        "flag": "🇭🇷",
+        "city": "Zagreb, Croatia"
+      }
+    ]
+  },
+  {
+    "id": "sigcomm2027",
+    "name": "SIGCOMM",
+    "fullName": "ACM SIGCOMM Conference",
+    "categories": [
+      "Network"
+    ],
     "status": "estimated",
     "confDate": "2027-08",
     "venue": "TBD",
     "flag": "",
-    "link": "https://www.kdd.org/",
+    "link": "https://conferences.sigcomm.org/sigcomm/2026/",
     "deadlines": [
-      { "label": "Full Paper (Cycle 2)", "date": "2027-02-10T23:59:00-12:00" }
+      {
+        "label": "Abstract Registration",
+        "date": "2027-01-28T23:59:59-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-02-05T23:59:59-12:00"
+      }
     ],
     "history": [
-      { "year": "26", "flag": "🇰🇷", "city": "Jeju, South Korea" },
-      { "year": "25", "flag": "🇨🇦", "city": "Toronto, Canada" }
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Denver, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇵🇹",
+        "city": "Coimbra, Portugal"
+      }
+    ]
+  },
+  {
+    "id": "issta2027",
+    "name": "ISSTA",
+    "fullName": "International Symposium on Software Testing and Analysis",
+    "categories": [
+      "SE"
+    ],
+    "status": "estimated",
+    "confDate": "2027-07",
+    "venue": "Singapore",
+    "flag": "🇸🇬",
+    "link": "https://conf.researchr.org/home/issta-2027",
+    "deadlines": [
+      {
+        "label": "Research Papers",
+        "date": "2027-01-29T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Oakland, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇳🇴",
+        "city": "Trondheim, Norway"
+      }
+    ]
+  },
+  {
+    "id": "hpdc2027",
+    "name": "HPDC",
+    "fullName": "International Symposium on High-Performance Parallel Distributed Computing",
+    "categories": [
+      "Systems"
+    ],
+    "status": "estimated",
+    "confDate": "2027-07",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://www.hpdc.org/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2027-01-29T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-02-05T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Cleveland, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Notre Dame, USA"
+      }
+    ]
+  },
+  {
+    "id": "colt2027",
+    "name": "COLT",
+    "fullName": "Annual Conference Computational Learning Theory",
+    "categories": [
+      "ML",
+      "Theory"
+    ],
+    "status": "estimated",
+    "confDate": "2027-07",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://learningtheory.org/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2027-02-04T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "San Diego, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇫🇷",
+        "city": "Lyon, France"
+      }
+    ]
+  },
+  {
+    "id": "crypto2027",
+    "name": "CRYPTO",
+    "fullName": "Annual International Cryptology Conference",
+    "categories": [
+      "Security",
+      "Theory"
+    ],
+    "status": "estimated",
+    "confDate": "2027-08",
+    "venue": "Santa Barbara, USA",
+    "flag": "🇺🇸",
+    "link": "https://crypto.iacr.org/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2027-02-11T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Santa Barbara, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Santa Barbara, USA"
+      }
+    ]
+  },
+  {
+    "id": "podc2027",
+    "name": "PODC",
+    "fullName": "ACM Symposium on Principles of Distributed Computing",
+    "categories": [
+      "Theory",
+      "Systems"
+    ],
+    "status": "estimated",
+    "confDate": "2027-06",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://www.podc.org/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2027-02-16T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇬🇧",
+        "city": "Egham, UK"
+      },
+      {
+        "year": "25",
+        "flag": "🇲🇽",
+        "city": "Huatulco, Mexico"
+      }
+    ]
+  },
+  {
+    "id": "icfp2027",
+    "name": "ICFP",
+    "fullName": "ACM SIGPLAN International Conference on Functional Programming",
+    "categories": [
+      "PL"
+    ],
+    "status": "estimated",
+    "confDate": "2027-08",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://www.icfpconference.org/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2027-02-18T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Indianapolis, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇸🇬",
+        "city": "Singapore"
+      }
+    ]
+  },
+  {
+    "id": "miccai2027",
+    "name": "MICCAI",
+    "fullName": "International Conference on Medical Image Computing and Computer-Assisted Intervention",
+    "categories": [
+      "Vision",
+      "Bio"
+    ],
+    "status": "estimated",
+    "confDate": "2027-09",
+    "venue": "Auckland, New Zealand",
+    "flag": "🇳🇿",
+    "link": "https://conferences.miccai.org/2027/",
+    "deadlines": [
+      {
+        "label": "Abstract Registration",
+        "date": "2027-02-18T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-02-25T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇫🇷",
+        "city": "Strasbourg, France"
+      },
+      {
+        "year": "25",
+        "flag": "🇰🇷",
+        "city": "Daejeon, South Korea"
+      }
+    ]
+  },
+  {
+    "id": "iccv2027",
+    "name": "ICCV",
+    "fullName": "IEEE/CVF International Conference on Computer Vision",
+    "categories": [
+      "Vision"
+    ],
+    "status": "estimated",
+    "confDate": "2027-10",
+    "venue": "Hong Kong",
+    "flag": "🇭🇰",
+    "link": "https://iccv.thecvf.com/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2027-03-01T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-03-05T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Honolulu, USA"
+      },
+      {
+        "year": "23",
+        "flag": "🇫🇷",
+        "city": "Paris, France"
+      }
+    ]
+  },
+  {
+    "id": "ismar2027",
+    "name": "ISMAR",
+    "fullName": "International Symposium on Mixed and Augmented Reality",
+    "categories": [
+      "HCI"
+    ],
+    "status": "estimated",
+    "confDate": "2027-10",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://www.ieeeismar.net/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2027-03-09T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-03-16T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇮🇹",
+        "city": "Bari, Italy"
+      },
+      {
+        "year": "25",
+        "flag": "🇰🇷",
+        "city": "Daejeon, South Korea"
+      }
     ]
   },
   {
     "id": "uist2027",
     "name": "UIST",
-    "fullName": "ACM Symp. on User Interface Software and Technology",
-    "categories": ["HCI"],
+    "fullName": "ACM Symposium on User Interface Software and Technology",
+    "categories": [
+      "HCI"
+    ],
     "status": "estimated",
     "confDate": "2027-10",
     "venue": "TBD",
     "flag": "",
-    "link": "https://uist.acm.org/",
+    "link": "https://uist.acm.org/2027/",
     "deadlines": [
-      { "label": "Full Paper", "date": "2027-04-02T23:59:00-12:00" }
+      {
+        "label": "Abstract",
+        "date": "2027-03-24T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-03-31T23:59:00-12:00"
+      }
     ],
     "history": [
-      { "year": "24", "flag": "🇺🇸", "city": "Pittsburgh, USA" },
-      { "year": "23", "flag": "🇺🇸", "city": "San Francisco, USA" }
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Detroit, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇰🇷",
+        "city": "Busan, South Korea"
+      }
+    ]
+  },
+  {
+    "id": "sosp2027",
+    "name": "SOSP",
+    "fullName": "Symposium on Operating Systems Principles",
+    "categories": [
+      "Systems"
+    ],
+    "status": "estimated",
+    "confDate": "2027-10",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://www.sosp.org/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2027-03-26T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-04-01T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇨🇿",
+        "city": "Prague, Czechia"
+      },
+      {
+        "year": "25",
+        "flag": "🇰🇷",
+        "city": "Seoul, South Korea"
+      }
+    ]
+  },
+  {
+    "id": "ase2027",
+    "name": "ASE",
+    "fullName": "International Conference on Automated Software Engineering",
+    "categories": [
+      "SE"
+    ],
+    "status": "estimated",
+    "confDate": "2027-10",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://ase-conferences.org/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2027-03-26T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-04-15T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇩🇪",
+        "city": "Munich, Germany"
+      },
+      {
+        "year": "25",
+        "flag": "🇰🇷",
+        "city": "Seoul, South Korea"
+      }
+    ]
+  },
+  {
+    "id": "micro2027",
+    "name": "MICRO",
+    "fullName": "Annual IEEE/ACM International Symposium on Microarchitecture",
+    "categories": [
+      "Arch"
+    ],
+    "status": "estimated",
+    "confDate": "2027-10",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://www.microarch.org/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2027-03-31T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-04-07T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇬🇷",
+        "city": "Athens, Greece"
+      },
+      {
+        "year": "25",
+        "flag": "🇰🇷",
+        "city": "Seoul, South Korea"
+      }
+    ]
+  },
+  {
+    "id": "vis2027",
+    "name": "VIS",
+    "fullName": "IEEE Visualization Conference",
+    "categories": [
+      "Graphics"
+    ],
+    "status": "estimated",
+    "confDate": "2027-11",
+    "venue": "Chicago, USA",
+    "flag": "🇺🇸",
+    "link": "https://ieeevis.org/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2027-03-31T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Boston, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇦🇹",
+        "city": "Vienna, Austria"
+      }
+    ]
+  },
+  {
+    "id": "focs2027",
+    "name": "FOCS",
+    "fullName": "IEEE Annual Symposium on Foundations of Computer Science",
+    "categories": [
+      "Theory"
+    ],
+    "status": "estimated",
+    "confDate": "2027-11",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://ieee-focs.org/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2027-04-01T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "New York, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇦🇺",
+        "city": "Sydney, Australia"
+      }
+    ]
+  },
+  {
+    "id": "sc2027",
+    "name": "SC",
+    "fullName": "International Conference for High Performance Computing, Networking, Storage and Analysis",
+    "categories": [
+      "Systems"
+    ],
+    "status": "estimated",
+    "confDate": "2027-11",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://supercomputing.org/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2027-04-01T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-04-08T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Chicago, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "St. Louis, USA"
+      }
+    ]
+  },
+  {
+    "id": "pact2027",
+    "name": "PACT",
+    "fullName": "International Conference on Parallel Architectures and Compilation Techniques",
+    "categories": [
+      "Arch"
+    ],
+    "status": "estimated",
+    "confDate": "2027-10",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://pact2026.github.io/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2027-04-24T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇺🇸",
+        "city": "Chicago, USA"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Irvine, USA"
+      }
     ]
   },
   {
     "id": "neurips2027",
     "name": "NeurIPS",
-    "fullName": "Conf. on Neural Information Processing Systems",
-    "categories": ["ML"],
+    "fullName": "Conference on Neural Information Processing Systems",
+    "categories": [
+      "ML"
+    ],
     "status": "estimated",
     "confDate": "2027-12",
     "venue": "TBD",
     "flag": "",
     "link": "https://neurips.cc/",
     "deadlines": [
-      { "label": "Abstract", "date": "2027-05-11T23:59:00-12:00" },
-      { "label": "Full Paper", "date": "2027-05-15T23:59:00-12:00" }
+      {
+        "label": "Abstract",
+        "date": "2027-05-05T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-05-07T23:59:00-12:00"
+      }
     ],
     "history": [
-      { "year": "25", "flag": "🇺🇸", "city": "San Diego, USA" },
-      { "year": "24", "flag": "🇨🇦", "city": "Vancouver, Canada" }
+      {
+        "year": "26",
+        "flag": "🇦🇺",
+        "city": "Sydney, Australia"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "San Diego, USA"
+      }
     ]
   },
   {
-    "id": "emnlp2027",
-    "name": "EMNLP",
-    "fullName": "Conf. on Empirical Methods in Natural Language Processing",
-    "categories": ["NLP"],
+    "id": "siggraphasia2027",
+    "name": "SIGGRAPH Asia",
+    "fullName": "ACM SIGGRAPH Conference and Exhibition on Computer Graphics and Interactive Techniques in Asia",
+    "categories": [
+      "Graphics"
+    ],
+    "status": "estimated",
+    "confDate": "2027-12",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://asia.siggraph.org/",
+    "deadlines": [
+      {
+        "label": "Technical Papers",
+        "date": "2027-05-13T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇲🇾",
+        "city": "Kuala Lumpur, Malaysia"
+      },
+      {
+        "year": "25",
+        "flag": "🇭🇰",
+        "city": "Hong Kong"
+      }
+    ]
+  },
+  {
+    "id": "cikm2027",
+    "name": "CIKM",
+    "fullName": "International Conference on Information and Knowledge Management",
+    "categories": [
+      "Web",
+      "Data"
+    ],
     "status": "estimated",
     "confDate": "2027-11",
     "venue": "TBD",
     "flag": "",
-    "link": "https://aclweb.org/",
+    "link": "http://www.cikmconference.org/",
     "deadlines": [
-      { "label": "ARR Commitment", "date": "2027-06-15T23:59:00-12:00" }
+      {
+        "label": "Abstract",
+        "date": "2027-05-15T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-05-29T23:59:00-12:00"
+      }
     ],
     "history": [
-      { "year": "25", "flag": "🇨🇳", "city": "Suzhou, China" },
-      { "year": "24", "flag": "🇺🇸", "city": "Miami, USA" }
+      {
+        "year": "26",
+        "flag": "🇮🇹",
+        "city": "Rome, Italy"
+      },
+      {
+        "year": "25",
+        "flag": "🇰🇷",
+        "city": "Seoul, South Korea"
+      }
+    ]
+  },
+  {
+    "id": "rtss2027",
+    "name": "RTSS",
+    "fullName": "IEEE Real-Time Systems Symposium",
+    "categories": [
+      "Systems"
+    ],
+    "status": "estimated",
+    "confDate": "2027-12",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://2026.rtss.org/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2027-05-20T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-05-25T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇯🇵",
+        "city": "Yokohama, Japan"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Boston, USA"
+      }
+    ]
+  },
+  {
+    "id": "icdm2027",
+    "name": "ICDM",
+    "fullName": "IEEE International Conference on Data Mining",
+    "categories": [
+      "Data"
+    ],
+    "status": "estimated",
+    "confDate": "2027-11",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://www.icdm2026.org/",
+    "deadlines": [
+      {
+        "label": "Abstract",
+        "date": "2027-05-30T23:59:00-12:00"
+      },
+      {
+        "label": "Full Paper",
+        "date": "2027-06-05T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇨🇳",
+        "city": "Shenyang, China"
+      },
+      {
+        "year": "25",
+        "flag": "🇺🇸",
+        "city": "Washington, USA"
+      }
+    ]
+  },
+  {
+    "id": "icse2028",
+    "name": "ICSE",
+    "fullName": "International Conference on Software Engineering",
+    "categories": [
+      "SE"
+    ],
+    "status": "estimated",
+    "confDate": "2028-05",
+    "venue": "Honolulu, USA",
+    "flag": "🇺🇸",
+    "link": "https://conf.researchr.org/home/icse-2028",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2027-07-01T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "27",
+        "flag": "🇮🇪",
+        "city": "Dublin, Ireland"
+      },
+      {
+        "year": "26",
+        "flag": "🇧🇷",
+        "city": "Rio de Janeiro, Brazil"
+      }
+    ]
+  },
+  {
+    "id": "eccv2028",
+    "name": "ECCV",
+    "fullName": "European Conference on Computer Vision",
+    "categories": [
+      "Vision"
+    ],
+    "status": "estimated",
+    "confDate": "2028-09",
+    "venue": "TBD",
+    "flag": "",
+    "link": "https://eccv.ecva.net/",
+    "deadlines": [
+      {
+        "label": "Full Paper",
+        "date": "2028-03-05T23:59:00-12:00"
+      }
+    ],
+    "history": [
+      {
+        "year": "26",
+        "flag": "🇸🇪",
+        "city": "Malmö, Sweden"
+      },
+      {
+        "year": "24",
+        "flag": "🇮🇹",
+        "city": "Milan, Italy"
+      }
     ]
   }
 ]

@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   if (!table) return;
 
   const MS = { m: 60000, h: 3600000, d: 86400000 };
-  const CAT_ORDER = ['AI', 'ML', 'NLP', 'HCI', 'CSS', 'Data', 'Web'];
+  const CAT_ORDER = ['AI', 'ML', 'NLP', 'Vision', 'HCI', 'Graphics', 'Web', 'Data', 'DB', 'Security', 'Systems', 'Arch', 'Network', 'PL', 'SE', 'Theory', 'Bio'];
   let activeFilter = 'All';
 
   const ts = (d) => new Date(d.date).getTime();
