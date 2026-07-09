@@ -2966,7 +2966,7 @@ window.HAIR_DATA = {
       "name": "Jeongwon Jo",
       "nameKo": "조정원",
       "cohort": "CTM '15",
-      "now": "Postdoctoral Researcher (HCI), University of Notre Dame — Ph.D. in Informatics, Penn State University (adv. John Carroll)"
+      "now": "Assistant Professor, School of Information, San José State University — Ph.D. in Informatics, Penn State University (adv. John Carroll); previously postdoc at University of Notre Dame"
     },
     {
       "name": "Seokhyun Hong",
@@ -3006,7 +3006,7 @@ window.HAIR_DATA = {
     },
     {
       "name": "Hyeyoung Ryu",
-      "nameKo": "류혜영",
+      "nameKo": "유혜영",
       "cohort": "CTM '16",
       "now": "Postdoctoral Research Fellow, Vanderbilt University Medical Center — Ph.D. in Information Science, University of Washington (adv. Wanda Pratt)"
     },
