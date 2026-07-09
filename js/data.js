@@ -246,22 +246,22 @@ window.HAIR_DATA = {
     {
       "id": "lee-sooyoung",
       "role": "Ph.D. Student",
-      "name": "Sooyoung Lee",
+      "name": "Sooyeong Lee",
       "nameKo": "이수영",
-      "affil": "Ph.D. · Science & Technology Policy",
-      "department": "Underwood International College, Yonsei University",
+      "affil": "Ph.D. · Technology Policy",
+      "department": "Graduate School, Yonsei University",
       "image": "images/avatars/lee-sooyoung.svg",
-      "bio": "Sooyoung Lee is a Ph.D. student in Science and Technology Policy at HAIR Lab."
+      "bio": "Sooyeong Lee is a Ph.D. student in Technology Policy at HAIR Lab."
     },
     {
       "id": "park-seongwon",
       "role": "Ph.D. Student",
       "name": "Seongwon Park",
       "nameKo": "박성원",
-      "affil": "Ph.D. · Science & Technology Policy",
-      "department": "Underwood International College, Yonsei University",
+      "affil": "Ph.D. · Technology Policy",
+      "department": "Graduate School, Yonsei University",
       "image": "images/avatars/park-seongwon.svg",
-      "bio": "Seongwon Park is a Ph.D. student in Science and Technology Policy at HAIR Lab."
+      "bio": "Seongwon Park is a Ph.D. student in Technology Policy at HAIR Lab."
     },
     {
       "id": "kim-minje",

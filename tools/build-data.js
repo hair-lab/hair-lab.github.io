@@ -97,14 +97,14 @@ const members = [
     bio: "Kunhee Ryu is the Lab Manager and Associate Manager of HAIR Lab and a graduate researcher in Innovation. He co-authors the lab's work on multi-agent LLM systems, autonomous meta-analysis (AutoMETA), and human–AI interaction & trust."
   },
   {
-    id: 'lee-sooyoung', role: 'Ph.D. Student', name: 'Sooyoung Lee', nameKo: '이수영', affil: 'Ph.D. · Science & Technology Policy',
-    department: 'Underwood International College, Yonsei University', image: 'images/avatars/lee-sooyoung.svg',
-    bio: 'Sooyoung Lee is a Ph.D. student in Science and Technology Policy at HAIR Lab.'
+    id: 'lee-sooyoung', role: 'Ph.D. Student', name: 'Sooyeong Lee', nameKo: '이수영', affil: 'Ph.D. · Technology Policy',
+    department: 'Graduate School, Yonsei University', image: 'images/avatars/lee-sooyoung.svg',
+    bio: 'Sooyeong Lee is a Ph.D. student in Technology Policy at HAIR Lab.'
   },
   {
-    id: 'park-seongwon', role: 'Ph.D. Student', name: 'Seongwon Park', nameKo: '박성원', affil: 'Ph.D. · Science & Technology Policy',
-    department: 'Underwood International College, Yonsei University', image: 'images/avatars/park-seongwon.svg',
-    bio: 'Seongwon Park is a Ph.D. student in Science and Technology Policy at HAIR Lab.'
+    id: 'park-seongwon', role: 'Ph.D. Student', name: 'Seongwon Park', nameKo: '박성원', affil: 'Ph.D. · Technology Policy',
+    department: 'Graduate School, Yonsei University', image: 'images/avatars/park-seongwon.svg',
+    bio: 'Seongwon Park is a Ph.D. student in Technology Policy at HAIR Lab.'
   },
   {
     id: 'kim-minje', role: 'Researcher', name: 'Minje Kim', nameKo: '김민제', affil: "Econ & CTM '19 · M.S. Innovation '23",
