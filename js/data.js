@@ -2964,7 +2964,7 @@ window.HAIR_DATA = {
     },
     {
       "name": "Yunhye Joo",
-      "nameKo": "",
+      "nameKo": "주윤혜",
       "cohort": "CTM '14",
       "now": "Google — Technical Solutions Consultant (AI Engineering)"
     },

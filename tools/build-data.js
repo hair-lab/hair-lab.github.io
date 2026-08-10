@@ -184,7 +184,7 @@ const alumni = [
   { name: 'Haksong Lim', nameKo: '임학송', cohort: "CTM '12", now: 'Resera Capital — M.S. in Business Analytics, Columbia University' },
   { name: 'Jaekeun Lee', nameKo: '이재근', cohort: "CTM '13", now: 'AI Solution Dept., NH Investment & Securities — M.S. in Data Science, UBC' },
   { name: 'Hayoung Cho', nameKo: '조하영', cohort: "CTM '14", now: 'TikTok (New York) — M.S. in Applied Analytics, Columbia University' },
-  { name: 'Yunhye Joo', nameKo: '', cohort: "CTM '14", now: 'Google — Technical Solutions Consultant (AI Engineering)' },
+  { name: 'Yunhye Joo', nameKo: '주윤혜', cohort: "CTM '14", now: 'Google — Technical Solutions Consultant (AI Engineering)' },
   { name: 'Jeongwon Jo', nameKo: '조정원', cohort: "CTM '15", now: 'Assistant Professor, School of Information, San José State University — Ph.D. in Informatics, Penn State University (adv. John Carroll); previously postdoc at University of Notre Dame' },
   { name: 'Seokhyun Hong', nameKo: '홍석현', cohort: "CTM '15", now: 'Hyperconnect — previously Flitto' },
   { name: 'Jaeyi Joo', nameKo: '주재이', cohort: "CTM '15", now: 'Yonsei University (adv. Sungjoo Bae)' },
