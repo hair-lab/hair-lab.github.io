@@ -2963,6 +2963,12 @@ window.HAIR_DATA = {
       "now": "TikTok (New York) — M.S. in Applied Analytics, Columbia University"
     },
     {
+      "name": "Yunhye Joo",
+      "nameKo": "",
+      "cohort": "CTM '14",
+      "now": "Google — Technical Solutions Consultant (AI Engineering)"
+    },
+    {
       "name": "Jeongwon Jo",
       "nameKo": "조정원",
       "cohort": "CTM '15",
