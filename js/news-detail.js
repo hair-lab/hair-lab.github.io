@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   try {
     const [allNews, members] = await Promise.all([
       fetchJSON('data/news.json'),
-      fetchJSON('data/members.json')
+      fetchPeople()
     ]);
 
     const item = allNews.find(n => n.id === newsId);

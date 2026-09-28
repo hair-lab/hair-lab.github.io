@@ -264,16 +264,6 @@ window.HAIR_DATA = {
       "bio": "Seongwon Park is a Ph.D. student in Technology Policy at HAIR Lab."
     },
     {
-      "id": "kim-minje",
-      "role": "Researcher",
-      "name": "Minje Kim",
-      "nameKo": "김민제",
-      "affil": "Econ & CTM '19 · M.S. Innovation '23",
-      "department": "Underwood International College, Yonsei University",
-      "image": "images/avatars/kim-minje.svg",
-      "bio": "Minje Kim completed an M.S. in Innovation and is a researcher at HAIR Lab, working on privacy in LLM agents and multi-agent norm dynamics."
-    },
-    {
       "id": "svetasheva-arina",
       "role": "Researcher",
       "name": "Arina Svetasheva",
@@ -817,6 +807,58 @@ window.HAIR_DATA = {
     }
   ],
   "publications": [
+    {
+      "id": "pub-emnlp-2026-ood-checkpoint",
+      "year": 2026,
+      "title": "Out-of-Distribution Checkpoint Selection Has a Resolution Problem: Auditing Sparse Exact Match with Token Likelihood",
+      "venue": "Findings of the Association for Computational Linguistics: EMNLP 2026 (accepted)",
+      "venueType": "International Conference",
+      "authors": [
+        {
+          "name": "Kunhee Ryu",
+          "isMember": true,
+          "memberId": "ryu-kunhee"
+        },
+        {
+          "name": "Keeheon Lee",
+          "isMember": true,
+          "memberId": "prof-kim"
+        },
+        {
+          "name": "Chi-Guhn Lee",
+          "isMember": false
+        }
+      ],
+      "citations": null,
+      "links": {}
+    },
+    {
+      "id": "pub-emnlp-2026-local-edit-validity",
+      "year": 2026,
+      "title": "Evaluating LLM Agents Beyond Local Edit Validity",
+      "venue": "Findings of the Association for Computational Linguistics: EMNLP 2026 (accepted)",
+      "venueType": "International Conference",
+      "authors": [
+        {
+          "name": "Kunhee Ryu",
+          "isMember": true,
+          "memberId": "ryu-kunhee"
+        },
+        {
+          "name": "Keeheon Lee",
+          "isMember": true,
+          "memberId": "prof-kim"
+        },
+        {
+          "name": "Chi-Guhn Lee",
+          "isMember": false
+        }
+      ],
+      "citations": null,
+      "links": {
+        "paper": "https://openreview.net/pdf?id=bC0mNJcci4"
+      }
+    },
     {
       "id": "pub-1",
       "year": 2026,
@@ -3050,7 +3092,18 @@ window.HAIR_DATA = {
       "name": "Hyegang Kim",
       "nameKo": "김혜강",
       "cohort": "CTM '18 · M.S. Innovation",
-      "now": "Ph.D. student, University of Toronto"
+      "now": "Ph.D. student, Department of Mechanical & Industrial Engineering (MIE), University of Toronto"
+    },
+    {
+      "id": "kim-minje",
+      "role": "Alumni",
+      "name": "Minje Kim",
+      "nameKo": "김민제",
+      "cohort": "Econ & CTM '19 · M.S. Innovation '23",
+      "now": "Department of Mechanical & Industrial Engineering (MIE), University of Toronto",
+      "department": "Department of Mechanical & Industrial Engineering (MIE), University of Toronto",
+      "image": "images/avatars/kim-minje.svg",
+      "bio": "Minje Kim is an alumnus of HAIR Lab and is now at the Department of Mechanical & Industrial Engineering (MIE), University of Toronto. He completed an M.S. in Innovation at Yonsei University and worked on privacy in LLM agents and multi-agent norm dynamics."
     },
     {
       "name": "Zahra Namira Daniar",

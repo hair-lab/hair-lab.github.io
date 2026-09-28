@@ -1,5 +1,57 @@
 [
   {
+    "id": "pub-emnlp-2026-ood-checkpoint",
+    "year": 2026,
+    "title": "Out-of-Distribution Checkpoint Selection Has a Resolution Problem: Auditing Sparse Exact Match with Token Likelihood",
+    "venue": "Findings of the Association for Computational Linguistics: EMNLP 2026 (accepted)",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Kunhee Ryu",
+        "isMember": true,
+        "memberId": "ryu-kunhee"
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Chi-Guhn Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-emnlp-2026-local-edit-validity",
+    "year": 2026,
+    "title": "Evaluating LLM Agents Beyond Local Edit Validity",
+    "venue": "Findings of the Association for Computational Linguistics: EMNLP 2026 (accepted)",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Kunhee Ryu",
+        "isMember": true,
+        "memberId": "ryu-kunhee"
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Chi-Guhn Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {
+      "paper": "https://openreview.net/pdf?id=bC0mNJcci4"
+    }
+  },
+  {
     "id": "pub-1",
     "year": 2026,
     "title": "Can Transparency Help Clinicians Trust AI? Reframing Trust as an Information Foraging and Sensemaking Loop",

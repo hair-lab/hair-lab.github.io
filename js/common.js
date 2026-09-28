@@ -18,6 +18,15 @@ async function fetchJSON(url) {
   return res.json();
 }
 
+/** Include alumni with retained profiles so historical links keep working. */
+async function fetchPeople() {
+  const [members, alumni] = await Promise.all([
+    fetchJSON('data/members.json'),
+    fetchJSON('data/alumni.json')
+  ]);
+  return members.concat(alumni.filter(person => person.id));
+}
+
 /** Format date string to readable format */
 function formatDate(dateStr) {
   const d = new Date(dateStr);

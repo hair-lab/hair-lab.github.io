@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         html += `
           <div class="alumni-item">
             <div class="alumni-head">
-              <span class="alumni-name">${a.name}</span>
+              ${a.id ? `<a class="alumni-name" href="member-detail.html?id=${a.id}">${a.name}</a>` : `<span class="alumni-name">${a.name}</span>`}
               ${a.nameKo ? `<span class="alumni-ko">${a.nameKo}</span>` : ''}
               ${a.cohort ? `<span class="alumni-cohort">${a.cohort}</span>` : ''}
             </div>

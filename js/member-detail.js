@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   try {
     const [members, pubs, projects, news] = await Promise.all([
-      fetchJSON('data/members.json'),
+      fetchPeople(),
       fetchJSON('data/publications.json'),
       fetchJSON('data/projects.json'),
       fetchJSON('data/news.json')
