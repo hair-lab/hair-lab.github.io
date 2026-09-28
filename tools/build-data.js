@@ -196,11 +196,12 @@ const alumni = [
   { name: 'Hyegang Kim', nameKo: '김혜강', cohort: "CTM '18 · M.S. Innovation", now: 'Ph.D. student, Department of Mechanical & Industrial Engineering (MIE), University of Toronto' },
   {
     id: 'kim-minje', role: 'Alumni', name: 'Minje Kim', nameKo: '김민제',
+    title: 'Ph.D. Student · HAIR Lab Alumnus',
     cohort: "Econ & CTM '19 · M.S. Innovation '23",
-    now: 'Department of Mechanical & Industrial Engineering (MIE), University of Toronto',
+    now: 'Ph.D. student, Department of Mechanical & Industrial Engineering (MIE), University of Toronto',
     department: 'Department of Mechanical & Industrial Engineering (MIE), University of Toronto',
     image: 'images/avatars/kim-minje.svg',
-    bio: 'Minje Kim is an alumnus of HAIR Lab and is now at the Department of Mechanical & Industrial Engineering (MIE), University of Toronto. He completed an M.S. in Innovation at Yonsei University and worked on privacy in LLM agents and multi-agent norm dynamics.'
+    bio: 'Minje Kim is an alumnus of HAIR Lab and a Ph.D. student in the Department of Mechanical & Industrial Engineering (MIE), University of Toronto. He completed an M.S. in Innovation at Yonsei University and worked on privacy in LLM agents and multi-agent norm dynamics.'
   },
   { name: 'Zahra Namira Daniar', nameKo: '', cohort: 'M.S. Innovation', now: '' },
   { name: 'Galih Mekar Arumsari', nameKo: '', cohort: 'M.S. Innovation', now: '' },
