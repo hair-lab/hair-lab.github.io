@@ -354,7 +354,7 @@ publications.unshift(
     title: 'Out-of-Distribution Checkpoint Selection Has a Resolution Problem: Auditing Sparse Exact Match with Token Likelihood',
     venue: 'Findings of the Association for Computational Linguistics: EMNLP 2026 (accepted)',
     venueType: 'International Conference',
-    authors: toAuthors('Kunhee Ryu, Keeheon Lee, Chi-Guhn Lee'),
+    authors: toAuthors('Kunhee Ryu, Keeheon Lee'),
     citations: null, links: {}
   },
   {

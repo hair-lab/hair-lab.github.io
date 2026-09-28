@@ -823,10 +823,6 @@ window.HAIR_DATA = {
           "name": "Keeheon Lee",
           "isMember": true,
           "memberId": "prof-kim"
-        },
-        {
-          "name": "Chi-Guhn Lee",
-          "isMember": false
         }
       ],
       "citations": null,
