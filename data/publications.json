@@ -1,5 +1,80 @@
 [
   {
+    "id": "pub-emnlp-2026-agreement",
+    "year": 2026,
+    "title": "Agreement Is Not Truth: Characterizing and Controlling Consistent-but-Wrong Reasoning in LLMs",
+    "venue": "EMNLP 2026 Main Conference (accepted)",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Minje Kim",
+        "isMember": true,
+        "memberId": "kim-minje"
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Chi-Guhn Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-emnlp-2026-refusal",
+    "year": 2026,
+    "title": "Cited but Not Causal: A Counterfactual Audit of Refusal Explanations in Aligned Language Models",
+    "venue": "EMNLP 2026 Main Conference (accepted · Oral Presentation)",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Minje Kim",
+        "isMember": true,
+        "memberId": "kim-minje"
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Chi-Guhn Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-emnlp-2026-incomplete-truths",
+    "year": 2026,
+    "title": "Telling Incomplete Truths: Measuring Omission-Induced Misleadingness in Aligned Language Models",
+    "venue": "EMNLP 2026 Main Conference (accepted)",
+    "venueType": "International Conference",
+    "authors": [
+      {
+        "name": "Minje Kim",
+        "isMember": true,
+        "memberId": "kim-minje"
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      },
+      {
+        "name": "Chi-Guhn Lee",
+        "isMember": false
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
     "id": "pub-emnlp-2026-ood-checkpoint",
     "year": 2026,
     "title": "Out-of-Distribution Checkpoint Selection Has a Resolution Problem: Auditing Sparse Exact Match with Token Likelihood",

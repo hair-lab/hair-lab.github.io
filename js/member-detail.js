@@ -81,7 +81,7 @@ document.addEventListener('DOMContentLoaded', async () => {
       projEl.innerHTML = `
         <h2 class="section-title">Projects</h2>
         <div class="accent-line"></div>
-        <div class="card-grid" style="grid-template-columns: repeat(2, 1fr);">
+        <div class="card-grid member-project-grid">
           ${memberProjects.map(p => `
             <a href="project-detail.html?id=${p.id}" class="card project-card">
               <div class="card-body">

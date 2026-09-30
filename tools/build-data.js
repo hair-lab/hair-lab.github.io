@@ -368,6 +368,21 @@ publications.unshift(
   }
 );
 
+// Titles, author order, Main acceptance and Oral designation: Minje Kim's
+// LinkedIn announcement and Publications section, https://ca.linkedin.com/in/minjek
+// No paper-specific URLs have been confirmed yet.
+publications.unshift(...[
+  ['pub-emnlp-2026-agreement', 'Agreement Is Not Truth: Characterizing and Controlling Consistent-but-Wrong Reasoning in LLMs', false],
+  ['pub-emnlp-2026-refusal', 'Cited but Not Causal: A Counterfactual Audit of Refusal Explanations in Aligned Language Models', true],
+  ['pub-emnlp-2026-incomplete-truths', 'Telling Incomplete Truths: Measuring Omission-Induced Misleadingness in Aligned Language Models', false]
+].map(([id, title, oral]) => ({
+  id, year: 2026, title,
+  venue: `EMNLP 2026 Main Conference (accepted${oral ? ' · Oral Presentation' : ''})`,
+  venueType: 'International Conference',
+  authors: toAuthors('Minje Kim, Keeheon Lee, Chi-Guhn Lee'),
+  citations: null, links: {}
+})));
+
 /* ---------------- Projects (REAL — all 2017+ records from NTIS export + lab list) ----------------
    Division/type uses common Korean research-funding classifications.
    leadPI = actual principal investigator; leadPIId links to a profile only for lab members. */
