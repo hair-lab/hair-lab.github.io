@@ -3535,18 +3535,19 @@ window.HAIR_DATA = {
         "NLP"
       ],
       "status": "confirmed",
-      "confDate": "2027-07",
-      "venue": "TBD",
-      "flag": "",
-      "link": "https://aclrollingreview.org/dates",
+      "confDate": "2027-08",
+      "venue": "Kyoto, Japan",
+      "flag": "🇯🇵",
+      "link": "https://2027.aclweb.org/",
       "deadlines": [
         {
-          "label": "ARR Submission (Aug cycle)",
-          "date": "2026-08-03T23:59:00-12:00"
+          "label": "Final ARR Submission",
+          "date": "2027-01-04T23:59:00-12:00"
         },
         {
-          "label": "ARR Submission (Oct cycle)",
-          "date": "2026-10-12T23:59:00-12:00"
+          "label": "Commitment",
+          "date": null,
+          "status": "tba"
         }
       ],
       "history": [
@@ -3569,15 +3570,23 @@ window.HAIR_DATA = {
       "categories": [
         "NLP"
       ],
-      "status": "confirmed",
-      "confDate": "2027-11",
+      "status": "estimated",
+      "estimateBasis": "EMNLP 2026: ARR submission May 25; commitment August 2. The 2027 dates are not confirmed.",
+      "estimateSource": "https://2026.emnlp.org/calls/main_conference_papers/",
+      "confDate": "2027",
       "venue": "TBD",
       "flag": "",
       "link": "https://aclrollingreview.org/dates",
       "deadlines": [
         {
-          "label": "ARR Submission (Aug cycle)",
-          "date": "2026-08-03T23:59:00-12:00"
+          "label": "Final ARR Submission",
+          "date": null,
+          "estimatedMonth": "2027-05"
+        },
+        {
+          "label": "Commitment",
+          "date": null,
+          "estimatedMonth": "2027-08"
         }
       ],
       "history": [
@@ -4097,15 +4106,19 @@ window.HAIR_DATA = {
       "categories": [
         "NLP"
       ],
-      "status": "estimated",
+      "status": "confirmed",
       "confDate": "2027-06",
-      "venue": "TBD",
-      "flag": "",
-      "link": "https://aclrollingreview.org/dates",
+      "venue": "San Francisco, USA",
+      "flag": "🇺🇸",
+      "link": "https://2027.naacl.org/",
       "deadlines": [
         {
-          "label": "ARR Submission (Oct cycle)",
+          "label": "Final ARR Submission",
           "date": "2026-10-12T23:59:00-12:00"
+        },
+        {
+          "label": "Commitment",
+          "date": "2026-12-23T23:59:00-12:00"
         }
       ],
       "history": [

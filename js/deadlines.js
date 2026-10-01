@@ -23,15 +23,22 @@ document.addEventListener('DOMContentLoaded', async () => {
   const CAT_ORDER = ['AI', 'ML', 'NLP', 'Vision', 'HCI', 'Graphics', 'Web', 'Data', 'DB', 'Security', 'Systems', 'Arch', 'Network', 'PL', 'SE', 'Theory', 'Bio'];
   let activeFilter = 'All';
 
-  const ts = (d) => new Date(d.date).getTime();
+  const ts = (d) => d.date ? new Date(d.date).getTime() : NaN;
+  const confirmed = (conf, d) => conf.status === 'confirmed' &&
+    !['estimated', 'tba'].includes(d.status) && Number.isFinite(ts(d));
+  const month = (d) => d.estimatedMonth || (d.date || '').slice(0, 7);
+  const monthText = (d) => /^\d{4}-\d{2}$/.test(month(d))
+    ? new Date(`${month(d)}-01T00:00:00Z`).toLocaleDateString('en-US', {year:'numeric', month:'short', timeZone:'UTC'})
+    : 'TBA';
 
   function nextDeadline(conf, now) {
-    return conf.deadlines.map(d => ({ ...d, ts: ts(d) }))
+    return conf.deadlines.filter(d => confirmed(conf, d)).map(d => ({ ...d, ts: ts(d) }))
       .filter(d => d.ts >= now).sort((a, b) => a.ts - b.ts)[0] || null;
   }
 
   function fmtDate(t) {
-    return new Date(t).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: '2-digit' });
+    // Display the original AoE calendar day consistently across visitor time zones.
+    return new Date(t).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: '2-digit', timeZone: 'Etc/GMT+12' });
   }
 
   function countdown(t, now) {
@@ -70,7 +77,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   function renderMeta() {
-    if (metaEl) metaEl.innerHTML = `<strong>${CONFS.length}</strong> conferences tracked · sorted by nearest deadline`;
+    if (metaEl) metaEl.innerHTML = `<strong>${CONFS.length}</strong> conferences tracked · confirmed upcoming dates first`;
   }
 
   /* ---- a single conference row ---- */
@@ -80,17 +87,23 @@ document.addEventListener('DOMContentLoaded', async () => {
     const tags = conf.categories.map(c => `<span class="dl-tag">${c}</span>`).join('');
 
     // ordered deadlines; the nearest upcoming one is the "primary"
-    const ds = conf.deadlines.map(d => ({ ...d, ts: ts(d) })).sort((a, b) => a.ts - b.ts);
-    const primary = next || ds[ds.length - 1];
-
-    const primaryCd = countdown(primary.ts, now);
-    const secondary = ds.filter(d => d.ts !== primary.ts).map(d => {
-      const cd = countdown(d.ts, now);
+    const ds = conf.deadlines.map(d => ({ ...d, ts: ts(d) }))
+      .sort((a, b) => (a.date || a.estimatedMonth || '9999').localeCompare(b.date || b.estimatedMonth || '9999'));
+    const primary = (next && ds.find(d => d.ts === next.ts)) ||
+      ds.find(d => !confirmed(conf, d)) || ds[ds.length - 1] || {label:'Submission', status:'tba'};
+    const dateHTML = (d, main) => {
+      const exact = confirmed(conf, d);
+      const text = exact ? fmtDate(d.ts) : d.status === 'tba' ? 'TBA' : monthText(d);
+      const cd = exact ? countdown(d.ts, now) : null;
+      const estimate = !exact && text !== 'TBA';
+      return `<span class="${main ? 'dl-date' : 'dl-date-sm'}">${text}${estimate ? ' (estimated)' : ''}</span>` +
+        (cd ? `<span class="dl-count dl-count-${cd.cls}">${CLOCK}${cd.text}</span>` : '');
+    };
+    const secondary = ds.filter(d => d !== primary).map(d => {
       return `
         <div class="dl-sub">
           <span class="dl-sub-label">${d.label}</span>
-          <span class="dl-date-sm">${fmtDate(d.ts)}</span>
-          <span class="dl-count dl-count-${cd.cls}">${CLOCK}${cd.text}</span>
+          ${dateHTML(d, false)}
         </div>`;
     }).join('');
 
@@ -103,10 +116,11 @@ document.addEventListener('DOMContentLoaded', async () => {
     ).join('');
 
     return `
-      <div class="dl-row${next ? '' : ' is-past'}">
+      <div data-conference="${conf.id}" class="dl-row${ds.length && ds.every(d => confirmed(conf, d) && d.ts < now) ? ' is-past' : ''}">
         <div class="dl-col-conf">
           <div class="dl-conf-head"><span class="dl-name">${conf.name}</span>${tags}</div>
           <div class="dl-fullname">${conf.fullName}</div>
+          ${conf.status !== 'confirmed' ? `<span class="dl-estimate">${conf.estimateSource ? 'Estimated · based on previous year' : 'Estimated · not confirmed'}</span>` : ''}
         </div>
 
         <div class="dl-col-next">
@@ -117,10 +131,10 @@ document.addEventListener('DOMContentLoaded', async () => {
           </div>
           <div class="dl-primary">
             <span class="dl-label-lead">${primary.label}</span>
-            <span class="dl-date">${fmtDate(primary.ts)}</span>
-            <span class="dl-count dl-count-${primaryCd.cls}">${CLOCK}${primaryCd.text}</span>
+            ${dateHTML(primary, true)}
           </div>
           ${secondary}
+          ${conf.estimateBasis ? `<p class="dl-basis">${conf.estimateBasis} <a href="${conf.estimateSource}" target="_blank" rel="noopener">Previous year's schedule ↗</a></p>` : ''}
         </div>
 
         <div class="dl-col-hist">${history || '<span class="dl-tbd">—</span>'}</div>
@@ -136,6 +150,12 @@ document.addEventListener('DOMContentLoaded', async () => {
       if (na && nb) return na.ts - nb.ts;
       if (na) return -1;
       if (nb) return 1;
+      const uncertain = c => !c.deadlines.length || c.deadlines.some(d => !confirmed(c, d));
+      if (uncertain(a) !== uncertain(b)) return uncertain(a) ? -1 : 1;
+      if (uncertain(a)) {
+        const firstMonth = c => c.deadlines.map(month).filter(Boolean).sort()[0] || '9999';
+        return firstMonth(a).localeCompare(firstMonth(b)) || a.name.localeCompare(b.name);
+      }
       return Math.max(...b.deadlines.map(ts)) - Math.max(...a.deadlines.map(ts));
     });
 

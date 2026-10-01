@@ -879,7 +879,9 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outlin
 .dl-site:hover { border-color: var(--accent); background: var(--accent-soft); }
 
 .dl-primary { display: flex; flex-wrap: wrap; align-items: baseline; gap: 12px; }
-.dl-label-lead { display: none; }
+.dl-label-lead { flex-basis: 100%; font-size: .78rem; font-weight: 600; color: var(--text-secondary); }
+.dl-estimate { display: inline-block; margin-top: 8px; font-size: .72rem; color: #805B35; background: #F4EFE8; border-radius: 5px; padding: 3px 8px; }
+.dl-basis { margin-top: 12px; font-size: .78rem; line-height: 1.6; color: var(--text-secondary); }
 .dl-date {
   font-family: var(--font-sans); font-variant-numeric: tabular-nums; font-size: 1.32rem; font-weight: 700; letter-spacing: -.01em;
   color: var(--text-primary);
