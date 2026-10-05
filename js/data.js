@@ -339,6 +339,16 @@ window.HAIR_DATA = {
       "bio": "Hayeon Kim is an M.S. student in Digital Analytics at HAIR Lab."
     },
     {
+      "id": "oh-jihye",
+      "role": "M.S. Student",
+      "name": "Jihye Oh",
+      "nameKo": "오지혜",
+      "affil": "M.S. Student",
+      "department": "Yonsei University",
+      "image": "images/default_profile.svg",
+      "bio": "Jihye Oh is an M.S. student at HAIR Lab, Yonsei University."
+    },
+    {
       "id": "koo-joonhui",
       "role": "Intern",
       "name": "Joonhui Koo",
@@ -807,6 +817,53 @@ window.HAIR_DATA = {
     }
   ],
   "publications": [
+    {
+      "id": "pub-cikm-lass-2026-partner-choice",
+      "year": 2026,
+      "title": "Who Do Agents Choose Again? Partner Choice in a Heterogeneous Agent Society.",
+      "venue": "2nd Workshop on LLM Agents for Social Simulation (LASS), CIKM 2026 (accepted · Oral Presentation)",
+      "venueType": "Workshop",
+      "authors": [
+        {
+          "name": "Kunhee Ryu",
+          "isMember": true,
+          "memberId": "ryu-kunhee"
+        },
+        {
+          "name": "Keeheon Lee",
+          "isMember": true,
+          "memberId": "prof-kim"
+        }
+      ],
+      "citations": null,
+      "links": {}
+    },
+    {
+      "id": "pub-cikm-lass-2026-programming-agents",
+      "year": 2026,
+      "title": "Lessons, Peer Review, and Racing: A Controlled Pilot of Small-Model Programming Agents.",
+      "venue": "2nd Workshop on LLM Agents for Social Simulation (LASS), CIKM 2026 (accepted · Oral Presentation)",
+      "venueType": "Workshop",
+      "authors": [
+        {
+          "name": "Jihye Oh",
+          "isMember": true,
+          "memberId": "oh-jihye"
+        },
+        {
+          "name": "Kunhee Ryu",
+          "isMember": true,
+          "memberId": "ryu-kunhee"
+        },
+        {
+          "name": "Keeheon Lee",
+          "isMember": true,
+          "memberId": "prof-kim"
+        }
+      ],
+      "citations": null,
+      "links": {}
+    },
     {
       "id": "pub-emnlp-2026-agreement",
       "year": 2026,

@@ -147,6 +147,12 @@ const members = [
     bio: 'Hayeon Kim is an M.S. student in Digital Analytics at HAIR Lab.'
   },
   {
+    id: 'oh-jihye', role: 'M.S. Student', name: 'Jihye Oh', nameKo: '오지혜',
+    affil: 'M.S. Student', department: 'Yonsei University',
+    image: 'images/default_profile.svg',
+    bio: 'Jihye Oh is an M.S. student at HAIR Lab, Yonsei University.'
+  },
+  {
     id: 'koo-joonhui', role: 'Intern', name: 'Joonhui Koo', nameKo: '구준회', affil: 'Research Intern',
     department: 'Underwood International College, Yonsei University', image: 'images/avatars/koo-joonhui.svg',
     bio: 'Joonhui Koo is a research intern at HAIR Lab.'
@@ -255,6 +261,7 @@ function toLinks(url) {
 const MEMBER_ALIASES = {
   'prof-kim':          ['keeheon lee', 'k lee', 'kh lee', '이기헌'],
   'ryu-kunhee':        ['kunhee ryu', 'k ryu', '류건희'],
+  'oh-jihye':          ['jihye oh', '오지혜'],
   'kim-minje':         ['minje kim', 'm kim', '김민제'],
   'svetasheva-arina':  ['arina svetasheva', 'a svetasheva'],
   'gasparini-abebe':   ['abebe gasparini', 'a gasparini'],
@@ -381,6 +388,16 @@ publications.unshift(...[
   venueType: 'International Conference',
   authors: toAuthors('Minje Kim, Keeheon Lee, Chi-Guhn Lee'),
   citations: null, links: {}
+})));
+
+// Acceptance and author order supplied by the lab, 2026-10-05.
+publications.unshift(...[
+  ['pub-cikm-lass-2026-partner-choice', 'Who Do Agents Choose Again? Partner Choice in a Heterogeneous Agent Society.', 'Kunhee Ryu, Keeheon Lee'],
+  ['pub-cikm-lass-2026-programming-agents', 'Lessons, Peer Review, and Racing: A Controlled Pilot of Small-Model Programming Agents.', 'Jihye Oh, Kunhee Ryu, Keeheon Lee']
+].map(([id, title, authors]) => ({
+  id, year: 2026, title,
+  venue: '2nd Workshop on LLM Agents for Social Simulation (LASS), CIKM 2026 (accepted · Oral Presentation)',
+  venueType: 'Workshop', authors: toAuthors(authors), citations: null, links: {}
 })));
 
 /* ---------------- Projects (REAL — all 2017+ records from NTIS export + lab list) ----------------

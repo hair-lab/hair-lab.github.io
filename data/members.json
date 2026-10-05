@@ -331,6 +331,16 @@
     "bio": "Hayeon Kim is an M.S. student in Digital Analytics at HAIR Lab."
   },
   {
+    "id": "oh-jihye",
+    "role": "M.S. Student",
+    "name": "Jihye Oh",
+    "nameKo": "오지혜",
+    "affil": "M.S. Student",
+    "department": "Yonsei University",
+    "image": "images/default_profile.svg",
+    "bio": "Jihye Oh is an M.S. student at HAIR Lab, Yonsei University."
+  },
+  {
     "id": "koo-joonhui",
     "role": "Intern",
     "name": "Joonhui Koo",

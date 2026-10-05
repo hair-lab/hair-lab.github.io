@@ -1,5 +1,52 @@
 [
   {
+    "id": "pub-cikm-lass-2026-partner-choice",
+    "year": 2026,
+    "title": "Who Do Agents Choose Again? Partner Choice in a Heterogeneous Agent Society.",
+    "venue": "2nd Workshop on LLM Agents for Social Simulation (LASS), CIKM 2026 (accepted · Oral Presentation)",
+    "venueType": "Workshop",
+    "authors": [
+      {
+        "name": "Kunhee Ryu",
+        "isMember": true,
+        "memberId": "ryu-kunhee"
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
+    "id": "pub-cikm-lass-2026-programming-agents",
+    "year": 2026,
+    "title": "Lessons, Peer Review, and Racing: A Controlled Pilot of Small-Model Programming Agents.",
+    "venue": "2nd Workshop on LLM Agents for Social Simulation (LASS), CIKM 2026 (accepted · Oral Presentation)",
+    "venueType": "Workshop",
+    "authors": [
+      {
+        "name": "Jihye Oh",
+        "isMember": true,
+        "memberId": "oh-jihye"
+      },
+      {
+        "name": "Kunhee Ryu",
+        "isMember": true,
+        "memberId": "ryu-kunhee"
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "citations": null,
+    "links": {}
+  },
+  {
     "id": "pub-emnlp-2026-agreement",
     "year": 2026,
     "title": "Agreement Is Not Truth: Characterizing and Controlling Consistent-but-Wrong Reasoning in LLMs",
