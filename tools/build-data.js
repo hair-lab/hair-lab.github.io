@@ -392,11 +392,11 @@ publications.unshift(...[
 
 // Acceptance and author order supplied by the lab, 2026-10-05.
 publications.unshift(...[
-  ['pub-cikm-lass-2026-partner-choice', 'Who Do Agents Choose Again? Partner Choice in a Heterogeneous Agent Society.', 'Kunhee Ryu, Keeheon Lee'],
+  ['pub-cikm-lass-2026-partner-choice', 'Who Do Agents Choose Again? Partner Choice in a Heterogeneous Agent Society.', 'Kunhee Ryu, Keeheon Lee', 'Outstanding Award'],
   ['pub-cikm-lass-2026-programming-agents', 'Lessons, Peer Review, and Racing: A Controlled Pilot of Small-Model Programming Agents.', 'Jihye Oh, Kunhee Ryu, Keeheon Lee']
-].map(([id, title, authors]) => ({
+].map(([id, title, authors, award]) => ({
   id, year: 2026, title,
-  venue: '2nd Workshop on LLM Agents for Social Simulation (LASS), CIKM 2026 (accepted · Oral Presentation)',
+  venue: `2nd Workshop on LLM Agents for Social Simulation (LASS), CIKM 2026 (accepted · Oral Presentation${award ? ' · ' + award : ''})`,
   venueType: 'Workshop', authors: toAuthors(authors), citations: null, links: {}
 })));
 
@@ -516,6 +516,15 @@ const projects = [
 
 /* ---------------- News (rewritten around real publications) ---------------- */
 const news = [
+  {
+    id: 'news-lass-2026-outstanding-award', slug: 'lass-2026-outstanding-award',
+    title: 'Outstanding Award at LASS, CIKM 2026',
+    // News publication date; the award was reported by the lab on this date.
+    date: '2026-11-09', author: 'HAIR Lab', authorId: 'prof-kim',
+    summary: '“Who Do Agents Choose Again?” by Kunhee Ryu and Keeheon Lee received an Outstanding Award at the LASS workshop at CIKM 2026.',
+    content: '“Who Do Agents Choose Again? Partner Choice in a Heterogeneous Agent Society.” by Kunhee Ryu and Keeheon Lee received an Outstanding Award at the 2nd Workshop on LLM Agents for Social Simulation (LASS), CIKM 2026. The paper was also accepted for oral presentation. Congratulations to the authors! <a href="publications.html#pub-pub-cikm-lass-2026-partner-choice">View the publication</a>.',
+    image: 'images/default_news.svg', relatedMembers: ['ryu-kunhee', 'prof-kim']
+  },
   {
     id: 'news-chi-2026', slug: 'chi-2026-accepted',
     title: 'Two HAIR Lab papers accepted at CHI 2026',

@@ -1,5 +1,20 @@
 [
   {
+    "id": "news-lass-2026-outstanding-award",
+    "slug": "lass-2026-outstanding-award",
+    "title": "Outstanding Award at LASS, CIKM 2026",
+    "date": "2026-11-09",
+    "author": "HAIR Lab",
+    "authorId": "prof-kim",
+    "summary": "“Who Do Agents Choose Again?” by Kunhee Ryu and Keeheon Lee received an Outstanding Award at the LASS workshop at CIKM 2026.",
+    "content": "“Who Do Agents Choose Again? Partner Choice in a Heterogeneous Agent Society.” by Kunhee Ryu and Keeheon Lee received an Outstanding Award at the 2nd Workshop on LLM Agents for Social Simulation (LASS), CIKM 2026. The paper was also accepted for oral presentation. Congratulations to the authors! <a href=\"publications.html#pub-pub-cikm-lass-2026-partner-choice\">View the publication</a>.",
+    "image": "images/default_news.svg",
+    "relatedMembers": [
+      "ryu-kunhee",
+      "prof-kim"
+    ]
+  },
+  {
     "id": "news-chi-2026",
     "slug": "chi-2026-accepted",
     "title": "Two HAIR Lab papers accepted at CHI 2026",
