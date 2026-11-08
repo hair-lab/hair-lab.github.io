@@ -15,6 +15,36 @@
     ]
   },
   {
+    "id": "news-emnlp-2026-minje",
+    "slug": "emnlp-2026-minje-three-main-papers",
+    "title": "Three EMNLP 2026 Main papers by Minje Kim, including an Oral Presentation",
+    "date": "2026-11-09",
+    "author": "HAIR Lab",
+    "authorId": "prof-kim",
+    "summary": "HAIR Lab alumnus Minje Kim is first author on three EMNLP 2026 Main Conference papers. “Cited but Not Causal” was selected for oral presentation.",
+    "content": "Three papers first-authored by HAIR Lab alumnus Minje Kim, with co-authors Keeheon Lee and Chi-Guhn Lee, were accepted to the EMNLP 2026 Main Conference:<br><br>1. <a href=\"publications.html#pub-pub-emnlp-2026-agreement\">Agreement Is Not Truth: Characterizing and Controlling Consistent-but-Wrong Reasoning in LLMs</a><br><br>2. <a href=\"publications.html#pub-pub-emnlp-2026-refusal\">Cited but Not Causal: A Counterfactual Audit of Refusal Explanations in Aligned Language Models</a> — <strong>Oral Presentation</strong><br><br>3. <a href=\"publications.html#pub-pub-emnlp-2026-incomplete-truths\">Telling Incomplete Truths: Measuring Omission-Induced Misleadingness in Aligned Language Models</a><br><br>Congratulations to the authors!",
+    "image": "images/default_news.svg",
+    "relatedMembers": [
+      "kim-minje",
+      "prof-kim"
+    ]
+  },
+  {
+    "id": "news-emnlp-2026-kunhee",
+    "slug": "emnlp-2026-kunhee-two-findings-papers",
+    "title": "Two first-author papers by Kunhee Ryu accepted to Findings of EMNLP 2026",
+    "date": "2026-11-09",
+    "author": "HAIR Lab",
+    "authorId": "prof-kim",
+    "summary": "Kunhee Ryu is first author on two papers accepted to Findings of EMNLP 2026, covering out-of-distribution checkpoint selection and evaluation of LLM agents.",
+    "content": "Two papers first-authored by Kunhee Ryu were accepted to Findings of the Association for Computational Linguistics: EMNLP 2026:<br><br>1. <a href=\"publications.html#pub-pub-emnlp-2026-ood-checkpoint\">Out-of-Distribution Checkpoint Selection Has a Resolution Problem: Auditing Sparse Exact Match with Token Likelihood</a><br>Authors: Kunhee Ryu and Keeheon Lee.<br><br>2. <a href=\"publications.html#pub-pub-emnlp-2026-local-edit-validity\">Evaluating LLM Agents Beyond Local Edit Validity</a><br>Authors: Kunhee Ryu, Keeheon Lee, and Chi-Guhn Lee.<br><br>Congratulations to the authors!",
+    "image": "images/default_news.svg",
+    "relatedMembers": [
+      "ryu-kunhee",
+      "prof-kim"
+    ]
+  },
+  {
     "id": "news-chi-2026",
     "slug": "chi-2026-accepted",
     "title": "Two HAIR Lab papers accepted at CHI 2026",
