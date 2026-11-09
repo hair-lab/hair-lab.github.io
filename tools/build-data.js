@@ -400,6 +400,20 @@ publications.unshift(...[
   venueType: 'Workshop', authors: toAuthors(authors), citations: null, links: {}
 })));
 
+// Bibliographic metadata supplied by the lab (ACM BibTeX).
+publications.unshift({
+  id: 'pub-sigmis-2026-hate-speech-annotation', year: 2026,
+  title: 'Improving the Hate Speech Annotation Process with Large Language Models',
+  venue: 'SIGMIS Database, 57(4), 106–132 (November 2026 issue)',
+  venueType: 'Journal', authors: toAuthors('Arina Svetasheva, Keeheon Lee'),
+  journal: 'SIGMIS Database', volume: '57', number: '4', pages: '106–132',
+  issueDate: 'November 2026', month: 'oct', numpages: 27,
+  publisher: 'Association for Computing Machinery', issn: '0095-0033',
+  doi: '10.1145/3848645.3848651',
+  keywords: ['hate speech detection', 'large language models', 'online toxicity'],
+  citations: null, links: {doi: 'https://doi.org/10.1145/3848645.3848651'}
+});
+
 /* ---------------- Projects (REAL — all 2017+ records from NTIS export + lab list) ----------------
    Division/type uses common Korean research-funding classifications.
    leadPI = actual principal investigator; leadPIId links to a profile only for lab members. */
@@ -516,6 +530,15 @@ const projects = [
 
 /* ---------------- News (rewritten around real publications) ---------------- */
 const news = [
+  {
+    id: 'news-sigmis-2026-hate-speech-annotation', slug: 'sigmis-2026-hate-speech-annotation',
+    title: 'Arina Svetasheva and Keeheon Lee publish in SIGMIS Database',
+    // News publication date, distinct from the article's month and issue date.
+    date: '2026-11-09', author: 'HAIR Lab', authorId: 'prof-kim',
+    summary: 'Their paper examines how large language models can support human-supervised annotation of gaming-specific hate speech.',
+    content: '“Improving the Hate Speech Annotation Process with Large Language Models” by Arina Svetasheva and Keeheon Lee has been published in SIGMIS Database, volume 57, issue 4 (November 2026), pages 106–132. The study compares zero-shot LLMs, a multi-model collective, and a traditional classifier on 1,178 Dota 2 chat messages, and examines LLM-generated training data. The findings position LLMs as complementary annotation tools under human oversight and highlight the importance of class-aware data augmentation.<br><br><a href="https://doi.org/10.1145/3848645.3848651" target="_blank" rel="noopener">Read the paper (DOI)</a> · <a href="publications.html#pub-pub-sigmis-2026-hate-speech-annotation">View the publication</a>.',
+    image: 'images/default_news.svg', relatedMembers: ['svetasheva-arina', 'prof-kim']
+  },
   {
     id: 'news-lass-2026-outstanding-award', slug: 'lass-2026-outstanding-award',
     title: 'Outstanding Award at LASS, CIKM 2026',

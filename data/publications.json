@@ -1,5 +1,43 @@
 [
   {
+    "id": "pub-sigmis-2026-hate-speech-annotation",
+    "year": 2026,
+    "title": "Improving the Hate Speech Annotation Process with Large Language Models",
+    "venue": "SIGMIS Database, 57(4), 106–132 (November 2026 issue)",
+    "venueType": "Journal",
+    "authors": [
+      {
+        "name": "Arina Svetasheva",
+        "isMember": true,
+        "memberId": "svetasheva-arina"
+      },
+      {
+        "name": "Keeheon Lee",
+        "isMember": true,
+        "memberId": "prof-kim"
+      }
+    ],
+    "journal": "SIGMIS Database",
+    "volume": "57",
+    "number": "4",
+    "pages": "106–132",
+    "issueDate": "November 2026",
+    "month": "oct",
+    "numpages": 27,
+    "publisher": "Association for Computing Machinery",
+    "issn": "0095-0033",
+    "doi": "10.1145/3848645.3848651",
+    "keywords": [
+      "hate speech detection",
+      "large language models",
+      "online toxicity"
+    ],
+    "citations": null,
+    "links": {
+      "doi": "https://doi.org/10.1145/3848645.3848651"
+    }
+  },
+  {
     "id": "pub-cikm-lass-2026-partner-choice",
     "year": 2026,
     "title": "Who Do Agents Choose Again? Partner Choice in a Heterogeneous Agent Society.",
